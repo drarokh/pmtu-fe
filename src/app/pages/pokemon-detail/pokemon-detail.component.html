@@ -1,6 +1,6 @@
 <div class="screen" [style.backgroundColor]="pokemon?.types?.[0]?.bgColor">
   <div class="content">
-    <img class="bg-image" [src]="'/images/miscellaneous/bg-pokeball.png'" />
+    <img class="bg-image" [src]="'./images/miscellaneous/bg-pokeball.png'" />
     <div class="header">
       <div class="menu">
         <button (click)="goBack()"><i class="fa-solid fa-arrow-left shadow-text"></i></button>
@@ -21,7 +21,7 @@
       </div>
       <img
         class="pkm-image"
-        [src]="'/images/pkm-res/' + pokemon?.number + '.png'"
+        [src]="'./images/pkm-res/' + pokemon?.number + '.png'"
         [alt]="pokemon?.name"
       />
 

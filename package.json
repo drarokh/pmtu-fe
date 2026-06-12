@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration production --base-href /pmtu-fe/ && npx angular-cli-ghpages --dir=dist/pmtu-fe"
+    "deploy": "ng build --configuration production --base-href /pmtu-fe/ && npx angular-cli-ghpages --dir=dist/pmtu-fe/browser"
   },
   "private": true,
   "packageManager": "npm@9.4.1",

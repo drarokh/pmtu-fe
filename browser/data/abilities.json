@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "dig", "color": "#9B781D", "bgColor": "#BF9A3C" },
+  { "id": 2, "name": "fly", "color": "#3B3A3A", "bgColor": "#9E9E9E" },
+  { "id": 3, "name": "surf", "color": "#4381C1", "bgColor": "#8DBCEC" },
+  { "id": 4, "name": "teleport", "color": "#F6306C", "bgColor": "#F95587" }
+]

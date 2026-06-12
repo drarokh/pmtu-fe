@@ -23,7 +23,7 @@
       @if ((move()?.effects || []).length > 0) {
         @for (effect of move()?.effects || []; track trackByEffect($index, effect)) {
           <img
-            [src]="'./icons/effects/' + effect.name + '.png'"
+            [src]="'icons/effects/' + effect.name + '.png'"
             [alt]="'move effect'"
             class="max-h-[20px]"
           />

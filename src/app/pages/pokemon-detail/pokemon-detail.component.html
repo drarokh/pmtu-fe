@@ -1,0 +1,100 @@
+<div class="screen" [style.backgroundColor]="pokemon?.types?.[0]?.bgColor">
+  <div class="content">
+    <img class="bg-image" [src]="'/images/miscellaneous/bg-pokeball.png'" />
+    <div class="header">
+      <div class="menu">
+        <button (click)="goBack()"><i class="fa-solid fa-arrow-left shadow-text"></i></button>
+        <button><i class="fa-solid fa-bars shadow-text"></i></button>
+      </div>
+      <div class="top">
+        <div class="top-name">{{ pokemon?.name }}</div>
+        <div class="top-number">#{{ pokemon?.number }}</div>
+      </div>
+      <div class="flex items-center">
+        @for (type of pokemon?.types; track trackByType($index, type.id)) {
+          <app-pokemon-type [type]="type" class="pokemon-type"></app-pokemon-type>
+        }
+
+        <div class="ml-auto">
+          <app-pokemon-rank [rank]="pokemon?.rank"></app-pokemon-rank>
+        </div>
+      </div>
+      <img
+        class="pkm-image"
+        [src]="'/images/pkm-res/' + pokemon?.number + '.png'"
+        [alt]="pokemon?.name"
+      />
+
+      <div class="navigation">
+        <div class="navigation-button shadow-text" (click)="goBefore(pokemon?.id)">
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="navigation-button text-right shadow-text" (click)="goAfter(pokemon?.id)">
+          <i class="fa-solid fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" [style.border-color]="pokemon?.types?.[0]?.textColor">
+      <div class="tabs" [style.--text-color]="pokemon?.types?.[0]?.textColor">
+        @for (tab of tabs; track trackByTab($index, tab)) {
+          <button class="tab-button" [class.active]="activeTab === tab" (click)="activeTab = tab">
+            {{ tab }}
+          </button>
+        }
+      </div>
+
+      <div class="tab-content">
+        @switch (activeTab) {
+          @case ('About') {
+            <div
+              class="grid grid-cols-[100px_30px_1fr] gap-3"
+              [style.--text-color]="pokemon?.types?.[0]?.textColor"
+            >
+              <div class="detail-label">Level</div>
+              <div class="detail-value">{{ pokemon?.level }}</div>
+              <div class="bar">
+                <div class="fill" [style.width.%]="levelWidth"></div>
+              </div>
+              <div class="detail-label">Catch Value</div>
+              <div class="detail-value">{{ pokemon?.catch }}</div>
+              <div class="bar">
+                <div class="fill" [style.width.%]="catchWidth"></div>
+              </div>
+            </div>
+            <div class="grid grid-cols-[100px_1fr] gap-3 abilities-grid">
+              <div class="detail-label">Abilites</div>
+              <div class="detail-value detail-ability capitalize">
+                @if (pokemon != undefined && pokemon.abilities.length > 0) {
+                  @for (ability of pokemon.abilities; track trackByAbility($index, ability.id)) {
+                    <app-pokemon-ability [ability]="ability"></app-pokemon-ability>
+                  }
+                } @else {
+                  <span>-</span>
+                }
+              </div>
+            </div>
+          }
+
+          @case ('Moves') {
+            @if (pokemon != undefined && pokemon.moves.length > 0) {
+              @for (move of pokemon.moves; track trackByMove($index, move)) {
+                <app-pokemon-move
+                  [move]="move"
+                  [pkmType1]="pokemon.types[0]"
+                  [pkmType2]="pokemon.types[1]"
+                ></app-pokemon-move>
+              }
+            } @else {
+              <div class="text-center">-</div>
+            }
+          }
+
+          @case ('Evolution') {
+            <div class="text-center">-</div>
+          }
+        }
+      </div>
+    </div>
+  </div>
+</div>

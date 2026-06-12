@@ -1,0 +1,165 @@
+.screen {
+  font-size: 14px;
+}
+.content {
+  min-height: 100vh;
+  padding: 12px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+}
+.header {
+  position: relative;
+  height: 325px;
+  color: white;
+  margin: 15px 15px 0px 15px;
+  z-index: 1;
+}
+.menu,
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  font-size: 20px;
+}
+.top {
+  margin-top: 10px;
+}
+.top-name,
+.top-number {
+  font-size: 18px;
+  font-weight: 600;
+
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.top-name {
+  font-size: 22px;
+}
+.bg-image {
+  position: absolute;
+  left: 40%;
+  top: 100px;
+  width: 220px;
+  opacity: 0.2;
+  z-index: 0;
+}
+.pkm-image {
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+  width: 220px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 220px;
+  align-items: center;
+}
+.navigation-button {
+  width: 60px;
+  font-size: 20px;
+}
+.card {
+  position: relative;
+  background: white;
+  border-radius: 24px;
+  padding: 30px 24px 24px;
+  z-index: 0;
+  border: 1px solid;
+}
+
+.pokemon-type {
+  padding-right: 5px;
+}
+
+// TABS
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  //border-bottom: 1px solid #e5e5e5;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 12px 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #777;
+  position: relative;
+}
+
+.tab-button.active {
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.tab-button.active::after {
+  content: '';
+  position: absolute;
+  left: 15%;
+  bottom: 0;
+  width: 70%;
+  height: 3px;
+  background: var(--text-color);
+  border-radius: 3px;
+}
+
+.tab-content {
+  padding-top: 20px;
+}
+
+.detail-label {
+  font-size: 14px;
+  color: #777;
+}
+
+.detail-value {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tbody {
+  padding-top: 10px;
+}
+
+.bar {
+  height: 10px;
+  background: #eee;
+  border-radius: 999px;
+  align-self: center;
+}
+.fill {
+  height: 100%;
+  background: var(--text-color);
+  border-radius: 999px;
+}
+
+.abilities-grid {
+  margin-top: calc(var(--spacing) * 3);
+}
+
+.detail-ability {
+  display: flex;
+  gap: 5px;
+}
+
+.shadow-text {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+}

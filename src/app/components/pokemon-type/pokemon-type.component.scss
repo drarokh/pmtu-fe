@@ -1,0 +1,17 @@
+.type-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 11px;
+  color: white;
+  height: 22px;
+  padding-left: 3px;
+  padding-right: 8px;
+  text-transform: uppercase;
+}
+
+.type-image {
+  width: 22px;
+}

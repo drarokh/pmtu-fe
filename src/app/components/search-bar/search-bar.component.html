@@ -1,0 +1,6 @@
+<input
+  class="search"
+  [value]="value()"
+  (input)="changed.emit($event.target.value)"
+  placeholder="Search Pokemon"
+/>

@@ -1,0 +1,53 @@
+import { HttpClient } from "@angular/common/http";
+import { Observable } from "rxjs";
+
+export class JSONReader {
+
+  ngOnInit(): void {
+    this.readName();
+  }
+  
+  constructor(private http: HttpClient) {}
+
+  getConfig(): Observable<any> {
+    return this.http.get('data/gmax_moves.json');
+  }
+
+  readName() {
+    this.getConfig().subscribe(data => {
+      let csv = "";
+      for (let i = 0; i < data.sets[0].items.length; i++) {
+          let rowCsv  = "";
+          for (const moveArray of data.sets[0].items[i].details) {
+            //console.log(moveArray)
+            if (moveArray.name == 'Type'){
+              rowCsv += moveArray.data.value + ';';
+            }
+            if (moveArray.name == 'Move Name'){
+              rowCsv += moveArray.data.value + ';';
+            }
+            if (moveArray.name == 'Power'){
+              rowCsv += moveArray.data.value + ';';
+            }
+            if (moveArray.name == 'STAB'){
+              rowCsv += moveArray.data.value + ';';
+            }
+            if (moveArray.name == 'Effect 1'){
+              rowCsv += moveArray.data.value + ';';
+            }
+            if (moveArray.name == 'Effect 2'){
+              rowCsv += moveArray.data.value + ';';
+            }
+            if (moveArray.name == 'Effect 3'){
+              rowCsv += moveArray.data.value + ';';
+            }
+            if (moveArray.name == 'Effect 4'){
+              rowCsv += moveArray.data.value + ';';
+            }
+          }
+        csv += rowCsv + '\n';
+      }
+      //console.log(csv)
+    });
+  }
+}

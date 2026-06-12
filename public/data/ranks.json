@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "pink", "color": "#FC303A", "bgColor": "#FE767D" },
+  { "id": 2, "name": "green", "color": "#074C00", "bgColor": "#348E2B" },
+  { "id": 3, "name": "blue", "color": "#0C23B1", "bgColor": "#3C54E6" },
+  { "id": 4, "name": "yellow", "color": "#9B7D00", "bgColor": "#FFD600" },
+  { "id": 5, "name": "red", "color": "#9C0101", "bgColor": "#E93130" },
+  { "id": 6, "name": "legendary", "color": "#350563", "bgColor": "#7535B2" }
+]

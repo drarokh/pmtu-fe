@@ -1,0 +1,8 @@
+<div
+  class="type-badge"
+  [style.backgroundColor]="type()?.color"
+  [style.border-color]="type()?.textColor"
+>
+  <img class="type-image" [src]="'/icons/types/' + type()?.name + '.png'" />
+  {{ type()?.name }}
+</div>

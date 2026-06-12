@@ -1,0 +1,36 @@
+.move-section {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.move-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.move-name,
+.move-value {
+  font-weight: 600;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.move-name {
+  text-transform: capitalize;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.move-value {
+  color: yellow;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}

@@ -1,0 +1,18 @@
+<div class="container h-screen flex flex-col">
+  <div class="menu">
+    <div class="page-title">Pokédex</div>
+    <button><i class="fa-solid fa-bars shadow-text"></i></button>
+  </div>
+
+  <app-search-bar
+    [value]="search()"
+    (changed)="search.set($event)"
+    class="shrink-0 mt-4 mb-2"
+  ></app-search-bar>
+
+  <div class="flex-1 overflow-y-auto justify-items-center">
+    @for (p of filtered(); track p.id) {
+      <app-pokemon-card [pokemon]="p"></app-pokemon-card>
+    }
+  </div>
+</div>

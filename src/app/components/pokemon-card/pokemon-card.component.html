@@ -1,0 +1,27 @@
+<div
+  class="card"
+  [routerLink]="['/pokedex', pokemon().id]"
+  [style.background-color]="pokemon().types[0].bgColor"
+  [style.border-color]="pokemon().types[0].textColor"
+>
+  <div>
+    <div class="flex justify-start">
+      <div class="number">#{{ pokemon().number }}</div>
+      <div class="name">{{ pokemon().name }}</div>
+    </div>
+
+    <div class="flex justify-start">
+      @for (type of pokemon().types; track trackByType($index, type.id)) {
+        <app-pokemon-type [type]="type" class="pokemon-type"></app-pokemon-type>
+      }
+    </div>
+  </div>
+  <div class="pokemon-container">
+    <img class="bg-image" [src]="'/images/miscellaneous/bg-pokeball.png'" alt="" />
+    <img
+      class="pokemon-image"
+      [src]="'/images/pkm/' + pokemon().id + '.png'"
+      [alt]="pokemon().name"
+    />
+  </div>
+</div>

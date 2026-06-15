@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, ChangeDetectionStrategy, ChangeDetectorRef, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PokemonTypeComponent } from '../../components/pokemon-type/pokemon-type.component';
 import { PokedexService } from '../../services/pokedex.service';
@@ -9,6 +9,8 @@ import { Effect } from '../../models/effect.model';
 import { PokemonAbilityComponent } from '../../components/pokemon-ability/pokemon-ability.component';
 import { PokemonRankComponent } from '../../components/pokemon-rank/pokemon-rank.component';
 import { PokemonMoveComponent } from "../../components/pokemon-move/pokemon-move.component";
+import { takeUntil } from 'rxjs';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'app-pokemon-detail',
@@ -16,8 +18,9 @@ import { PokemonMoveComponent } from "../../components/pokemon-move/pokemon-move
   templateUrl: './pokemon-detail.component.html',
   styleUrls: ['./pokemon-detail.component.scss'],
   imports: [PokemonTypeComponent, PokemonAbilityComponent, PokemonRankComponent, PokemonMoveComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PokemonDetailComponent {
+export class PokemonDetailComponent implements OnInit, OnDestroy {
   // URL Parameter
   pokemonId!: number;
 
@@ -27,6 +30,10 @@ export class PokemonDetailComponent {
 
   // Services
   pokedexService = inject(PokedexService);
+  private cdr = inject(ChangeDetectorRef);
+  private route = inject(ActivatedRoute);
+  private router = inject(Router);
+  private destroy$ = new Subject<void>();
 
   // Variables
   pokemon: Pokemon | undefined;
@@ -36,25 +43,36 @@ export class PokemonDetailComponent {
   MAX_WILD_LEVEL = 7;
   MAX_CATCH_LEVEL = 8;
 
-  constructor(
-    private route: ActivatedRoute,
-    private router: Router,
-  ) {}
+  constructor() {}
 
   ngOnInit() {
-    this.route.paramMap.subscribe((params) => {
-      const pokemonId = Number(params.get('id'));
-      this.loadData(pokemonId);
-    });
+    this.route.paramMap
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((params) => {
+        const pokemonId = Number(params.get('id'));
+        this.loadData(pokemonId);
+      });
+  }
+
+  ngOnDestroy() {
+    this.destroy$.next();
+    this.destroy$.complete();
   }
 
   loadData(id: number) {
-    this.pokedexService.getPokemonById(id).subscribe((pokemon) => {
-      this.pokemon = pokemon;
-      this.levelWidth = this.pokemon ? (this.pokemon.level / this.MAX_WILD_LEVEL) * 100 : 0;
-      this.catchWidth = this.pokemon ? (this.pokemon.catch / this.MAX_CATCH_LEVEL) * 100 : 0;
-    });
+    this.pokedexService.getPokemonById(id)
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((pokemon) => {
+        this.pokemon = pokemon;
+        this.levelWidth = this.pokemon ? (this.pokemon.level / this.MAX_WILD_LEVEL) * 100 : 0;
+        this.catchWidth = this.pokemon ? (this.pokemon.catch / this.MAX_CATCH_LEVEL) * 100 : 0;
+        this.cdr.markForCheck();
+      });
   }
+
+    get imageSrc(): string | null {
+      return this.pokemon?.number ? `images/pkm-res/${this.pokemon.number}.png` : null;
+    }
 
   goBack() {
     this.router.navigate(['']);

@@ -5,15 +5,25 @@
 >
   <div class="move-row mb-2">
     <div class="move-name">{{ move()?.name }}</div>
-    <div class="move-value">
-      @if (
-        move()?.has_stab &&
-        (pkmType1()?.id == move()?.type?.id || pkmType2()?.id == move()?.type?.id)
-      ) {
-        {{ move()?.stab }}
-      } @else {
-        {{ move()?.value }}
+    <div class="move-right">
+      @if (move()?.dice){
+        <img
+          [src]="'icons/effects/' + move()?.dice + '.png'"
+          [alt]="'dice {{move()?.dice}}'"
+          class="max-h-[20px]"
+        />
       }
+      <div class="move-value">
+
+        @if (
+          move()?.has_stab &&
+          (pkmType1()?.id == move()?.type?.id || pkmType2()?.id == move()?.type?.id)
+        ) {
+          {{ move()?.stab }}
+        } @else {
+          {{ move()?.value }}
+        }
+      </div>
     </div>
   </div>
 

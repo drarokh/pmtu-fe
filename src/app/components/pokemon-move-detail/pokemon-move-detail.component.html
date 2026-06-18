@@ -1,12 +1,40 @@
 <div
   class="move-detail"
-  [style.background-color]="hexToRgba(move()?.type?.bgColor, 0.2)"
+  [style.background-color]="hexToRgba(move()?.type?.bgColor, 0.3)"
   [style.border-color]="move()?.type?.textColor"
 >
+<!--<div class="move-detail-effective">
+    <div class="flex">
+      <div class="move-detail-title">Effects</div>
+    </div>
+    @if ((move()?.effects || []).length > 0) {
+      <div class="grid grid-cols-[25px_1fr] gap-x-1 gap-y-2">
+        @for (moveEffect of move()?.effects; track trackByEffect($index, moveEffect)) {
+          <div>
+            <img
+              [src]="'icons/effects/' + moveEffect.name + '.png'"
+              [alt]="'move effect'"
+              class="max-h-[20px]"
+            />
+          </div>
+          <div class="effect-description">
+            @if (moveEffect?.desc) {
+              {{ moveEffect?.desc }}
+            } @else {
+              Effect description
+            }
+          </div>
+        }
+      </div>
+    } @else {
+      -
+    }
+  </div>
+-->
   <div class="move-detail-effective" [style.border-color]="move()?.type?.textColor">
     <div class="flex">
       <div class="move-detail-title">
-        <span class="move-detail-value">(+2)</span>Super-effective
+        Super-effective<span class="move-detail-value">(+2)</span>
       </div>
     </div>
     @if ((move()?.type_strong || []).length > 0) {
@@ -22,9 +50,7 @@
 
   <div class="move-detail-resistance" [style.border-color]="move()?.type?.textColor">
     <div class="flex">
-      <div class="move-detail-title">
-        <span class="move-detail-value">(-2)</span>Resistances
-      </div>
+      <div class="move-detail-title">Resistances<span class="move-detail-value">(-2)</span></div>
     </div>
     @if ((move()?.type_resist || []).length > 0) {
       <div class="flex flex-wrap gap-1">
@@ -39,7 +65,7 @@
 
   <div class="move-detail-immunity">
     <div class="flex">
-      <div class="move-detail-title"><span class="move-detail-value">(-3)</span>Immunity</div>
+      <div class="move-detail-title">Immunity<span class="move-detail-value">(-3)</span></div>
     </div>
     @if ((move()?.type_immune || []).length > 0) {
       <div class="flex flex-wrap gap-1">

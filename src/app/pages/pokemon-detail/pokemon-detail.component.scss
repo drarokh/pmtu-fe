@@ -5,7 +5,6 @@
   min-height: 100vh;
   font-family: Arial, sans-serif;
   position: relative;
-  max-width: 400px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -67,6 +66,7 @@
   width: 60px;
   font-size: 20px;
 }
+
 .card {
   position: relative;
   background: white;
@@ -75,6 +75,11 @@
   z-index: 0;
   border: 1px solid;
   flex: 1;
+}
+
+.card-content {
+  max-width: 350px;
+  margin: auto;
 }
 
 .pokemon-type {

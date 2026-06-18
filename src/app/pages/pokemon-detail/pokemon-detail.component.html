@@ -31,65 +31,67 @@
       </div>
     </div>
 
-    <div class="card" [style.border-color]="pokemon?.types?.[0]?.textColor">
-      <div class="tabs" [style.--text-color]="pokemon?.types?.[0]?.textColor">
-        @for (tab of tabs; track trackByTab($index, tab)) {
-          <button class="tab-button" [class.active]="activeTab === tab" (click)="activeTab = tab">
-            {{ tab }}
-          </button>
-        }
-      </div>
-
-      <div class="tab-content">
-        @switch (activeTab) {
-          @case ('About') {
-            <div
-              class="grid grid-cols-[100px_30px_1fr] gap-3"
-              [style.--text-color]="pokemon?.types?.[0]?.textColor"
-            >
-              <div class="detail-label">Level</div>
-              <div class="detail-value">{{ pokemon?.level }}</div>
-              <div class="bar">
-                <div class="fill" [style.width.%]="levelWidth"></div>
-              </div>
-              <div class="detail-label">Catch Value</div>
-              <div class="detail-value">{{ pokemon?.catch }}</div>
-              <div class="bar">
-                <div class="fill" [style.width.%]="catchWidth"></div>
-              </div>
-            </div>
-            <div class="grid grid-cols-[100px_1fr] gap-3 abilities-grid">
-              <div class="detail-label">Abilites</div>
-              <div class="detail-value detail-ability capitalize">
-                @if (pokemon != undefined && pokemon.abilities.length > 0) {
-                  @for (ability of pokemon.abilities; track trackByAbility($index, ability.id)) {
-                    <app-pokemon-ability [ability]="ability"></app-pokemon-ability>
-                  }
-                } @else {
-                  <span>-</span>
-                }
-              </div>
-            </div>
+    <div class="card">
+      <div class="card-content" [style.border-color]="pokemon?.types?.[0]?.textColor">
+        <div class="tabs" [style.--text-color]="pokemon?.types?.[0]?.textColor">
+          @for (tab of tabs; track trackByTab($index, tab)) {
+            <button class="tab-button" [class.active]="activeTab === tab" (click)="activeTab = tab">
+              {{ tab }}
+            </button>
           }
+        </div>
 
-          @case ('Moves') {
-            @if (pokemon != undefined && pokemon.moves.length > 0) {
-              @for (move of pokemon.moves; track trackByMove($index, move)) {
-                <app-pokemon-move
-                  [move]="move"
-                  [pkmType1]="pokemon.types[0]"
-                  [pkmType2]="pokemon.types[1]"
-                ></app-pokemon-move>
+        <div class="tab-content">
+          @switch (activeTab) {
+            @case ('About') {
+              <div
+                class="grid grid-cols-[100px_30px_1fr] gap-3"
+                [style.--text-color]="pokemon?.types?.[0]?.textColor"
+              >
+                <div class="detail-label">Level</div>
+                <div class="detail-value">{{ pokemon?.level }}</div>
+                <div class="bar">
+                  <div class="fill" [style.width.%]="levelWidth"></div>
+                </div>
+                <div class="detail-label">Catch Value</div>
+                <div class="detail-value">{{ pokemon?.catch }}</div>
+                <div class="bar">
+                  <div class="fill" [style.width.%]="catchWidth"></div>
+                </div>
+              </div>
+              <div class="grid grid-cols-[100px_1fr] gap-3 abilities-grid">
+                <div class="detail-label">Abilites</div>
+                <div class="detail-value detail-ability capitalize">
+                  @if (pokemon != undefined && pokemon.abilities.length > 0) {
+                    @for (ability of pokemon.abilities; track trackByAbility($index, ability.id)) {
+                      <app-pokemon-ability [ability]="ability"></app-pokemon-ability>
+                    }
+                  } @else {
+                    <span>-</span>
+                  }
+                </div>
+              </div>
+            }
+
+            @case ('Moves') {
+              @if (pokemon != undefined && pokemon.moves.length > 0) {
+                @for (move of pokemon.moves; track trackByMove($index, move)) {
+                  <app-pokemon-move
+                    [move]="move"
+                    [pkmType1]="pokemon.types[0]"
+                    [pkmType2]="pokemon.types[1]"
+                  ></app-pokemon-move>
+                }
+              } @else {
+                <div class="text-center">-</div>
               }
-            } @else {
+            }
+
+            @case ('Evolution') {
               <div class="text-center">-</div>
             }
           }
-
-          @case ('Evolution') {
-            <div class="text-center">-</div>
-          }
-        }
+        </div>
       </div>
     </div>
   </div>

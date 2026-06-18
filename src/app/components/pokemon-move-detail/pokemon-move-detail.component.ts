@@ -2,6 +2,7 @@ import { Component, input } from '@angular/core';
 import { Move } from '../../models/move.model';
 import { PokemonTypeComponent } from '../pokemon-type/pokemon-type.component';
 import { Type } from '../../models/type.model';
+import { Effect } from '../../models/effect.model';
 
 @Component({
   selector: 'app-pokemon-move-detail',
@@ -24,5 +25,9 @@ export class PokemonMoveDetailComponent {
 
   trackByType(index: number, type: Type) {
     return type.name;
+  }
+
+  trackByEffect(index: number, effect: Effect) {
+    return effect.name;
   }
 }

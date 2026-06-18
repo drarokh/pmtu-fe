@@ -1,4 +1,11 @@
-import { Component, inject, ChangeDetectionStrategy, ChangeDetectorRef, OnInit, OnDestroy } from '@angular/core';
+import {
+  Component,
+  inject,
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  OnInit,
+  OnDestroy,
+} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PokemonTypeComponent } from '../../components/pokemon-type/pokemon-type.component';
 import { PokedexService } from '../../services/pokedex.service';
@@ -8,7 +15,7 @@ import { Move } from '../../models/move.model';
 import { Effect } from '../../models/effect.model';
 import { PokemonAbilityComponent } from '../../components/pokemon-ability/pokemon-ability.component';
 import { PokemonRankComponent } from '../../components/pokemon-rank/pokemon-rank.component';
-import { PokemonMoveComponent } from "../../components/pokemon-move/pokemon-move.component";
+import { PokemonMoveComponent } from '../../components/pokemon-move/pokemon-move.component';
 import { takeUntil } from 'rxjs';
 import { Subject } from 'rxjs';
 
@@ -17,7 +24,12 @@ import { Subject } from 'rxjs';
   standalone: true,
   templateUrl: './pokemon-detail.component.html',
   styleUrls: ['./pokemon-detail.component.scss'],
-  imports: [PokemonTypeComponent, PokemonAbilityComponent, PokemonRankComponent, PokemonMoveComponent],
+  imports: [
+    PokemonTypeComponent,
+    PokemonAbilityComponent,
+    PokemonRankComponent,
+    PokemonMoveComponent,
+  ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PokemonDetailComponent implements OnInit, OnDestroy {
@@ -46,12 +58,10 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   constructor() {}
 
   ngOnInit() {
-    this.route.paramMap
-      .pipe(takeUntil(this.destroy$))
-      .subscribe((params) => {
-        const pokemonId = Number(params.get('id'));
-        this.loadData(pokemonId);
-      });
+    this.route.paramMap.pipe(takeUntil(this.destroy$)).subscribe((params) => {
+      const pokemonId = Number(params.get('id'));
+      this.loadData(pokemonId);
+    });
   }
 
   ngOnDestroy() {
@@ -60,7 +70,8 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   }
 
   loadData(id: number) {
-    this.pokedexService.getPokemonById(id)
+    this.pokedexService
+      .getPokemonById(id)
       .pipe(takeUntil(this.destroy$))
       .subscribe((pokemon) => {
         this.pokemon = pokemon;
@@ -70,9 +81,9 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
       });
   }
 
-    get imageSrc(): string | null {
-      return this.pokemon?.number ? `images/pkm-res/${this.pokemon.number}.png` : null;
-    }
+  get imageSrc(): string | null {
+    return this.pokemon?.number ? `images/pkm-res/${this.pokemon.number}.png` : null;
+  }
 
   goBack() {
     this.router.navigate(['']);
@@ -80,7 +91,6 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
 
   goBefore(id: number | undefined) {
     if (id === undefined || id == 1) return;
-
     this.router.navigate(['/pokedex', id - 1]);
   }
 

@@ -11,6 +11,8 @@ import { MoveDto } from '../dto/move.dto';
 import { EffectDto } from '../dto/effect.model';
 import { Rank } from '../models/rank.model';
 import { RankDto } from '../dto/rank.dto';
+import { TypeEffectiveness } from '../models/type-effectiveness.model';
+import { TypeEffectivenessDto } from '../dto/type-effectiveness.dto';
 
 @Injectable({ providedIn: 'root' })
 export class CatalogService {
@@ -21,6 +23,7 @@ export class CatalogService {
   private moves$?: Observable<Record<number, Move>>;
   private effects$?: Observable<Record<number, Effect>>;
   private ranks$?: Observable<Record<number, Rank>>;
+  private moveEffectiveness$?: Observable<Record<number, TypeEffectiveness>>;
 
   getTypeMap(): Observable<Record<number, Type>> {
     return (this.types$ ??= this.http.get<TypeDto[]>('data/types.json').pipe(
@@ -41,14 +44,18 @@ export class CatalogService {
       switchMap((list) =>
         this.getEffectMap().pipe(
           switchMap((effects) =>
-            this.getTypeMap().pipe(
-              map(
-                (types) =>
-                  Object.fromEntries(
-                    list.map(
-                      (moveDto) => [moveDto.id, this.toMove(moveDto, types, effects)] as const,
-                    ),
-                  ) as Record<number, Move>,
+            this.getMoveEffectiveness().pipe(
+              switchMap((moveEffectiveness) =>
+                this.getTypeMap().pipe(
+                  map(
+                    (types) =>
+                      Object.fromEntries(
+                        list.map(
+                          (moveDto) => [moveDto.id, this.toMove(moveDto, types, effects, moveEffectiveness)] as const,
+                        ),
+                      ) as Record<number, Move>,
+                  ),
+                ),
               ),
             ),
           ),
@@ -72,16 +79,27 @@ export class CatalogService {
     ));
   }
 
+  getMoveEffectiveness(): Observable<Record<number, TypeEffectiveness>> {
+    return (this.moveEffectiveness$ ??= this.http.get<TypeEffectivenessDto[]>('data/type-effectiveness.json').pipe(
+      map((list) => Object.fromEntries(list.map((t) => [t.id, t] as const))),
+      shareReplay(1),
+    ));
+  }
+
   private toMove(
     moveDto: MoveDto,
     types: Record<number, Type>,
     effects: Record<number, Effect>,
+    moveEffectiveness: Record<number, TypeEffectiveness>,
   ): Move {
     const typeId = Number(moveDto.type);
     return {
       ...moveDto,
       type: types[typeId]!,
       effects: moveDto.effects.map((effectId) => effects[Number(effectId)]!),
+      type_strong: (moveEffectiveness[typeId]?.strong ?? []).map((id) => types[id]!),
+      type_resist: (moveEffectiveness[typeId]?.resist ?? []).map((id) => types[id]!),
+      type_immune: (moveEffectiveness[typeId]?.immune ?? []).map((id) => types[id]!),
     };
   }
 }

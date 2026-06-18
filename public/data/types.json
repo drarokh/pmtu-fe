@@ -6,7 +6,7 @@
   { "id": 5, "name": "grass", "color": "#5DB12C", "bgColor": "#a2d883", "textColor": "#418D14" },
   { "id": 6, "name": "ice", "color": "#96D9D6", "bgColor": "#C7F0EE", "textColor": "#66B9B6" },
   { "id": 7, "name": "fighting", "color": "#C22E28", "bgColor": "#FC827C", "textColor": "#9D1912" },
-  { "id": 8, "name": "poison", "color": "#A33EA1", "bgColor": "#C064C0", "textColor": "#922592" },
+  { "id": 8, "name": "poison", "color": "#A33EA1", "bgColor": "#DC93DC", "textColor": "#922592" },
   { "id": 9, "name": "ground", "color": "#B29035", "bgColor": "#D8B861", "textColor": "#8C6C17" },
   { "id": 10, "name": "flying", "color": "#A98FF3", "bgColor": "#CCBBFB", "textColor": "#8B6AE7" },
   { "id": 11, "name": "psychic", "color": "#F95587", "bgColor": "#FB7EA4", "textColor": "#ED0D51" },

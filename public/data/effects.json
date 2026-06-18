@@ -1,682 +1,682 @@
 [
-	{
-		"id":1,
-		"desc":"",
-		"name":"{AdvDis 6}"
-	},
-	{
-		"id":2,
-		"desc":"",
-		"name":"{B Block}"
-	},
-	{
-		"id":3,
-		"desc":"",
-		"name":"{B Burn 1}"
-	},
-	{
-		"id":4,
-		"desc":"",
-		"name":"{B Burn 2}"
-	},
-	{
-		"id":5,
-		"desc":"",
-		"name":"{B Burn 3}"
-	},
-	{
-		"id":6,
-		"desc":"",
-		"name":"{B Burn 4}"
-	},
-	{
-		"id":7,
-		"desc":"",
-		"name":"{B Burn 5}"
-	},
-	{
-		"id":8,
-		"desc":"",
-		"name":"{B Burn 6}"
-	},
-	{
-		"id":9,
-		"desc":"",
-		"name":"{B Conf 1}"
-	},
-	{
-		"id":10,
-		"desc":"",
-		"name":"{B Conf 2}"
-	},
-	{
-		"id":11,
-		"desc":"",
-		"name":"{B Conf 3}"
-	},
-	{
-		"id":12,
-		"desc":"",
-		"name":"{B Conf 4}"
-	},
-	{
-		"id":13,
-		"desc":"",
-		"name":"{B Conf 5}"
-	},
-	{
-		"id":14,
-		"desc":"",
-		"name":"{B Conf 6}"
-	},
-	{
-		"id":15,
-		"desc":"",
-		"name":"{B Curse}"
-	},
-	{
-		"id":16,
-		"desc":"",
-		"name":"{B Dis 1}"
-	},
-	{
-		"id":17,
-		"desc":"",
-		"name":"{B Dis 2}"
-	},
-	{
-		"id":18,
-		"desc":"",
-		"name":"{B Dis 3}"
-	},
-	{
-		"id":19,
-		"desc":"",
-		"name":"{B Dis 4}"
-	},
-	{
-		"id":20,
-		"desc":"",
-		"name":"{B Dis 5}"
-	},
-	{
-		"id":21,
-		"desc":"",
-		"name":"{B Dis 6}"
-	},
-	{
-		"id":22,
-		"desc":"",
-		"name":"{B DoubDis 1}"
-	},
-	{
-		"id":23,
-		"desc":"",
-		"name":"{B DoubDis 2}"
-	},
-	{
-		"id":24,
-		"desc":"",
-		"name":"{B DoubDis 3}"
-	},
-	{
-		"id":25,
-		"desc":"",
-		"name":"{B DoubDis 4}"
-	},
-	{
-		"id":26,
-		"desc":"",
-		"name":"{B DoubDis 5}"
-	},
-	{
-		"id":27,
-		"desc":"",
-		"name":"{B DoubDis 6}"
-	},
-	{
-		"id":28,
-		"desc":"",
-		"name":"{B Extra 1}"
-	},
-	{
-		"id":29,
-		"desc":"",
-		"name":"{B Extra 2}"
-	},
-	{
-		"id":30,
-		"desc":"",
-		"name":"{B Extra 3}"
-	},
-	{
-		"id":31,
-		"desc":"",
-		"name":"{B Extra 4}"
-	},
-	{
-		"id":32,
-		"desc":"",
-		"name":"{B Extra 5}"
-	},
-	{
-		"id":33,
-		"desc":"",
-		"name":"{B Extra 6}"
-	},
-	{
-		"id":34,
-		"desc":"",
-		"name":"{B Freeze 1}"
-	},
-	{
-		"id":35,
-		"desc":"",
-		"name":"{B Freeze 2}"
-	},
-	{
-		"id":36,
-		"desc":"",
-		"name":"{B Freeze 3}"
-	},
-	{
-		"id":37,
-		"desc":"",
-		"name":"{B Freeze 4}"
-	},
-	{
-		"id":38,
-		"desc":"",
-		"name":"{B Freeze 5}"
-	},
-	{
-		"id":39,
-		"desc":"",
-		"name":"{B Freeze 6}"
-	},
-	{
-		"id":40,
-		"desc":"",
-		"name":"{B KO 1}"
-	},
-	{
-		"id":41,
-		"desc":"",
-		"name":"{B KO 2}"
-	},
-	{
-		"id":42,
-		"desc":"",
-		"name":"{B KO 3}"
-	},
-	{
-		"id":43,
-		"desc":"",
-		"name":"{B KO 4}"
-	},
-	{
-		"id":44,
-		"desc":"",
-		"name":"{B KO 5}"
-	},
-	{
-		"id":45,
-		"desc":"",
-		"name":"{B KO 6}"
-	},
-	{
-		"id":46,
-		"desc":"",
-		"name":"{B Lock}"
-	},
-	{
-		"id":47,
-		"desc":"",
-		"name":"{B Opp}"
-	},
-	{
-		"id":48,
-		"desc":"",
-		"name":"{B Para 1}"
-	},
-	{
-		"id":49,
-		"desc":"",
-		"name":"{B Para 2}"
-	},
-	{
-		"id":50,
-		"desc":"",
-		"name":"{B Para 3}"
-	},
-	{
-		"id":51,
-		"desc":"",
-		"name":"{B Para 4}"
-	},
-	{
-		"id":52,
-		"desc":"",
-		"name":"{B Para 5}"
-	},
-	{
-		"id":53,
-		"desc":"",
-		"name":"{B Para 6}"
-	},
-	{
-		"id":54,
-		"desc":"",
-		"name":"{B Pois 1}"
-	},
-	{
-		"id":55,
-		"desc":"",
-		"name":"{B Pois 2}"
-	},
-	{
-		"id":56,
-		"desc":"",
-		"name":"{B Pois 3}"
-	},
-	{
-		"id":57,
-		"desc":"",
-		"name":"{B Pois 4}"
-	},
-	{
-		"id":58,
-		"desc":"",
-		"name":"{B Pois 5}"
-	},
-	{
-		"id":59,
-		"desc":"",
-		"name":"{B Pois 6}"
-	},
-	{
-		"id":60,
-		"desc":"",
-		"name":"{B Sleep 1}"
-	},
-	{
-		"id":61,
-		"desc":"",
-		"name":"{B Sleep 2}"
-	},
-	{
-		"id":62,
-		"desc":"",
-		"name":"{B Sleep 3}"
-	},
-	{
-		"id":63,
-		"desc":"",
-		"name":"{B Sleep 4}"
-	},
-	{
-		"id":64,
-		"desc":"",
-		"name":"{B Sleep 5}"
-	},
-	{
-		"id":65,
-		"desc":"",
-		"name":"{B Sleep 6}"
-	},
-	{
-		"id":66,
-		"desc":"",
-		"name":"{B Switch}"
-	},
-	{
-		"id":67,
-		"desc":"",
-		"name":"{Clear}"
-	},
-	{
-		"id":68,
-		"desc":"",
-		"name":"{Cloudy}"
-	},
-	{
-		"id":69,
-		"desc":"",
-		"name":"{Electric Terrain}"
-	},
-	{
-		"id":70,
-		"desc":"",
-		"name":"{Foggy}"
-	},
-	{
-		"id":71,
-		"desc":"",
-		"name":"{Grassy Terrain}"
-	},
-	{
-		"id":72,
-		"desc":"",
-		"name":"{Hail}"
-	},
-	{
-		"id":73,
-		"desc":"",
-		"name":"{Mist}"
-	},
-	{
-		"id":74,
-		"desc":"",
-		"name":"{Misty Terrain}"
-	},
-	{
-		"id":75,
-		"desc":"",
-		"name":"{Psychic Terrain}"
-	},
-	{
-		"id":76,
-		"desc":"",
-		"name":"{Rainy}"
-	},
-	{
-		"id":77,
-		"desc":"",
-		"name":"{Renewal}"
-	},
-	{
-		"id":78,
-		"desc":"",
-		"name":"{Safeguard}"
-	},
-	{
-		"id":79,
-		"desc":"",
-		"name":"{Sandy}"
-	},
-	{
-		"id":80,
-		"desc":"",
-		"name":"{Snowy}"
-	},
-	{
-		"id":81,
-		"desc":"",
-		"name":"{Spikes}"
-	},
-	{
-		"id":82,
-		"desc":"",
-		"name":"{Stealth Rock}"
-	},
-	{
-		"id":83,
-		"desc":"",
-		"name":"{Sunny}"
-	},
-	{
-		"id":84,
-		"desc":"",
-		"name":"{Toxic Spikes}"
-	},
-	{
-		"id":85,
-		"desc":"",
-		"name":"{W Add 1}"
-	},
-	{
-		"id":86,
-		"desc":"",
-		"name":"{W Add 2}"
-	},
-	{
-		"id":87,
-		"desc":"",
-		"name":"{W Add 3}"
-	},
-	{
-		"id":88,
-		"desc":"",
-		"name":"{W Add 4}"
-	},
-	{
-		"id":89,
-		"desc":"",
-		"name":"{W Add 5}"
-	},
-	{
-		"id":90,
-		"desc":"",
-		"name":"{W Add 6}"
-	},
-	{
-		"id":91,
-		"desc":"",
-		"name":"{W Adv 1}"
-	},
-	{
-		"id":92,
-		"desc":"",
-		"name":"{W Adv 2}"
-	},
-	{
-		"id":93,
-		"desc":"",
-		"name":"{W Adv 3}"
-	},
-	{
-		"id":94,
-		"desc":"",
-		"name":"{W Adv 4}"
-	},
-	{
-		"id":95,
-		"desc":"",
-		"name":"{W Adv 5}"
-	},
-	{
-		"id":96,
-		"desc":"",
-		"name":"{W Adv 6}"
-	},
-	{
-		"id":97,
-		"desc":"",
-		"name":"{W Boost}"
-	},
-	{
-		"id":98,
-		"desc":"",
-		"name":"{W Conf 1}"
-	},
-	{
-		"id":99,
-		"desc":"",
-		"name":"{W Conf 2}"
-	},
-	{
-		"id":100,
-		"desc":"",
-		"name":"{W Conf 3}"
-	},
-	{
-		"id":101,
-		"desc":"",
-		"name":"{W Conf 4}"
-	},
-	{
-		"id":102,
-		"desc":"",
-		"name":"{W Conf 5}"
-	},
-	{
-		"id":103,
-		"desc":"",
-		"name":"{W Conf 6}"
-	},
-	{
-		"id":104,
-		"desc":"",
-		"name":"{W DoubAdv 1}"
-	},
-	{
-		"id":105,
-		"desc":"",
-		"name":"{W DoubAdv 2}"
-	},
-	{
-		"id":106,
-		"desc":"",
-		"name":"{W DoubAdv 3}"
-	},
-	{
-		"id":107,
-		"desc":"",
-		"name":"{W DoubAdv 4}"
-	},
-	{
-		"id":108,
-		"desc":"",
-		"name":"{W DoubAdv 5}"
-	},
-	{
-		"id":109,
-		"desc":"",
-		"name":"{W DoubAdv 6}"
-	},
-	{
-		"id":110,
-		"desc":"",
-		"name":"{W Extra 1}"
-	},
-	{
-		"id":111,
-		"desc":"",
-		"name":"{W Extra 2}"
-	},
-	{
-		"id":112,
-		"desc":"",
-		"name":"{W Extra 3}"
-	},
-	{
-		"id":113,
-		"desc":"",
-		"name":"{W Extra 4}"
-	},
-	{
-		"id":114,
-		"desc":"",
-		"name":"{W Extra 5}"
-	},
-	{
-		"id":115,
-		"desc":"",
-		"name":"{W Extra 6}"
-	},
-	{
-		"id":116,
-		"desc":"",
-		"name":"{W Ignore}"
-	},
-	{
-		"id":117,
-		"desc":"",
-		"name":"{W KO 1}"
-	},
-	{
-		"id":118,
-		"desc":"",
-		"name":"{W KO 2}"
-	},
-	{
-		"id":119,
-		"desc":"",
-		"name":"{W KO 3}"
-	},
-	{
-		"id":120,
-		"desc":"",
-		"name":"{W KO 4}"
-	},
-	{
-		"id":121,
-		"desc":"",
-		"name":"{W KO 5}"
-	},
-	{
-		"id":122,
-		"desc":"",
-		"name":"{W KO 6}"
-	},
-	{
-		"id":123,
-		"desc":"",
-		"name":"{W Life}"
-	},
-	{
-		"id":124,
-		"desc":"",
-		"name":"{W Priority}"
-	},
-	{
-		"id":125,
-		"desc":"",
-		"name":"{W Prot 1}"
-	},
-	{
-		"id":126,
-		"desc":"",
-		"name":"{W Prot 4}"
-	},
-	{
-		"id":127,
-		"desc":"",
-		"name":"{W Rage}"
-	},
-	{
-		"id":128,
-		"desc":"",
-		"name":"{W Recharge}"
-	},
-	{
-		"id":129,
-		"desc":"",
-		"name":"{W Renewal}"
-	},
-	{
-		"id":130,
-		"desc":"",
-		"name":"{W Repeat}"
-	},
-	{
-		"id":131,
-		"desc":"",
-		"name":"{W Reversal}"
-	},
-	{
-		"id":132,
-		"desc":"",
-		"name":"{W Revival}"
-	},
-	{
-		"id":133,
-		"desc":"",
-		"name":"{W StatDown}"
-	},
-	{
-		"id":134,
-		"desc":"",
-		"name":"{W Status}"
-	},
-	{
-		"id":135,
-		"desc":"",
-		"name":"{W Switch}"
-	},
-	{
-		"id":136,
-		"desc":"",
-		"name":"{W You}"
-	}
+  {
+    "id": 1,
+    "desc": "",
+    "name": "{AdvDis 6}"
+  },
+  {
+    "id": 2,
+    "desc": "",
+    "name": "{B Block}"
+  },
+  {
+    "id": 3,
+    "desc": "",
+    "name": "{B Burn 1}"
+  },
+  {
+    "id": 4,
+    "desc": "",
+    "name": "{B Burn 2}"
+  },
+  {
+    "id": 5,
+    "desc": "",
+    "name": "{B Burn 3}"
+  },
+  {
+    "id": 6,
+    "desc": "",
+    "name": "{B Burn 4}"
+  },
+  {
+    "id": 7,
+    "desc": "",
+    "name": "{B Burn 5}"
+  },
+  {
+    "id": 8,
+    "desc": "",
+    "name": "{B Burn 6}"
+  },
+  {
+    "id": 9,
+    "desc": "",
+    "name": "{B Conf 1}"
+  },
+  {
+    "id": 10,
+    "desc": "",
+    "name": "{B Conf 2}"
+  },
+  {
+    "id": 11,
+    "desc": "",
+    "name": "{B Conf 3}"
+  },
+  {
+    "id": 12,
+    "desc": "",
+    "name": "{B Conf 4}"
+  },
+  {
+    "id": 13,
+    "desc": "",
+    "name": "{B Conf 5}"
+  },
+  {
+    "id": 14,
+    "desc": "",
+    "name": "{B Conf 6}"
+  },
+  {
+    "id": 15,
+    "desc": "",
+    "name": "{B Curse}"
+  },
+  {
+    "id": 16,
+    "desc": "",
+    "name": "{B Dis 1}"
+  },
+  {
+    "id": 17,
+    "desc": "",
+    "name": "{B Dis 2}"
+  },
+  {
+    "id": 18,
+    "desc": "",
+    "name": "{B Dis 3}"
+  },
+  {
+    "id": 19,
+    "desc": "",
+    "name": "{B Dis 4}"
+  },
+  {
+    "id": 20,
+    "desc": "",
+    "name": "{B Dis 5}"
+  },
+  {
+    "id": 21,
+    "desc": "",
+    "name": "{B Dis 6}"
+  },
+  {
+    "id": 22,
+    "desc": "",
+    "name": "{B DoubDis 1}"
+  },
+  {
+    "id": 23,
+    "desc": "",
+    "name": "{B DoubDis 2}"
+  },
+  {
+    "id": 24,
+    "desc": "",
+    "name": "{B DoubDis 3}"
+  },
+  {
+    "id": 25,
+    "desc": "",
+    "name": "{B DoubDis 4}"
+  },
+  {
+    "id": 26,
+    "desc": "",
+    "name": "{B DoubDis 5}"
+  },
+  {
+    "id": 27,
+    "desc": "",
+    "name": "{B DoubDis 6}"
+  },
+  {
+    "id": 28,
+    "desc": "",
+    "name": "{B Extra 1}"
+  },
+  {
+    "id": 29,
+    "desc": "",
+    "name": "{B Extra 2}"
+  },
+  {
+    "id": 30,
+    "desc": "",
+    "name": "{B Extra 3}"
+  },
+  {
+    "id": 31,
+    "desc": "",
+    "name": "{B Extra 4}"
+  },
+  {
+    "id": 32,
+    "desc": "",
+    "name": "{B Extra 5}"
+  },
+  {
+    "id": 33,
+    "desc": "",
+    "name": "{B Extra 6}"
+  },
+  {
+    "id": 34,
+    "desc": "",
+    "name": "{B Freeze 1}"
+  },
+  {
+    "id": 35,
+    "desc": "",
+    "name": "{B Freeze 2}"
+  },
+  {
+    "id": 36,
+    "desc": "",
+    "name": "{B Freeze 3}"
+  },
+  {
+    "id": 37,
+    "desc": "",
+    "name": "{B Freeze 4}"
+  },
+  {
+    "id": 38,
+    "desc": "",
+    "name": "{B Freeze 5}"
+  },
+  {
+    "id": 39,
+    "desc": "",
+    "name": "{B Freeze 6}"
+  },
+  {
+    "id": 40,
+    "desc": "",
+    "name": "{B KO 1}"
+  },
+  {
+    "id": 41,
+    "desc": "",
+    "name": "{B KO 2}"
+  },
+  {
+    "id": 42,
+    "desc": "",
+    "name": "{B KO 3}"
+  },
+  {
+    "id": 43,
+    "desc": "",
+    "name": "{B KO 4}"
+  },
+  {
+    "id": 44,
+    "desc": "",
+    "name": "{B KO 5}"
+  },
+  {
+    "id": 45,
+    "desc": "",
+    "name": "{B KO 6}"
+  },
+  {
+    "id": 46,
+    "desc": "",
+    "name": "{B Lock}"
+  },
+  {
+    "id": 47,
+    "desc": "",
+    "name": "{B Opp}"
+  },
+  {
+    "id": 48,
+    "desc": "",
+    "name": "{B Para 1}"
+  },
+  {
+    "id": 49,
+    "desc": "",
+    "name": "{B Para 2}"
+  },
+  {
+    "id": 50,
+    "desc": "",
+    "name": "{B Para 3}"
+  },
+  {
+    "id": 51,
+    "desc": "",
+    "name": "{B Para 4}"
+  },
+  {
+    "id": 52,
+    "desc": "",
+    "name": "{B Para 5}"
+  },
+  {
+    "id": 53,
+    "desc": "",
+    "name": "{B Para 6}"
+  },
+  {
+    "id": 54,
+    "desc": "",
+    "name": "{B Pois 1}"
+  },
+  {
+    "id": 55,
+    "desc": "",
+    "name": "{B Pois 2}"
+  },
+  {
+    "id": 56,
+    "desc": "",
+    "name": "{B Pois 3}"
+  },
+  {
+    "id": 57,
+    "desc": "",
+    "name": "{B Pois 4}"
+  },
+  {
+    "id": 58,
+    "desc": "",
+    "name": "{B Pois 5}"
+  },
+  {
+    "id": 59,
+    "desc": "",
+    "name": "{B Pois 6}"
+  },
+  {
+    "id": 60,
+    "desc": "",
+    "name": "{B Sleep 1}"
+  },
+  {
+    "id": 61,
+    "desc": "",
+    "name": "{B Sleep 2}"
+  },
+  {
+    "id": 62,
+    "desc": "",
+    "name": "{B Sleep 3}"
+  },
+  {
+    "id": 63,
+    "desc": "",
+    "name": "{B Sleep 4}"
+  },
+  {
+    "id": 64,
+    "desc": "",
+    "name": "{B Sleep 5}"
+  },
+  {
+    "id": 65,
+    "desc": "",
+    "name": "{B Sleep 6}"
+  },
+  {
+    "id": 66,
+    "desc": "",
+    "name": "{B Switch}"
+  },
+  {
+    "id": 67,
+    "desc": "",
+    "name": "{Clear}"
+  },
+  {
+    "id": 68,
+    "desc": "",
+    "name": "{Cloudy}"
+  },
+  {
+    "id": 69,
+    "desc": "",
+    "name": "{Electric Terrain}"
+  },
+  {
+    "id": 70,
+    "desc": "",
+    "name": "{Foggy}"
+  },
+  {
+    "id": 71,
+    "desc": "",
+    "name": "{Grassy Terrain}"
+  },
+  {
+    "id": 72,
+    "desc": "",
+    "name": "{Hail}"
+  },
+  {
+    "id": 73,
+    "desc": "",
+    "name": "{Mist}"
+  },
+  {
+    "id": 74,
+    "desc": "",
+    "name": "{Misty Terrain}"
+  },
+  {
+    "id": 75,
+    "desc": "",
+    "name": "{Psychic Terrain}"
+  },
+  {
+    "id": 76,
+    "desc": "",
+    "name": "{Rainy}"
+  },
+  {
+    "id": 77,
+    "desc": "",
+    "name": "{Renewal}"
+  },
+  {
+    "id": 78,
+    "desc": "",
+    "name": "{Safeguard}"
+  },
+  {
+    "id": 79,
+    "desc": "",
+    "name": "{Sandy}"
+  },
+  {
+    "id": 80,
+    "desc": "",
+    "name": "{Snowy}"
+  },
+  {
+    "id": 81,
+    "desc": "",
+    "name": "{Spikes}"
+  },
+  {
+    "id": 82,
+    "desc": "",
+    "name": "{Stealth Rock}"
+  },
+  {
+    "id": 83,
+    "desc": "",
+    "name": "{Sunny}"
+  },
+  {
+    "id": 84,
+    "desc": "",
+    "name": "{Toxic Spikes}"
+  },
+  {
+    "id": 85,
+    "desc": "",
+    "name": "{W Add 1}"
+  },
+  {
+    "id": 86,
+    "desc": "",
+    "name": "{W Add 2}"
+  },
+  {
+    "id": 87,
+    "desc": "",
+    "name": "{W Add 3}"
+  },
+  {
+    "id": 88,
+    "desc": "",
+    "name": "{W Add 4}"
+  },
+  {
+    "id": 89,
+    "desc": "",
+    "name": "{W Add 5}"
+  },
+  {
+    "id": 90,
+    "desc": "",
+    "name": "{W Add 6}"
+  },
+  {
+    "id": 91,
+    "desc": "",
+    "name": "{W Adv 1}"
+  },
+  {
+    "id": 92,
+    "desc": "",
+    "name": "{W Adv 2}"
+  },
+  {
+    "id": 93,
+    "desc": "",
+    "name": "{W Adv 3}"
+  },
+  {
+    "id": 94,
+    "desc": "",
+    "name": "{W Adv 4}"
+  },
+  {
+    "id": 95,
+    "desc": "",
+    "name": "{W Adv 5}"
+  },
+  {
+    "id": 96,
+    "desc": "",
+    "name": "{W Adv 6}"
+  },
+  {
+    "id": 97,
+    "desc": "",
+    "name": "{W Boost}"
+  },
+  {
+    "id": 98,
+    "desc": "",
+    "name": "{W Conf 1}"
+  },
+  {
+    "id": 99,
+    "desc": "",
+    "name": "{W Conf 2}"
+  },
+  {
+    "id": 100,
+    "desc": "",
+    "name": "{W Conf 3}"
+  },
+  {
+    "id": 101,
+    "desc": "",
+    "name": "{W Conf 4}"
+  },
+  {
+    "id": 102,
+    "desc": "",
+    "name": "{W Conf 5}"
+  },
+  {
+    "id": 103,
+    "desc": "",
+    "name": "{W Conf 6}"
+  },
+  {
+    "id": 104,
+    "desc": "",
+    "name": "{W DoubAdv 1}"
+  },
+  {
+    "id": 105,
+    "desc": "",
+    "name": "{W DoubAdv 2}"
+  },
+  {
+    "id": 106,
+    "desc": "",
+    "name": "{W DoubAdv 3}"
+  },
+  {
+    "id": 107,
+    "desc": "",
+    "name": "{W DoubAdv 4}"
+  },
+  {
+    "id": 108,
+    "desc": "",
+    "name": "{W DoubAdv 5}"
+  },
+  {
+    "id": 109,
+    "desc": "",
+    "name": "{W DoubAdv 6}"
+  },
+  {
+    "id": 110,
+    "desc": "",
+    "name": "{W Extra 1}"
+  },
+  {
+    "id": 111,
+    "desc": "",
+    "name": "{W Extra 2}"
+  },
+  {
+    "id": 112,
+    "desc": "",
+    "name": "{W Extra 3}"
+  },
+  {
+    "id": 113,
+    "desc": "",
+    "name": "{W Extra 4}"
+  },
+  {
+    "id": 114,
+    "desc": "",
+    "name": "{W Extra 5}"
+  },
+  {
+    "id": 115,
+    "desc": "",
+    "name": "{W Extra 6}"
+  },
+  {
+    "id": 116,
+    "desc": "",
+    "name": "{W Ignore}"
+  },
+  {
+    "id": 117,
+    "desc": "",
+    "name": "{W KO 1}"
+  },
+  {
+    "id": 118,
+    "desc": "",
+    "name": "{W KO 2}"
+  },
+  {
+    "id": 119,
+    "desc": "",
+    "name": "{W KO 3}"
+  },
+  {
+    "id": 120,
+    "desc": "",
+    "name": "{W KO 4}"
+  },
+  {
+    "id": 121,
+    "desc": "",
+    "name": "{W KO 5}"
+  },
+  {
+    "id": 122,
+    "desc": "",
+    "name": "{W KO 6}"
+  },
+  {
+    "id": 123,
+    "desc": "",
+    "name": "{W Life}"
+  },
+  {
+    "id": 124,
+    "desc": "",
+    "name": "{W Priority}"
+  },
+  {
+    "id": 125,
+    "desc": "",
+    "name": "{W Prot 1}"
+  },
+  {
+    "id": 126,
+    "desc": "",
+    "name": "{W Prot 4}"
+  },
+  {
+    "id": 127,
+    "desc": "",
+    "name": "{W Rage}"
+  },
+  {
+    "id": 128,
+    "desc": "",
+    "name": "{W Recharge}"
+  },
+  {
+    "id": 129,
+    "desc": "",
+    "name": "{W Renewal}"
+  },
+  {
+    "id": 130,
+    "desc": "",
+    "name": "{W Repeat}"
+  },
+  {
+    "id": 131,
+    "desc": "",
+    "name": "{W Reversal}"
+  },
+  {
+    "id": 132,
+    "desc": "",
+    "name": "{W Revival}"
+  },
+  {
+    "id": 133,
+    "desc": "",
+    "name": "{W StatDown}"
+  },
+  {
+    "id": 134,
+    "desc": "",
+    "name": "{W Status}"
+  },
+  {
+    "id": 135,
+    "desc": "",
+    "name": "{W Switch}"
+  },
+  {
+    "id": 136,
+    "desc": "",
+    "name": "{W You}"
+  }
 ]

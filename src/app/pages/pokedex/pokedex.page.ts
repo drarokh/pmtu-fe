@@ -18,5 +18,5 @@ export class PokedexPageComponent {
 
   filtered = computed(() =>
     this.pokedex().filter((p) => p.name.toLowerCase().includes(this.search().toLowerCase())),
-  );
+);
 }

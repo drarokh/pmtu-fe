@@ -3,17 +3,18 @@
 }
 .content {
   min-height: 100vh;
-  padding: 12px;
   font-family: Arial, sans-serif;
   position: relative;
   max-width: 400px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .header {
   position: relative;
   height: 325px;
   color: white;
-  margin: 15px 15px 0px 15px;
+  padding: 27px 27px 0px 27px;
   z-index: 1;
 }
 .menu,
@@ -32,7 +33,6 @@
 .top-number {
   font-size: 18px;
   font-weight: 600;
-
   background-color: rgba(0, 0, 0, 0.3);
   padding-left: 10px;
   padding-right: 10px;
@@ -70,10 +70,11 @@
 .card {
   position: relative;
   background: white;
-  border-radius: 24px;
+  border-radius: 24px 24px 0 0;
   padding: 30px 24px 24px;
   z-index: 0;
   border: 1px solid;
+  flex: 1;
 }
 
 .pokemon-type {

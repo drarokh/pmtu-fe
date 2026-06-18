@@ -1,46 +1,55 @@
-<div
-  class="move-section mb-2"
-  [style.background-color]="move()?.type?.bgColor"
-  [style.border-color]="move()?.type?.textColor"
->
-  <div class="move-row mb-2">
-    <div class="move-name">{{ move()?.name }}</div>
-    <div class="move-right">
-      @if (move()?.dice){
-        <img
-          [src]="'icons/effects/' + move()?.dice + '.png'"
-          [alt]="'dice {{move()?.dice}}'"
-          class="max-h-[20px]"
-        />
-      }
-      <div class="move-value">
+<div class="mb-3">
+  <div
+    class="move-section"
+    [style.background-color]="move()?.type?.bgColor"
+    [style.border-color]="move()?.type?.textColor"
+    (click)="toogleMoveInfo()"
+  >
+    <div class="move-row mb-2">
+      <div class="move-name">{{ move()?.name }}</div>
+      <div class="move-right">
+        @if (move()?.dice) {
+          <img
+            [src]="'icons/effects/' + move()?.dice + '.png'"
+            [alt]="'dice {{move()?.dice}}'"
+            class="max-h-[20px]"
+          />
+        }
+        <div class="move-value">
+          @if (
+            move()?.has_stab &&
+            (pkmType1()?.id == move()?.type?.id || pkmType2()?.id == move()?.type?.id)
+          ) {
+            {{ move()?.stab }}
+          } @else {
+            {{ move()?.value }}
+          }
+        </div>
+      </div>
+    </div>
 
-        @if (
-          move()?.has_stab &&
-          (pkmType1()?.id == move()?.type?.id || pkmType2()?.id == move()?.type?.id)
-        ) {
-          {{ move()?.stab }}
+    <div class="move-row">
+      <app-pokemon-type [type]="move()?.type"></app-pokemon-type>
+      <div class="flex items-center justify-center">
+        @if ((move()?.effects || []).length > 0) {
+          @for (effect of move()?.effects || []; track trackByEffect($index, effect)) {
+            <img
+              [src]="'icons/effects/' + effect.name + '.png'"
+              [alt]="'move effect'"
+              class="max-h-[20px]"
+            />
+          }
         } @else {
-          {{ move()?.value }}
+          <span>-</span>
         }
       </div>
     </div>
   </div>
-
-  <div class="move-row">
-    <app-pokemon-type [type]="move()?.type"></app-pokemon-type>
-    <div class="flex items-center justify-center">
-      @if ((move()?.effects || []).length > 0) {
-        @for (effect of move()?.effects || []; track trackByEffect($index, effect)) {
-          <img
-            [src]="'icons/effects/' + effect.name + '.png'"
-            [alt]="'move effect'"
-            class="max-h-[20px]"
-          />
-        }
-      } @else {
-        <span>-</span>
-      }
-    </div>
-  </div>
+  @if (moveInfoOpen) {
+    <app-pokemon-move-detail
+      [move]="move()"
+      animate.enter="accordion-open"
+      animate.leave="accordion-close"
+    ></app-pokemon-move-detail>
+  }
 </div>

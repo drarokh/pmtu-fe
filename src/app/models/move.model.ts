@@ -10,4 +10,7 @@ export interface Move {
   has_stab: boolean;
   stab: string;
   effects: Effect[];
+  type_strong: Type[];
+  type_resist: Type[];
+  type_immune: Type[];
 }

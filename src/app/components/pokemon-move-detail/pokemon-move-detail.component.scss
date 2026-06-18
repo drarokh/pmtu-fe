@@ -1,0 +1,43 @@
+.move-detail {
+  border: 1px solid;
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+
+.move-detail-title {
+  font-weight: 600;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  text-transform: capitalize;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #616161;
+}
+
+.move-detail-value {
+  color: yellow;
+  padding-right: 8px;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.move-detail-effective {
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid;
+}
+
+.move-detail-resistance {
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+.move-detail-immunity {
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}

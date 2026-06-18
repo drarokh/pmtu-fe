@@ -1,0 +1,54 @@
+<div
+  class="move-detail"
+  [style.background-color]="hexToRgba(move()?.type?.bgColor, 0.2)"
+  [style.border-color]="move()?.type?.textColor"
+>
+  <div class="move-detail-effective" [style.border-color]="move()?.type?.textColor">
+    <div class="flex">
+      <div class="move-detail-title">
+        <span class="move-detail-value">(+2)</span>Super-effective
+      </div>
+    </div>
+    @if ((move()?.type_strong || []).length > 0) {
+      <div class="flex flex-wrap gap-1">
+        @for (moveType of move()?.type_strong; track trackByType($index, moveType)) {
+          <app-pokemon-type [type]="moveType"></app-pokemon-type>
+        }
+      </div>
+    } @else {
+      -
+    }
+  </div>
+
+  <div class="move-detail-resistance" [style.border-color]="move()?.type?.textColor">
+    <div class="flex">
+      <div class="move-detail-title">
+        <span class="move-detail-value">(-2)</span>Resistances
+      </div>
+    </div>
+    @if ((move()?.type_resist || []).length > 0) {
+      <div class="flex flex-wrap gap-1">
+        @for (moveType of move()?.type_resist; track trackByType($index, moveType)) {
+          <app-pokemon-type [type]="moveType"></app-pokemon-type>
+        }
+      </div>
+    } @else {
+      -
+    }
+  </div>
+
+  <div class="move-detail-immunity">
+    <div class="flex">
+      <div class="move-detail-title"><span class="move-detail-value">(-3)</span>Immunity</div>
+    </div>
+    @if ((move()?.type_immune || []).length > 0) {
+      <div class="flex flex-wrap gap-1">
+        @for (moveType of move()?.type_immune; track trackByType($index, moveType)) {
+          <app-pokemon-type [type]="moveType"></app-pokemon-type>
+        }
+      </div>
+    } @else {
+      -
+    }
+  </div>
+</div>

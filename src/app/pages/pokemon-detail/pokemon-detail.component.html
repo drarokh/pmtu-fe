@@ -19,11 +19,7 @@
           <app-pokemon-rank [rank]="pokemon?.rank"></app-pokemon-rank>
         </div>
       </div>
-      <img
-        class="pkm-image"
-        [attr.src]="imageSrc"
-        [alt]="pokemon?.name"
-      />
+      <img class="pkm-image" [attr.src]="imageSrc" [alt]="pokemon?.name" />
 
       <div class="navigation">
         <div class="navigation-button shadow-text" (click)="goBefore(pokemon?.id)">

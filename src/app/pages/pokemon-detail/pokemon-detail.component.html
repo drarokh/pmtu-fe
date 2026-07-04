@@ -1,39 +1,39 @@
-<div class="screen" [style.backgroundColor]="pokemon?.types?.[0]?.bgColor">
+<div class="screen">
   <div class="content">
-    <img class="bg-image" [src]="'images/miscellaneous/bg-pokeball.png'" />
     <div class="header">
       <div class="menu">
-        <button (click)="goBack()"><i class="fa-solid fa-arrow-left shadow-text"></i></button>
+        <button (click)="goBack()"><i class="fa-solid fa-angle-left shadow-text"></i></button>
+        <div class="text-[#E0E0E0] text-[20px] font-semibold">#{{ pokemon?.number }}</div>
         <button><i class="fa-solid fa-bars shadow-text"></i></button>
       </div>
-      <div class="top">
-        <div class="top-name">{{ pokemon?.name }}</div>
-        <div class="top-number">#{{ pokemon?.number }}</div>
-      </div>
-      <div class="flex items-center">
-        @for (type of pokemon?.types; track trackByType($index, type.id)) {
-          <app-pokemon-type [type]="type" class="pokemon-type"></app-pokemon-type>
-        }
 
-        <div class="ml-auto">
-          <app-pokemon-rank [rank]="pokemon?.rank"></app-pokemon-rank>
-        </div>
-      </div>
-      <img class="pkm-image" [attr.src]="imageSrc" [alt]="pokemon?.name" />
-
-      <div class="navigation">
+      <div class="navigation flex justify-center">
         <div class="navigation-button shadow-text" (click)="goBefore(pokemon?.id)">
           <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="relative flex justify-center items-center">
+          <!-- Alone -->
+          <div
+            class="absolute w-full h-full rounded-full blur-[80px] opacity-50"
+            [style.backgroundColor]="pokemon?.types?.[0]?.bgColor"
+          ></div>
+          <img class="relative z-10 w-52 pkm-image" [attr.src]="imageSrc" [alt]="pokemon?.name" />
         </div>
         <div class="navigation-button text-right shadow-text" (click)="goAfter(pokemon?.id)">
           <i class="fa-solid fa-angle-right"></i>
         </div>
       </div>
     </div>
+    <div class="pkm-name">{{ pokemon?.name }}</div>
+    <div class="flex items-center justify-center">
+      @for (type of pokemon?.types; track trackByType($index, type.id)) {
+        <app-pokemon-type [type]="type" class="pokemon-type"></app-pokemon-type>
+      }
+    </div>
 
     <div class="card">
-      <div class="card-content" [style.border-color]="pokemon?.types?.[0]?.textColor">
-        <div class="tabs" [style.--text-color]="pokemon?.types?.[0]?.textColor">
+      <div class="card-content" [style.border-color]="pokemon?.types?.[0]?.color">
+        <div class="tabs flex gap-4" [style.--text-color]="pokemon?.types?.[0]?.color">
           @for (tab of tabs; track trackByTab($index, tab)) {
             <button class="tab-button" [class.active]="activeTab === tab" (click)="activeTab = tab">
               {{ tab }}
@@ -45,21 +45,22 @@
           @switch (activeTab) {
             @case ('About') {
               <div
-                class="grid grid-cols-[100px_30px_1fr] gap-3"
+                class="grid grid-cols-[150px_1fr] gap-3"
                 [style.--text-color]="pokemon?.types?.[0]?.textColor"
               >
+                <div class="detail-label">Rank</div>
+                <app-pokemon-rank [rank]="pokemon?.rank"></app-pokemon-rank>
+
                 <div class="detail-label">Level</div>
                 <div class="detail-value">{{ pokemon?.level }}</div>
-                <div class="bar">
-                  <div class="fill" [style.width.%]="levelWidth"></div>
-                </div>
+
                 <div class="detail-label">Catch Value</div>
-                <div class="detail-value">{{ pokemon?.catch }}</div>
-                <div class="bar">
-                  <div class="fill" [style.width.%]="catchWidth"></div>
-                </div>
+                <div class="detail-value">{{ pokemon?.catch }}+</div>
+
+                <div class="detail-label">Evolution Level</div>
+                <div class="detail-value">-</div>
               </div>
-              <div class="grid grid-cols-[100px_1fr] gap-3 abilities-grid">
+              <div class="grid grid-cols-[150px_1fr] gap-3 abilities-grid">
                 <div class="detail-label">Abilites</div>
                 <div class="detail-value detail-ability capitalize">
                   @if (pokemon != undefined && pokemon.abilities.length > 0) {
@@ -69,6 +70,19 @@
                   } @else {
                     <span>-</span>
                   }
+                </div>
+
+                <div class="detail-label">Weakness</div>
+                <div class="detail-value detail-ability capitalize">
+                  <span>-</span>
+                </div>
+                <div class="detail-label">Double Weakness</div>
+                <div class="detail-value detail-ability capitalize">
+                  <span>-</span>
+                </div>
+                <div class="detail-label">Immunities</div>
+                <div class="detail-value detail-ability capitalize">
+                  <span>-</span>
                 </div>
               </div>
             }
@@ -87,7 +101,7 @@
               }
             }
 
-            @case ('Evolution') {
+            @case ('Evolutions') {
               <div class="text-center">-</div>
             }
           }

@@ -1,7 +1,7 @@
 <div class="mb-3">
   <div
-    class="move-section"
-    [style.background-color]="move()?.type?.bgColor"
+    [ngClass]="moveInfoOpen ? 'move-section-open' : 'move-section transition-all duration-300'"
+    [style.background-color]="hexToRgba(move()?.type?.bgColor, 0.1)"
     [style.border-color]="move()?.type?.textColor"
     (click)="toogleMoveInfo()"
   >

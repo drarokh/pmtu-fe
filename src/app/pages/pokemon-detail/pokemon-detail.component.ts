@@ -37,7 +37,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   pokemonId!: number;
 
   // Tabs
-  tabs = ['About', 'Moves', 'Evolution'];
+  tabs = ['About', 'Moves', 'Evolutions'];
   activeTab = 'About';
 
   // Services

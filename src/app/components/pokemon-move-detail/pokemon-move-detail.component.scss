@@ -1,28 +1,22 @@
 .move-detail {
-  border: 1px solid;
-  border-radius: 10px;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-radius: 0px 0px 10px 10px;
   margin-bottom: 2px;
+  color: white;
+  font-size: 14px;
 }
 
 .move-detail-title {
-  font-weight: 600;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
   margin-bottom: 8px;
-  border: 1px solid #616161;
 }
 
 .move-detail-value {
   color: yellow;
-  padding-right: 6px;
-  text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
+  padding-left: 5px;
 }
 
 .move-detail-section {

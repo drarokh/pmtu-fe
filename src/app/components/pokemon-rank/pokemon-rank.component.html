@@ -1,7 +1,4 @@
-<div
-  class="badge"
-  [style.background-color]="rank()?.bgColor"
-  [style.border-color]="rank()?.color"
->
+<div class="badge" [style.border-color]="rank()?.bgColor">
+  {{ rank()?.id }} -
   {{ rank()?.name }}
 </div>

@@ -1,12 +1,12 @@
 <div
   class="move-detail"
-  [style.background-color]="hexToRgba(move()?.type?.bgColor, 0.3)"
+  [style.background-color]="hexToRgba(move()?.type?.bgColor, 0.1)"
   [style.border-color]="move()?.type?.textColor"
 >
-  <div class="move-detail-section border-b" [style.border-color]="move()?.type?.textColor">
+  <div class="move-detail-section" [style.border-color]="move()?.type?.textColor">
     <div class="flex">
       <div class="move-detail-title">
-        <span class="move-detail-value">(+2)</span>Super-effective
+        Super-effective<span class="move-detail-value">(+2)</span>
       </div>
     </div>
     @if ((move()?.type_strong || []).length > 0) {
@@ -20,9 +20,9 @@
     }
   </div>
 
-  <div class="move-detail-section border-b" [style.border-color]="move()?.type?.textColor">
+  <div class="move-detail-section">
     <div class="flex">
-      <div class="move-detail-title"><span class="move-detail-value">(-2)</span>Resistances</div>
+      <div class="move-detail-title">Resistance<span class="move-detail-value">(-2)</span></div>
     </div>
     @if ((move()?.type_resist || []).length > 0) {
       <div class="flex flex-wrap gap-1">
@@ -35,9 +35,9 @@
     }
   </div>
 
-  <div class="move-detail-section border-b" [style.border-color]="move()?.type?.textColor">
+  <div class="move-detail-section">
     <div class="flex">
-      <div class="move-detail-title"><span class="move-detail-value">(-3)</span>Immunity</div>
+      <div class="move-detail-title">Immunity<span class="move-detail-value">(-3)</span></div>
     </div>
     @if ((move()?.type_immune || []).length > 0) {
       <div class="flex flex-wrap gap-1">
@@ -54,9 +54,9 @@
       <div class="move-detail-title">Effects</div>
     </div>
     @if ((move()?.effects || []).length > 0) {
-      <div class="grid grid-cols-[25px_1fr] gap-x-1 gap-y-2">
+      <div class="grid grid-cols-[35px_1fr] gap-x-1 gap-y-3">
         @for (moveEffect of move()?.effects; track trackByEffect($index, moveEffect)) {
-          <div>
+          <div class="flex items-center">
             <img
               [src]="'icons/effects/' + moveEffect.name + '.png'"
               [alt]="'move effect'"

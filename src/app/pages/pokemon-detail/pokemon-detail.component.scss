@@ -1,5 +1,5 @@
 .screen {
-  font-size: 14px;
+  background-color: #121212;
 }
 .content {
   min-height: 100vh;
@@ -11,7 +11,6 @@
 }
 .header {
   position: relative;
-  height: 325px;
   color: white;
   padding: 27px 27px 0px 27px;
   z-index: 1;
@@ -50,17 +49,14 @@
   z-index: 0;
 }
 .pkm-image {
-  position: absolute;
-  left: 50%;
-  bottom: -20px;
-  transform: translateX(-50%);
   width: 220px;
 }
 .navigation {
   display: flex;
   justify-content: space-between;
-  height: 220px;
+  height: 260px;
   align-items: center;
+  margin: 20px 0;
 }
 .navigation-button {
   width: 60px;
@@ -69,11 +65,8 @@
 
 .card {
   position: relative;
-  background: white;
-  border-radius: 24px 24px 0 0;
-  padding: 30px 24px 24px;
+  padding: 10px 24px 24px;
   z-index: 0;
-  border: 1px solid;
   flex: 1;
 }
 
@@ -88,52 +81,42 @@
 
 // TABS
 .tabs {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 0px;
+  margin: 20px 0px;
   //border-bottom: 1px solid #e5e5e5;
 }
 
 .tab-button {
   flex: 1;
-  padding: 12px 8px;
+  padding: 5px 8px;
   background: transparent;
-  border: none;
+  border: 1px solid white;
+  border-radius: 50px;
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  color: #777;
+  color: white;
   position: relative;
 }
 
 .tab-button.active {
-  color: var(--text-color);
-  font-weight: 600;
+  border-color: var(--text-color);
 }
 
-.tab-button.active::after {
-  content: '';
-  position: absolute;
-  left: 15%;
-  bottom: 0;
-  width: 70%;
-  height: 3px;
-  background: var(--text-color);
-  border-radius: 3px;
-}
+
 
 .tab-content {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .detail-label {
   font-size: 14px;
-  color: #777;
+  color: #BDBDBD;
 }
 
 .detail-value {
   font-size: 14px;
   font-weight: 600;
+  color: #eee;
 }
 
 table {
@@ -168,4 +151,12 @@ tbody {
 
 .shadow-text {
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+.pkm-name {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 6px;
 }

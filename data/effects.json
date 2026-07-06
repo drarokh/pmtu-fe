@@ -1,682 +1,510 @@
 [
   {
-    "id": 1,
-    "desc": "",
-    "name": "{AdvDis 6}"
+    "id": 12,
+    "desc": "Roll equal or higher to 4. Opponent gains the Confused status.",
+    "name": "{B Conf 4}"
   },
   {
     "id": 2,
-    "desc": "",
+    "desc": "Opponent Pokémon cannot make use of their attach card for the remainder of the battle or until switched out.",
     "name": "{B Block}"
   },
-  {
-    "id": 3,
-    "desc": "",
-    "name": "{B Burn 1}"
-  },
+  { "id": 3, "desc": "Opponent gains the Burned status.", "name": "{B Burn 1}" },
   {
     "id": 4,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. Opponent gains the Burned status.",
     "name": "{B Burn 2}"
   },
   {
     "id": 5,
-    "desc": "",
+    "desc": "Roll equal or higher to 3. Opponent gains the Burned status.",
     "name": "{B Burn 3}"
   },
   {
     "id": 6,
-    "desc": "",
+    "desc": "Roll equal or higher to 4. Opponent gains the Burned status.",
     "name": "{B Burn 4}"
   },
   {
     "id": 7,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. Opponent gains the Burned status.",
     "name": "{B Burn 5}"
   },
-  {
-    "id": 8,
-    "desc": "",
-    "name": "{B Burn 6}"
-  },
-  {
-    "id": 9,
-    "desc": "",
-    "name": "{B Conf 1}"
-  },
+  { "id": 8, "desc": "Roll equal to 6. Opponent gains the Burned status.", "name": "{B Burn 6}" },
+  { "id": 9, "desc": "Opponent gains the Confused status.", "name": "{B Conf 1}" },
   {
     "id": 10,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. Opponent gains the Confused status.",
     "name": "{B Conf 2}"
   },
   {
     "id": 11,
-    "desc": "",
+    "desc": "Roll equal or higher to 3. Opponent gains the Confused status.",
     "name": "{B Conf 3}"
   },
   {
-    "id": 12,
-    "desc": "",
-    "name": "{B Conf 4}"
-  },
-  {
     "id": 13,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. Opponent gains the Confused status.",
     "name": "{B Conf 5}"
   },
   {
     "id": 14,
-    "desc": "",
+    "desc": "Roll equal to 6. Opponent gains the Confused status.",
     "name": "{B Conf 6}"
   },
-  {
-    "id": 15,
-    "desc": "",
-    "name": "{B Curse}"
-  },
+  { "id": 15, "desc": "Opponent gains the Cursed status.", "name": "{B Curse}" },
   {
     "id": 16,
-    "desc": "",
+    "desc": "Opponent rolls 1 extra attack die and discards the highest result.",
     "name": "{B Dis 1}"
   },
   {
     "id": 17,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. Opponent rolls 1 extra attack die and discards the highest result.",
     "name": "{B Dis 2}"
   },
   {
     "id": 18,
-    "desc": "",
+    "desc": "Roll equal or higher to 3. Opponent rolls 1 extra attack die and discards the highest result.",
     "name": "{B Dis 3}"
   },
   {
     "id": 19,
-    "desc": "",
+    "desc": "Roll equal or higher to 4. Opponent rolls 1 extra attack die and discards the highest result.",
     "name": "{B Dis 4}"
   },
   {
     "id": 20,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. Opponent rolls 1 extra attack die and discards the highest result.",
     "name": "{B Dis 5}"
   },
   {
     "id": 21,
-    "desc": "",
+    "desc": "Roll equal to 6. Opponent rolls 1 extra attack die and discards the highest result.",
     "name": "{B Dis 6}"
   },
   {
     "id": 22,
-    "desc": "",
+    "desc": "Opponent rolls 2 extra attack dice and discards the 2 highest results..",
     "name": "{B DoubDis 1}"
   },
   {
     "id": 23,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. Opponent rolls 2 extra attack dice and discards the 2 highest results..",
     "name": "{B DoubDis 2}"
   },
   {
-    "id": 24,
-    "desc": "",
-    "name": "{B DoubDis 3}"
-  },
-  {
     "id": 25,
-    "desc": "",
+    "desc": "Roll equal or higher to 4. Opponent rolls 2 extra attack dice and discards the 2 highest results..",
     "name": "{B DoubDis 4}"
   },
   {
     "id": 26,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. Opponent rolls 2 extra attack dice and discards the 2 highest results..",
     "name": "{B DoubDis 5}"
   },
   {
     "id": 27,
-    "desc": "",
+    "desc": "Roll equal to 6. Opponent rolls 2 extra attack dice and discards the 2 highest results..",
     "name": "{B DoubDis 6}"
   },
   {
-    "id": 28,
-    "desc": "",
-    "name": "{B Extra 1}"
-  },
-  {
-    "id": 29,
-    "desc": "",
-    "name": "{B Extra 2}"
-  },
-  {
-    "id": 30,
-    "desc": "",
-    "name": "{B Extra 3}"
-  },
-  {
-    "id": 31,
-    "desc": "",
-    "name": "{B Extra 4}"
-  },
-  {
-    "id": 32,
-    "desc": "",
-    "name": "{B Extra 5}"
-  },
-  {
-    "id": 33,
-    "desc": "",
-    "name": "{B Extra 6}"
-  },
-  {
-    "id": 34,
-    "desc": "",
-    "name": "{B Freeze 1}"
-  },
-  {
     "id": 35,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. Opponent gains the Frozen status.",
     "name": "{B Freeze 2}"
   },
   {
+    "id": 38,
+    "desc": "Roll equal or higher to 5. Opponent gains the Frozen status.",
+    "name": "{B Freeze 5}"
+  },
+  {
+    "id": 41,
+    "desc": "Roll equal or higher to 2. Opponent Pokémon faints at the end of the round.",
+    "name": "{B KO 2}"
+  },
+  {
+    "id": 43,
+    "desc": "Roll equal or higher to 4. Opponent Pokémon faints at the end of the round.",
+    "name": "{B KO 4}"
+  },
+  {
+    "id": 46,
+    "desc": "For the rest of the battle, the opponent Pokémon cannot be switched out.",
+    "name": "{B Lock}"
+  },
+  { "id": 48, "desc": "Opponent gains the Paralyzed status.", "name": "{B Para 1}" },
+  {
+    "id": 50,
+    "desc": "Roll equal or higher to 2. Opponent gains the Paralyzed status.",
+    "name": "{B Para 3}"
+  },
+  {
+    "id": 53,
+    "desc": "Roll equal to 6. Opponent gains the Paralyzed status.",
+    "name": "{B Para 6}"
+  },
+  { "id": 54, "desc": "Opponent gains the Poisoned status.", "name": "{B Pois 1}" },
+  {
+    "id": 57,
+    "desc": "Roll equal or higher to 4. Opponent gains the Poisoned status.",
+    "name": "{B Pois 4}"
+  },
+  { "id": 60, "desc": "Opponent gains the Sleep status.", "name": "{B Sleep 1}" },
+  {
+    "id": 62,
+    "desc": "Roll equal or higher to 3. Opponent gains the Sleep status.",
+    "name": "{B Sleep 3}"
+  },
+  { "id": 65, "desc": "Roll equal to 6. Opponent gains the Sleep status.", "name": "{B Sleep 6}" },
+  {
+    "id": 67,
+    "desc": "After the effect rolls this round, discard all Field Move cards in play.",
+    "name": "{Clear}"
+  },
+  { "id": 71, "desc": "Play the Grassy Terrain Field Move card.", "name": "{Grassy Terrain}" },
+  { "id": 73, "desc": "Play the Mist Field Move card.", "name": "{Mist}" },
+  { "id": 75, "desc": "Play the Psychic Terrain Field Move card.", "name": "{Psychic Terrain}" },
+  { "id": 77, "desc": "Play the Renewal Field Move card.", "name": "{Renewal}" },
+  { "id": 79, "desc": "Play the Sandstorm Field Move card.", "name": "{Sandy}" },
+  { "id": 82, "desc": "Play the Stealth Rock Field Move card.", "name": "{Stealth Rock}" },
+  { "id": 84, "desc": "Play the Toxic Spikes Field Move card.", "name": "{Toxic Spikes}" },
+  {
+    "id": 88,
+    "desc": "Roll equal or higher to 4. User rolls an extra attack die and the results are added together.",
+    "name": "{W Add 4}"
+  },
+  {
+    "id": 91,
+    "desc": "User rolls 1 extra attack die and discards the lowest result.",
+    "name": "{W Adv 1}"
+  },
+  {
+    "id": 94,
+    "desc": "Roll equal or higher to 4. User rolls 1 extra attack die and discards the lowest result.",
+    "name": "{W Adv 4}"
+  },
+  {
+    "id": 97,
+    "desc": "This move gains 1 Attack Strength this round if the opponent has a status condition during your attack roll.",
+    "name": "{W Boost}"
+  },
+  {
+    "id": 100,
+    "desc": "Roll equal or higher to 3. User gains the Confused status.",
+    "name": "{W Conf 3}"
+  },
+  { "id": 103, "desc": "Roll equal to 6. User gains the Confused status.", "name": "{W Conf 6}" },
+  {
+    "id": 106,
+    "desc": "Roll equal or higher to 3. User rolls 2 extra attack dice and discards the two lowest results.",
+    "name": "{W DoubAdv 3}"
+  },
+  {
+    "id": 109,
+    "desc": "Roll equal to 6. User rolls 2 extra attack dice and discards the two lowest results.",
+    "name": "{W DoubAdv 6}"
+  },
+  { "id": 115, "desc": "Roll equal to 6.", "name": "{W Extra 6}" },
+  { "id": 29, "desc": "Roll equal or higher to 2.", "name": "{B Extra 2}" },
+  { "id": 117, "desc": "User faints at the end of the round.", "name": "{W KO 1}" },
+  {
+    "id": 120,
+    "desc": "Roll equal or higher to 4. User faints at the end of the round.",
+    "name": "{W KO 4}"
+  },
+  {
+    "id": 122,
+    "desc": "Roll equal to 6. User faints at the end of the round.",
+    "name": "{W KO 6}"
+  },
+  {
+    "id": 127,
+    "desc": "User gains Advantage for this battle round if the opposing Pokémon uses a move with an Attack Strength greater than 0.",
+    "name": "{W Rage}"
+  },
+  {
+    "id": 131,
+    "desc": "User adds the Attack Strength of the opponent’s selected move to this move.",
+    "name": "{W Reversal}"
+  },
+  {
+    "id": 134,
+    "desc": "Roll a 4-sided die. Remove that many statuses from users team immediately after",
+    "name": "{W Status}"
+  },
+  {
+    "id": 136,
+    "desc": "The Attack Strength of this move is equal to half the level of the user (rounded down).",
+    "name": "{W You}"
+  },
+  { "id": 70, "desc": "Play the Foggy Terrain Field Move card.", "name": "{Foggy}" },
+  { "id": 112, "desc": "Roll equal or higher to 3.", "name": "{W Extra 3}" },
+  { "id": 30, "desc": "Roll equal or higher to 3.", "name": "{B Extra 3}" },
+  { "id": 31, "desc": "Roll equal or higher to 4.", "name": "{B Extra 4}" },
+  { "id": 32, "desc": "Roll equal or higher to 5.", "name": "{B Extra 5}" },
+  { "id": 33, "desc": "Roll equal to 6.", "name": "{B Extra 6}" },
+  { "id": 129, "desc": "-", "name": "{W Renewal}" },
+  {
+    "id": 39,
+    "desc": "Roll equal to 6. Opponent gains the Frozen status.",
+    "name": "{B Freeze 6}"
+  },
+  {
+    "id": 1,
+    "desc": "Roll equal to 6. User rolls 1 extra attack die and discards. Opponent rolls 1 extra attack die and discards the highest result.",
+    "name": "{AdvDis 6}"
+  },
+  {
+    "id": 24,
+    "desc": "Roll equal or higher to 3. Opponent rolls 2 extra attack dice and discards the 2 highest results..",
+    "name": "{B DoubDis 3}"
+  },
+  { "id": 34, "desc": "Opponent gains the Frozen status.", "name": "{B Freeze 1}" },
+  {
     "id": 36,
-    "desc": "",
+    "desc": "Roll equal or higher to 3. Opponent gains the Frozen status.",
     "name": "{B Freeze 3}"
   },
   {
     "id": 37,
-    "desc": "",
+    "desc": "Roll equal or higher to 4. Opponent gains the Frozen status.",
     "name": "{B Freeze 4}"
   },
   {
-    "id": 38,
-    "desc": "",
-    "name": "{B Freeze 5}"
+    "id": 44,
+    "desc": "Roll equal or higher to 5. Opponent Pokémon faints at the end of",
+    "name": "{B KO 5}"
   },
-  {
-    "id": 39,
-    "desc": "",
-    "name": "{B Freeze 6}"
-  },
-  {
-    "id": 40,
-    "desc": "",
-    "name": "{B KO 1}"
-  },
-  {
-    "id": 41,
-    "desc": "",
-    "name": "{B KO 2}"
-  },
+  { "id": 40, "desc": "Opponent Pokémon faints at the end of the round.", "name": "{B KO 1}" },
   {
     "id": 42,
-    "desc": "",
+    "desc": "Roll equal or higher to 3. Opponent Pokémon faints at the end of the round.",
     "name": "{B KO 3}"
   },
   {
-    "id": 43,
-    "desc": "",
-    "name": "{B KO 4}"
-  },
-  {
-    "id": 44,
-    "desc": "",
-    "name": "{B KO 5}"
-  },
-  {
     "id": 45,
-    "desc": "",
+    "desc": "Roll equal to 6. Opponent Pokémon faints at the end of the round.",
     "name": "{B KO 6}"
   },
   {
-    "id": 46,
-    "desc": "",
-    "name": "{B Lock}"
-  },
-  {
     "id": 47,
-    "desc": "",
+    "desc": "The Attack Strength of this move is equal to half the level of the oppponent (rounded down).",
     "name": "{B Opp}"
   },
   {
-    "id": 48,
-    "desc": "",
-    "name": "{B Para 1}"
-  },
-  {
     "id": 49,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. Opponent gains the Paralyzed status.",
     "name": "{B Para 2}"
   },
   {
-    "id": 50,
-    "desc": "",
-    "name": "{B Para 3}"
-  },
-  {
     "id": 51,
-    "desc": "",
+    "desc": "Roll equal or higher to 4. Opponent gains the Paralyzed status.",
     "name": "{B Para 4}"
   },
   {
     "id": 52,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. Opponent gains the Paralyzed status.",
     "name": "{B Para 5}"
   },
   {
-    "id": 53,
-    "desc": "",
-    "name": "{B Para 6}"
-  },
-  {
-    "id": 54,
-    "desc": "",
-    "name": "{B Pois 1}"
-  },
-  {
     "id": 55,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. Opponent gains the Poisoned status.",
     "name": "{B Pois 2}"
   },
   {
     "id": 56,
-    "desc": "",
+    "desc": "Roll equal or higher to 3. Opponent gains the Poisoned status.",
     "name": "{B Pois 3}"
   },
   {
-    "id": 57,
-    "desc": "",
-    "name": "{B Pois 4}"
-  },
-  {
     "id": 58,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. Opponent gains the Poisoned status.",
     "name": "{B Pois 5}"
   },
   {
     "id": 59,
-    "desc": "",
+    "desc": "Roll equal to 6. Opponent gains the Poisoned status.",
     "name": "{B Pois 6}"
   },
   {
-    "id": 60,
-    "desc": "",
-    "name": "{B Sleep 1}"
-  },
-  {
     "id": 61,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. Opponent gains the Sleep status.",
     "name": "{B Sleep 2}"
   },
   {
-    "id": 62,
-    "desc": "",
-    "name": "{B Sleep 3}"
-  },
-  {
     "id": 63,
-    "desc": "",
+    "desc": "Roll equal or higher to 4. Opponent gains the Sleep status.",
     "name": "{B Sleep 4}"
   },
   {
     "id": 64,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. Opponent gains the Sleep status.",
     "name": "{B Sleep 5}"
   },
   {
-    "id": 65,
-    "desc": "",
-    "name": "{B Sleep 6}"
-  },
-  {
     "id": 66,
-    "desc": "",
+    "desc": "Before applying their move effects, the opponent Pokémon is switched out of battle with another from its team at random.",
     "name": "{B Switch}"
   },
-  {
-    "id": 67,
-    "desc": "",
-    "name": "{Clear}"
-  },
-  {
-    "id": 68,
-    "desc": "",
-    "name": "{Cloudy}"
-  },
-  {
-    "id": 69,
-    "desc": "",
-    "name": "{Electric Terrain}"
-  },
-  {
-    "id": 70,
-    "desc": "",
-    "name": "{Foggy}"
-  },
-  {
-    "id": 71,
-    "desc": "",
-    "name": "{Grassy Terrain}"
-  },
-  {
-    "id": 72,
-    "desc": "",
-    "name": "{Hail}"
-  },
-  {
-    "id": 73,
-    "desc": "",
-    "name": "{Mist}"
-  },
-  {
-    "id": 74,
-    "desc": "",
-    "name": "{Misty Terrain}"
-  },
-  {
-    "id": 75,
-    "desc": "",
-    "name": "{Psychic Terrain}"
-  },
-  {
-    "id": 76,
-    "desc": "",
-    "name": "{Rainy}"
-  },
-  {
-    "id": 77,
-    "desc": "",
-    "name": "{Renewal}"
-  },
-  {
-    "id": 78,
-    "desc": "",
-    "name": "{Safeguard}"
-  },
-  {
-    "id": 79,
-    "desc": "",
-    "name": "{Sandy}"
-  },
-  {
-    "id": 80,
-    "desc": "",
-    "name": "{Snowy}"
-  },
-  {
-    "id": 81,
-    "desc": "",
-    "name": "{Spikes}"
-  },
-  {
-    "id": 82,
-    "desc": "",
-    "name": "{Stealth Rock}"
-  },
-  {
-    "id": 83,
-    "desc": "",
-    "name": "{Sunny}"
-  },
-  {
-    "id": 84,
-    "desc": "",
-    "name": "{Toxic Spikes}"
-  },
+  { "id": 69, "desc": "Play the Electric Terrain Field Move card.", "name": "{Electric Terrain}" },
+  { "id": 72, "desc": "Play the Hail Field Move card.", "name": "{Hail}" },
+  { "id": 74, "desc": "Play the Misty Terrain Field Move card.", "name": "{Misty Terrain}" },
+  { "id": 76, "desc": "Play the Rain Field Move card.", "name": "{Rainy}" },
+  { "id": 78, "desc": "Play the Safeguard Field Move card.", "name": "{Safeguard}" },
+  { "id": 81, "desc": "Play the Spikes Field Move card.", "name": "{Spikes}" },
+  { "id": 83, "desc": "Play the Harsh Sunlight Field Move card.", "name": "{Sunny}" },
   {
     "id": 85,
-    "desc": "",
+    "desc": "User rolls an extra attack die and the results are added together.",
     "name": "{W Add 1}"
   },
   {
     "id": 86,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. User rolls an extra attack die and the results are added together.",
     "name": "{W Add 2}"
   },
   {
     "id": 87,
-    "desc": "",
+    "desc": "Roll equal or higher to 3. User rolls an extra attack die and the results are added together.",
     "name": "{W Add 3}"
   },
   {
-    "id": 88,
-    "desc": "",
-    "name": "{W Add 4}"
-  },
-  {
     "id": 89,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. User rolls an extra attack die and the results are added together.",
     "name": "{W Add 5}"
   },
   {
     "id": 90,
-    "desc": "",
+    "desc": "Roll equal to 6. User rolls an extra attack die and the results are added together.",
     "name": "{W Add 6}"
   },
   {
-    "id": 91,
-    "desc": "",
-    "name": "{W Adv 1}"
-  },
-  {
     "id": 92,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. User rolls 1 extra attack die and discards the lowest result.",
     "name": "{W Adv 2}"
   },
   {
     "id": 93,
-    "desc": "",
+    "desc": "Roll equal or higher to 3. User rolls 1 extra attack die and discards the lowest result.",
     "name": "{W Adv 3}"
   },
   {
-    "id": 94,
-    "desc": "",
-    "name": "{W Adv 4}"
-  },
-  {
     "id": 95,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. User rolls 1 extra attack die and discards the lowest result.",
     "name": "{W Adv 5}"
   },
   {
     "id": 96,
-    "desc": "",
+    "desc": "Roll equal to 6. User rolls 1 extra attack die and discards the lowest result.",
     "name": "{W Adv 6}"
   },
-  {
-    "id": 97,
-    "desc": "",
-    "name": "{W Boost}"
-  },
-  {
-    "id": 98,
-    "desc": "",
-    "name": "{W Conf 1}"
-  },
+  { "id": 98, "desc": "User gains the Confused status.", "name": "{W Conf 1}" },
   {
     "id": 99,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. User gains the Confused status.",
     "name": "{W Conf 2}"
   },
   {
-    "id": 100,
-    "desc": "",
-    "name": "{W Conf 3}"
-  },
-  {
     "id": 101,
-    "desc": "",
+    "desc": "Roll equal or higher to 4. User gains the Confused status.",
     "name": "{W Conf 4}"
   },
   {
     "id": 102,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. User gains the Confused status.",
     "name": "{W Conf 5}"
   },
   {
-    "id": 103,
-    "desc": "",
-    "name": "{W Conf 6}"
-  },
-  {
     "id": 104,
-    "desc": "",
+    "desc": "User rolls 2 extra attack dice and discards the two lowest results.",
     "name": "{W DoubAdv 1}"
   },
   {
     "id": 105,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. User rolls 2 extra attack dice and discards the two lowest results.",
     "name": "{W DoubAdv 2}"
   },
   {
-    "id": 106,
-    "desc": "",
-    "name": "{W DoubAdv 3}"
-  },
-  {
     "id": 107,
-    "desc": "",
+    "desc": "Roll equal or higher to 4. User rolls 2 extra attack dice and discards the two lowest results.",
     "name": "{W DoubAdv 4}"
   },
   {
     "id": 108,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. User rolls 2 extra attack dice and discards the two lowest results.",
     "name": "{W DoubAdv 5}"
   },
   {
-    "id": 109,
-    "desc": "",
-    "name": "{W DoubAdv 6}"
-  },
-  {
-    "id": 110,
-    "desc": "",
-    "name": "{W Extra 1}"
-  },
-  {
-    "id": 111,
-    "desc": "",
-    "name": "{W Extra 2}"
-  },
-  {
-    "id": 112,
-    "desc": "",
-    "name": "{W Extra 3}"
-  },
-  {
-    "id": 113,
-    "desc": "",
-    "name": "{W Extra 4}"
-  },
-  {
-    "id": 114,
-    "desc": "",
-    "name": "{W Extra 5}"
-  },
-  {
-    "id": 115,
-    "desc": "",
-    "name": "{W Extra 6}"
-  },
-  {
     "id": 116,
-    "desc": "",
+    "desc": "Do not apply any type effectiveness bonuses/penalties to this move.",
     "name": "{W Ignore}"
   },
   {
-    "id": 117,
-    "desc": "",
-    "name": "{W KO 1}"
-  },
-  {
     "id": 118,
-    "desc": "",
+    "desc": "Roll equal or higher to 2. User faints at the end of the round.",
     "name": "{W KO 2}"
   },
   {
     "id": 119,
-    "desc": "",
+    "desc": "Roll equal or higher to 3. User faints at the end of the round.",
     "name": "{W KO 3}"
   },
   {
-    "id": 120,
-    "desc": "",
-    "name": "{W KO 4}"
-  },
-  {
     "id": 121,
-    "desc": "",
+    "desc": "Roll equal or higher to 5. User faints at the end of the round.",
     "name": "{W KO 5}"
   },
   {
-    "id": 122,
-    "desc": "",
-    "name": "{W KO 6}"
-  },
-  {
     "id": 123,
-    "desc": "",
+    "desc": "Add 1/3 of the user’s Attack Roll (rounded down) to the final total.",
     "name": "{W Life}"
   },
   {
     "id": 124,
-    "desc": "",
+    "desc": "Any effects used by the opponent’s Pokémon that target the user are ignored until the end of the round. No effect if the opponent has Protection.",
     "name": "{W Priority}"
   },
   {
     "id": 125,
-    "desc": "",
+    "desc": "This battle round, the Attack Strength of the opponents move becomes 0 and all move effects that target the user are ignored.",
     "name": "{W Prot 1}"
   },
   {
     "id": 126,
-    "desc": "",
+    "desc": "Roll equal or higher to 4. This battle round, the Attack Strength of the opponents move becomes 0 and all move effects that target the user are ignored.",
     "name": "{W Prot 4}"
   },
   {
-    "id": 127,
-    "desc": "",
-    "name": "{W Rage}"
-  },
-  {
     "id": 128,
-    "desc": "",
+    "desc": "Once used, the user cannot select this move for the rest of the battle or until the user is switched out.",
     "name": "{W Recharge}"
   },
   {
-    "id": 129,
-    "desc": "",
-    "name": "{W Renewal}"
-  },
-  {
     "id": 130,
-    "desc": "",
+    "desc": "The Attack Strength of this move increases by 1 for each successive round it has been used this battle, up to 3 times.",
     "name": "{W Repeat}"
   },
   {
-    "id": 131,
-    "desc": "",
-    "name": "{W Reversal}"
-  },
-  {
     "id": 132,
-    "desc": "",
+    "desc": "Revive a Pokémon on the users team immediately after effect die rolls. Only one Pokémon per battle, per team can be revived this way.",
     "name": "{W Revival}"
   },
   {
     "id": 133,
-    "desc": "",
+    "desc": "Beginning next battle round, user gains Disadvantage until the end of the battle (or until switched out).",
     "name": "{W StatDown}"
   },
   {
-    "id": 134,
-    "desc": "",
-    "name": "{W Status}"
-  },
-  {
     "id": 135,
-    "desc": "",
+    "desc": "After applying the opponents move effects, the user is switched out of battle with another from its team, but the switched in Pokémon uses this move for this battle round. This effect does not apply to wild or Gym Leader Pokémon.",
     "name": "{W Switch}"
   },
-  {
-    "id": 136,
-    "desc": "",
-    "name": "{W You}"
-  }
+  { "id": 68, "desc": "Play the Cloudy Terrain Field Move card.", "name": "{Cloudy}" },
+  { "id": 80, "desc": "Play the Snowy Terrain Field Move card.", "name": "{Snowy}" },
+  { "id": 28, "desc": "", "name": "{B Extra 1}" },
+  { "id": 111, "desc": "Roll equal or higher to 2.", "name": "{W Extra 2}" },
+  { "id": 113, "desc": "Roll equal or higher to 4.", "name": "{W Extra 4}" },
+  { "id": 114, "desc": "Roll equal or higher to 5.", "name": "{W Extra 5}" },
+  { "id": 110, "desc": "", "name": "{W Extra 1}" }
 ]

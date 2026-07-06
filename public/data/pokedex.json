@@ -8,7 +8,8 @@
     "moves": [762, 703],
     "types": [5, 8],
     "number": "001",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "moves": [626, 707],
     "types": [5, 8],
     "number": "002",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "moves": [165, 643],
     "types": [5, 8],
     "number": "003",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "moves": [207, 587],
     "types": [2],
     "number": "004",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "moves": [238, 625],
     "types": [2],
     "number": "005",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "moves": [246, 13],
     "types": [2, 10],
     "number": "006",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "moves": [85, 703],
     "types": [3],
     "number": "007",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "moves": [768, 58],
     "types": [3],
     "number": "008",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "moves": [249, 331],
     "types": [3],
     "number": "009",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "moves": [679, 703],
     "types": [12],
     "number": "010",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "moves": [306, 703],
     "types": [12],
     "number": "011",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "moves": [511, 300],
     "types": [12, 10],
     "number": "012",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "moves": [495, 679],
     "types": [12, 8],
     "number": "013",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "moves": [495, 306],
     "types": [12, 8],
     "number": "014",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 15,
@@ -162,7 +176,8 @@
     "moves": [751, 532],
     "types": [12, 8],
     "number": "015",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 16,
@@ -173,7 +188,8 @@
     "moves": [530, 578],
     "types": [10, 1],
     "number": "016",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": "2"
   },
   {
     "id": 17,
@@ -184,7 +200,8 @@
     "moves": [787, 752],
     "types": [10, 1],
     "number": "017",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": "2"
   },
   {
     "id": 18,
@@ -195,7 +212,8 @@
     "moves": [329, 218],
     "types": [10, 1],
     "number": "018",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 19,
@@ -206,7 +224,8 @@
     "moves": [530, 706],
     "types": [1],
     "number": "019",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 20,
@@ -217,7 +236,8 @@
     "moves": [335, 688],
     "types": [1],
     "number": "020",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 21,
@@ -228,7 +248,8 @@
     "moves": [386, 480],
     "types": [10, 1],
     "number": "021",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": "2"
   },
   {
     "id": 22,
@@ -239,7 +260,8 @@
     "moves": [434, 188],
     "types": [10, 1],
     "number": "022",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 23,
@@ -250,7 +272,8 @@
     "moves": [791, 386],
     "types": [8],
     "number": "023",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 24,
@@ -261,7 +284,8 @@
     "moves": [3, 58],
     "types": [8],
     "number": "024",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 25,
@@ -272,7 +296,8 @@
     "moves": [727, 295],
     "types": [4],
     "number": "025",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 26,
@@ -283,7 +308,8 @@
     "moves": [766, 359],
     "types": [4],
     "number": "026",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 27,
@@ -294,7 +320,8 @@
     "moves": [578, 540],
     "types": [9],
     "number": "027",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 28,
@@ -305,7 +332,8 @@
     "moves": [625, 157],
     "types": [9],
     "number": "028",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 29,
@@ -316,7 +344,8 @@
     "moves": [495, 295],
     "types": [8],
     "number": "029",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 30,
@@ -327,7 +356,8 @@
     "moves": [738, 58],
     "types": [8],
     "number": "030",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 31,
@@ -338,7 +368,8 @@
     "moves": [195, 690],
     "types": [8, 9],
     "number": "031",
-    "abilities": [1, 3]
+    "abilities": [1, 3],
+    "evolveExp": null
   },
   {
     "id": 32,
@@ -349,7 +380,8 @@
     "moves": [703, 480],
     "types": [8],
     "number": "032",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 33,
@@ -360,7 +392,8 @@
     "moves": [168, 325],
     "types": [8],
     "number": "033",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 34,
@@ -371,7 +404,8 @@
     "moves": [493, 417],
     "types": [8, 9],
     "number": "034",
-    "abilities": [1, 3]
+    "abilities": [1, 3],
+    "evolveExp": null
   },
   {
     "id": 35,
@@ -382,7 +416,8 @@
     "moves": [442, 615],
     "types": [18],
     "number": "035",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 36,
@@ -393,7 +428,8 @@
     "moves": [160, 425],
     "types": [18],
     "number": "036",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 37,
@@ -404,7 +440,8 @@
     "moves": [530, 207],
     "types": [2],
     "number": "037",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "3"
   },
   {
     "id": 38,
@@ -415,7 +452,8 @@
     "moves": [576, 353],
     "types": [2],
     "number": "038",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 39,
@@ -426,7 +464,8 @@
     "moves": [105, 615],
     "types": [1, 18],
     "number": "039",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "3"
   },
   {
     "id": 40,
@@ -437,7 +476,8 @@
     "moves": [489, 70],
     "types": [1, 18],
     "number": "040",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 41,
@@ -448,7 +488,8 @@
     "moves": [691, 58],
     "types": [8, 10],
     "number": "041",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": "2"
   },
   {
     "id": 42,
@@ -459,7 +500,8 @@
     "moves": [384, 588],
     "types": [8, 10],
     "number": "042",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": "2"
   },
   {
     "id": 43,
@@ -470,7 +512,8 @@
     "moves": [494, 1],
     "types": [5, 8],
     "number": "043",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 44,
@@ -481,7 +524,8 @@
     "moves": [683, 3],
     "types": [5, 8],
     "number": "044",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 45,
@@ -492,7 +536,8 @@
     "moves": [629, 643],
     "types": [5, 8],
     "number": "045",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 46,
@@ -503,7 +548,8 @@
     "moves": [683, 587],
     "types": [12, 5],
     "number": "046",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "1"
   },
   {
     "id": 47,
@@ -514,7 +560,8 @@
     "moves": [662, 625],
     "types": [12, 5],
     "number": "047",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 48,
@@ -525,7 +572,8 @@
     "moves": [491, 683],
     "types": [12, 8],
     "number": "048",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 49,
@@ -536,7 +584,8 @@
     "moves": [511, 384],
     "types": [12, 8],
     "number": "049",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 50,
@@ -547,7 +596,8 @@
     "moves": [579, 587],
     "types": [9],
     "number": "050",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 51,
@@ -558,7 +608,8 @@
     "moves": [241, 157],
     "types": [9],
     "number": "051",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 52,
@@ -569,7 +620,8 @@
     "moves": [478, 58],
     "types": [1],
     "number": "052",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 53,
@@ -580,7 +632,8 @@
     "moves": [504, 625],
     "types": [1],
     "number": "053",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 54,
@@ -591,7 +644,8 @@
     "moves": [274, 159],
     "types": [3],
     "number": "054",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "3"
   },
   {
     "id": 55,
@@ -602,7 +656,8 @@
     "moves": [796, 23],
     "types": [3],
     "number": "055",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 56,
@@ -613,7 +668,8 @@
     "moves": [394, 694],
     "types": [7],
     "number": "056",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 57,
@@ -624,7 +680,8 @@
     "moves": [594, 721],
     "types": [7],
     "number": "057",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 58,
@@ -635,7 +692,8 @@
     "moves": [207, 560],
     "types": [2],
     "number": "058",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "3"
   },
   {
     "id": 59,
@@ -646,7 +704,8 @@
     "moves": [217, 247],
     "types": [2],
     "number": "059",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 60,
@@ -657,7 +716,8 @@
     "moves": [339, 447],
     "types": [3],
     "number": "060",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 61,
@@ -668,7 +728,8 @@
     "moves": [70, 86],
     "types": [3],
     "number": "061",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 62,
@@ -679,7 +740,8 @@
     "moves": [194, 448],
     "types": [3, 7],
     "number": "062",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 63,
@@ -690,7 +752,8 @@
     "moves": [713],
     "types": [11],
     "number": "063",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": "1"
   },
   {
     "id": 64,
@@ -701,7 +764,8 @@
     "moves": [511, 544],
     "types": [11],
     "number": "064",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": "2"
   },
   {
     "id": 65,
@@ -712,7 +776,8 @@
     "moves": [277, 742],
     "types": [11],
     "number": "065",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": null
   },
   {
     "id": 66,
@@ -723,7 +788,8 @@
     "moves": [260, 394],
     "types": [7],
     "number": "066",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 67,
@@ -734,7 +800,8 @@
     "moves": [191, 369],
     "types": [7],
     "number": "067",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 68,
@@ -745,7 +812,8 @@
     "moves": [684, 783],
     "types": [7],
     "number": "068",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 69,
@@ -756,7 +824,8 @@
     "moves": [762, 791],
     "types": [5, 8],
     "number": "069",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 70,
@@ -767,7 +836,8 @@
     "moves": [626, 3],
     "types": [5, 8],
     "number": "070",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 71,
@@ -778,7 +848,8 @@
     "moves": [382, 760],
     "types": [5, 8],
     "number": "071",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 72,
@@ -789,7 +860,8 @@
     "moves": [791, 3],
     "types": [3, 8],
     "number": "072",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 73,
@@ -800,7 +872,8 @@
     "moves": [630, 770],
     "types": [3, 8],
     "number": "073",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 74,
@@ -811,7 +884,8 @@
     "moves": [152, 567],
     "types": [13, 9],
     "number": "074",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "3"
   },
   {
     "id": 75,
@@ -822,7 +896,8 @@
     "moves": [595, 571],
     "types": [13, 9],
     "number": "075",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 76,
@@ -833,7 +908,8 @@
     "moves": [196, 215],
     "types": [13, 9],
     "number": "076",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 77,
@@ -844,7 +920,8 @@
     "moves": [244, 671],
     "types": [2],
     "number": "077",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 78,
@@ -855,7 +932,8 @@
     "moves": [245, 632],
     "types": [2],
     "number": "078",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 79,
@@ -866,7 +944,8 @@
     "moves": [123, 623],
     "types": [3, 11],
     "number": "079",
-    "abilities": [3, 4]
+    "abilities": [3, 4],
+    "evolveExp": "3"
   },
   {
     "id": 80,
@@ -877,7 +956,8 @@
     "moves": [514, 692],
     "types": [3, 11],
     "number": "080",
-    "abilities": [3, 4]
+    "abilities": [3, 4],
+    "evolveExp": null
   },
   {
     "id": 81,
@@ -888,7 +968,8 @@
     "moves": [727, 691],
     "types": [4, 17],
     "number": "081",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": "1"
   },
   {
     "id": 82,
@@ -899,7 +980,8 @@
     "moves": [421, 161],
     "types": [4, 17],
     "number": "082",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": "2"
   },
   {
     "id": 83,
@@ -910,7 +992,8 @@
     "moves": [273, 13],
     "types": [10, 1],
     "number": "083",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 84,
@@ -921,7 +1004,8 @@
     "moves": [166, 480],
     "types": [10, 1],
     "number": "084",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": "1"
   },
   {
     "id": 85,
@@ -932,7 +1016,8 @@
     "moves": [742, 490],
     "types": [10, 1],
     "number": "085",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 86,
@@ -943,7 +1028,8 @@
     "moves": [37, 21],
     "types": [3],
     "number": "086",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "1"
   },
   {
     "id": 87,
@@ -954,7 +1040,8 @@
     "moves": [341, 23],
     "types": [3, 6],
     "number": "087",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 88,
@@ -965,7 +1052,8 @@
     "moves": [628, 737],
     "types": [8],
     "number": "088",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 89,
@@ -976,7 +1064,8 @@
     "moves": [299, 447],
     "types": [8],
     "number": "089",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 90,
@@ -987,7 +1076,8 @@
     "moves": [112, 510],
     "types": [3],
     "number": "090",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 91,
@@ -998,7 +1088,8 @@
     "moves": [349, 542],
     "types": [3, 6],
     "number": "091",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 92,
@@ -1009,7 +1100,8 @@
     "moves": [339, 387],
     "types": [14, 8],
     "number": "092",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 93,
@@ -1020,7 +1112,8 @@
     "moves": [685, 143],
     "types": [14, 8],
     "number": "093",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 94,
@@ -1031,7 +1124,8 @@
     "moves": [629, 458],
     "types": [14, 8],
     "number": "094",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 95,
@@ -1042,7 +1136,8 @@
     "moves": [174, 567],
     "types": [13, 9],
     "number": "095",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 96,
@@ -1053,7 +1148,8 @@
     "moves": [123, 159],
     "types": [11],
     "number": "096",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": "2"
   },
   {
     "id": 97,
@@ -1064,7 +1160,8 @@
     "moves": [796, 452],
     "types": [11],
     "number": "097",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": null
   },
   {
     "id": 98,
@@ -1075,7 +1172,8 @@
     "moves": [763, 85],
     "types": [3],
     "number": "098",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 99,
@@ -1086,7 +1184,8 @@
     "moves": [136, 298],
     "types": [3],
     "number": "099",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 100,
@@ -1097,7 +1196,8 @@
     "moves": [645, 595],
     "types": [4],
     "number": "100",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": "2"
   },
   {
     "id": 101,
@@ -1108,7 +1208,8 @@
     "moves": [215, 571],
     "types": [4],
     "number": "101",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": null
   },
   {
     "id": 102,
@@ -1119,7 +1220,8 @@
     "moves": [46, 414],
     "types": [5, 11],
     "number": "102",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": "2"
   },
   {
     "id": 103,
@@ -1130,7 +1232,8 @@
     "moves": [216, 643],
     "types": [5, 11],
     "number": "103",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": null
   },
   {
     "id": 104,
@@ -1141,7 +1244,8 @@
     "moves": [73, 224],
     "types": [9],
     "number": "104",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "1"
   },
   {
     "id": 105,
@@ -1152,7 +1256,8 @@
     "moves": [75, 721],
     "types": [9],
     "number": "105",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 106,
@@ -1163,7 +1268,8 @@
     "moves": [570, 62],
     "types": [7],
     "number": "106",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 107,
@@ -1174,7 +1280,8 @@
     "moves": [91, 185],
     "types": [7],
     "number": "107",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 108,
@@ -1185,7 +1292,8 @@
     "moves": [387, 624],
     "types": [1],
     "number": "108",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "1"
   },
   {
     "id": 109,
@@ -1196,7 +1304,8 @@
     "moves": [492, 115],
     "types": [8],
     "number": "109",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 110,
@@ -1207,7 +1316,8 @@
     "moves": [215, 628],
     "types": [8],
     "number": "110",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 111,
@@ -1218,7 +1328,8 @@
     "moves": [562, 90],
     "types": [9, 13],
     "number": "111",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "1"
   },
   {
     "id": 112,
@@ -1229,7 +1340,8 @@
     "moves": [326, 189],
     "types": [9, 13],
     "number": "112",
-    "abilities": [1, 3]
+    "abilities": [1, 3],
+    "evolveExp": "1"
   },
   {
     "id": 113,
@@ -1240,7 +1352,8 @@
     "moves": [314, 200],
     "types": [1],
     "number": "113",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 114,
@@ -1251,7 +1364,8 @@
     "moves": [57, 355],
     "types": [5],
     "number": "114",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 115,
@@ -1262,7 +1376,8 @@
     "moves": [685, 163],
     "types": [1],
     "number": "115",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 116,
@@ -1273,7 +1388,8 @@
     "moves": [635, 85],
     "types": [3],
     "number": "116",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "3"
   },
   {
     "id": 117,
@@ -1284,7 +1400,8 @@
     "moves": [86, 752],
     "types": [3],
     "number": "117",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "1"
   },
   {
     "id": 118,
@@ -1295,7 +1412,8 @@
     "moves": [325, 480],
     "types": [3],
     "number": "118",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "3"
   },
   {
     "id": 119,
@@ -1306,7 +1424,8 @@
     "moves": [21, 417],
     "types": [3],
     "number": "119",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 120,
@@ -1317,7 +1436,8 @@
     "moves": [540, 768],
     "types": [3],
     "number": "120",
-    "abilities": [3, 4]
+    "abilities": [3, 4],
+    "evolveExp": "3"
   },
   {
     "id": 121,
@@ -1328,7 +1448,8 @@
     "moves": [504, 83],
     "types": [3, 11],
     "number": "121",
-    "abilities": [3, 4]
+    "abilities": [3, 4],
+    "evolveExp": null
   },
   {
     "id": 122,
@@ -1339,7 +1460,8 @@
     "moves": [47, 429],
     "types": [11, 18],
     "number": "122",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": null
   },
   {
     "id": 123,
@@ -1350,7 +1472,8 @@
     "moves": [273, 625],
     "types": [12, 10],
     "number": "123",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 124,
@@ -1361,7 +1484,8 @@
     "moves": [393, 345],
     "types": [6, 11],
     "number": "124",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": null
   },
   {
     "id": 125,
@@ -1372,7 +1496,8 @@
     "moves": [726, 588],
     "types": [4],
     "number": "125",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 126,
@@ -1383,7 +1508,8 @@
     "moves": [237, 115],
     "types": [2],
     "number": "126",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 127,
@@ -1394,7 +1520,8 @@
     "moves": [793, 763],
     "types": [12],
     "number": "127",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 128,
@@ -1405,7 +1532,8 @@
     "moves": [536, 694],
     "types": [1],
     "number": "128",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 129,
@@ -1416,7 +1544,8 @@
     "moves": [660],
     "types": [3],
     "number": "129",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 130,
@@ -1427,7 +1556,8 @@
     "moves": [182, 58],
     "types": [3, 10],
     "number": "130",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 131,
@@ -1438,7 +1568,8 @@
     "moves": [481, 341],
     "types": [3, 6],
     "number": "131",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 132,
@@ -1449,7 +1580,8 @@
     "moves": [741],
     "types": [1],
     "number": "132",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 133,
@@ -1460,7 +1592,8 @@
     "moves": [758, 58],
     "types": [1],
     "number": "133",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 134,
@@ -1471,7 +1604,8 @@
     "moves": [78, 4],
     "types": [3],
     "number": "134",
-    "abilities": [1, 3]
+    "abilities": [1, 3],
+    "evolveExp": null
   },
   {
     "id": 135,
@@ -1482,7 +1616,8 @@
     "moves": [168, 97],
     "types": [4],
     "number": "135",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 136,
@@ -1493,7 +1628,8 @@
     "moves": [616, 135],
     "types": [2],
     "number": "136",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 137,
@@ -1504,7 +1640,8 @@
     "moves": [125, 511],
     "types": [1],
     "number": "137",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": "2"
   },
   {
     "id": 138,
@@ -1515,7 +1652,8 @@
     "moves": [653, 83],
     "types": [13, 3],
     "number": "138",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 139,
@@ -1526,7 +1664,8 @@
     "moves": [562, 331],
     "types": [13, 3],
     "number": "139",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 140,
@@ -1537,7 +1676,8 @@
     "moves": [384, 20],
     "types": [13, 3],
     "number": "140",
-    "abilities": [3, 1]
+    "abilities": [3, 1],
+    "evolveExp": "2"
   },
   {
     "id": 141,
@@ -1548,7 +1688,8 @@
     "moves": [331, 625],
     "types": [13, 3],
     "number": "141",
-    "abilities": [3, 1]
+    "abilities": [3, 1],
+    "evolveExp": null
   },
   {
     "id": 142,
@@ -1559,7 +1700,8 @@
     "moves": [565, 787],
     "types": [13, 10],
     "number": "142",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 143,
@@ -1570,7 +1712,8 @@
     "moves": [70, 794],
     "types": [1],
     "number": "143",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 144,
@@ -1581,7 +1724,8 @@
     "moves": [433, 65],
     "types": [6, 10],
     "number": "144",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 145,
@@ -1592,7 +1736,8 @@
     "moves": [723, 188],
     "types": [4, 10],
     "number": "145",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 146,
@@ -1603,7 +1748,8 @@
     "moves": [620, 316],
     "types": [2, 10],
     "number": "146",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 147,
@@ -1614,7 +1760,8 @@
     "moves": [752, 624],
     "types": [15],
     "number": "147",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 148,
@@ -1625,7 +1772,8 @@
     "moves": [177, 23],
     "types": [15],
     "number": "148",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "3"
   },
   {
     "id": 149,
@@ -1636,7 +1784,8 @@
     "moves": [183, 329],
     "types": [15, 10],
     "number": "149",
-    "abilities": [3, 2]
+    "abilities": [3, 2],
+    "evolveExp": null
   },
   {
     "id": 150,
@@ -1647,7 +1796,8 @@
     "moves": [596, 277],
     "types": [11],
     "number": "150",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": null
   },
   {
     "id": 151,
@@ -1658,7 +1808,8 @@
     "moves": [524, 425],
     "types": [11],
     "number": "151",
-    "abilities": [4, 3]
+    "abilities": [4, 3],
+    "evolveExp": null
   },
   {
     "id": 152,
@@ -1669,7 +1820,8 @@
     "moves": [92, 295],
     "types": [5],
     "number": "152",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 153,
@@ -1680,7 +1832,8 @@
     "moves": [494, 404],
     "types": [5],
     "number": "153",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 154,
@@ -1691,7 +1844,8 @@
     "moves": [483, 545],
     "types": [5],
     "number": "154",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 155,
@@ -1702,7 +1856,8 @@
     "moves": [635, 207],
     "types": [2],
     "number": "155",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 156,
@@ -1713,7 +1868,8 @@
     "moves": [245, 530],
     "types": [2],
     "number": "156",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 157,
@@ -1724,7 +1880,8 @@
     "moves": [353, 301],
     "types": [2],
     "number": "157",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 158,
@@ -1735,7 +1892,8 @@
     "moves": [768, 386],
     "types": [3],
     "number": "158",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 159,
@@ -1746,7 +1904,8 @@
     "moves": [343, 140],
     "types": [3],
     "number": "159",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "2"
   },
   {
     "id": 160,
@@ -1757,7 +1916,8 @@
     "moves": [690, 23],
     "types": [3],
     "number": "160",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 161,
@@ -1768,7 +1928,8 @@
     "moves": [274, 152],
     "types": [1],
     "number": "161",
-    "abilities": [1, 3]
+    "abilities": [1, 3],
+    "evolveExp": "1"
   },
   {
     "id": 162,
@@ -1779,7 +1940,8 @@
     "moves": [685, 624],
     "types": [1],
     "number": "162",
-    "abilities": [1, 3]
+    "abilities": [1, 3],
+    "evolveExp": null
   },
   {
     "id": 163,
@@ -1790,7 +1952,8 @@
     "moves": [197, 123],
     "types": [10, 1],
     "number": "163",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": "2"
   },
   {
     "id": 164,
@@ -1801,7 +1964,8 @@
     "moves": [440, 13],
     "types": [10, 1],
     "number": "164",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 165,
@@ -1812,7 +1976,8 @@
     "moves": [691, 545],
     "types": [12, 10],
     "number": "165",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 166,
@@ -1823,7 +1988,8 @@
     "moves": [88, 401],
     "types": [12, 10],
     "number": "166",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 167,
@@ -1834,7 +2000,8 @@
     "moves": [652, 495],
     "types": [12, 8],
     "number": "167",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 168,
@@ -1845,7 +2012,8 @@
     "moves": [739, 227],
     "types": [12, 8],
     "number": "168",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 169,
@@ -1856,7 +2024,8 @@
     "moves": [139, 58],
     "types": [8, 10],
     "number": "169",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 170,
@@ -1867,7 +2036,8 @@
     "moves": [728, 85],
     "types": [3, 4],
     "number": "170",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "1"
   },
   {
     "id": 171,
@@ -1878,7 +2048,8 @@
     "moves": [86, 647],
     "types": [3, 4],
     "number": "171",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 172,
@@ -1889,7 +2060,8 @@
     "moves": [488, 463],
     "types": [4],
     "number": "172",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "1"
   },
   {
     "id": 173,
@@ -1900,7 +2072,8 @@
     "moves": [695, 501],
     "types": [18],
     "number": "173",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 174,
@@ -1911,7 +2084,8 @@
     "moves": [152, 159],
     "types": [1, 18],
     "number": "174",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 175,
@@ -1922,7 +2096,8 @@
     "moves": [388, 105],
     "types": [18],
     "number": "175",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 176,
@@ -1933,7 +2108,8 @@
     "moves": [576, 220],
     "types": [18, 10],
     "number": "176",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": "2"
   },
   {
     "id": 177,
@@ -1944,7 +2120,8 @@
     "moves": [520, 480],
     "types": [11, 10],
     "number": "177",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": "1"
   },
   {
     "id": 178,
@@ -1955,7 +2132,8 @@
     "moves": [277, 13],
     "types": [11, 10],
     "number": "178",
-    "abilities": [4, 2]
+    "abilities": [4, 2],
+    "evolveExp": null
   },
   {
     "id": 179,
@@ -1966,7 +2144,8 @@
     "moves": [132, 707],
     "types": [4],
     "number": "179",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 180,
@@ -1977,7 +2156,8 @@
     "moves": [727, 504],
     "types": [4],
     "number": "180",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 181,
@@ -1988,7 +2168,8 @@
     "moves": [726, 149],
     "types": [4],
     "number": "181",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 182,
@@ -1999,7 +2180,8 @@
     "moves": [531, 483],
     "types": [5],
     "number": "182",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 183,
@@ -2010,7 +2192,8 @@
     "moves": [768, 571],
     "types": [3, 18],
     "number": "183",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "1"
   },
   {
     "id": 184,
@@ -2021,7 +2204,8 @@
     "moves": [489, 23],
     "types": [3, 18],
     "number": "184",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 185,
@@ -2032,7 +2216,8 @@
     "moves": [568, 429],
     "types": [13],
     "number": "185",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 186,
@@ -2043,7 +2228,8 @@
     "moves": [77, 331],
     "types": [3],
     "number": "186",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 187,
@@ -2054,7 +2240,8 @@
     "moves": [385, 220],
     "types": [5, 10],
     "number": "187",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 188,
@@ -2065,7 +2252,8 @@
     "moves": [494, 414],
     "types": [5, 10],
     "number": "188",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 189,
@@ -2076,7 +2264,8 @@
     "moves": [281, 77],
     "types": [5, 10],
     "number": "189",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 190,
@@ -2087,7 +2276,8 @@
     "moves": [274, 578],
     "types": [1],
     "number": "190",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 191,
@@ -2098,7 +2288,8 @@
     "moves": [1, 296],
     "types": [5],
     "number": "191",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 192,
@@ -2109,7 +2300,8 @@
     "moves": [686, 541],
     "types": [5],
     "number": "192",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 193,
@@ -2120,7 +2312,8 @@
     "moves": [530, 339],
     "types": [12, 10],
     "number": "193",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 194,
@@ -2131,7 +2324,8 @@
     "moves": [768, 624],
     "types": [3, 9],
     "number": "194",
-    "abilities": [3, 1]
+    "abilities": [3, 1],
+    "evolveExp": "2"
   },
   {
     "id": 195,
@@ -2142,7 +2336,8 @@
     "moves": [448, 447],
     "types": [3, 9],
     "number": "195",
-    "abilities": [3, 1]
+    "abilities": [3, 1],
+    "evolveExp": null
   },
   {
     "id": 196,
@@ -2153,7 +2348,8 @@
     "moves": [288, 222],
     "types": [11],
     "number": "196",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 197,
@@ -2164,7 +2360,8 @@
     "moves": [43, 442],
     "types": [16],
     "number": "197",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 198,
@@ -2175,7 +2372,8 @@
     "moves": [480, 736],
     "types": [16, 10],
     "number": "198",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": "1"
   },
   {
     "id": 199,
@@ -2186,7 +2384,8 @@
     "moves": [277, 504],
     "types": [11, 3],
     "number": "199",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 200,
@@ -2197,7 +2396,8 @@
     "moves": [596, 481],
     "types": [14],
     "number": "200",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 201,
@@ -2208,7 +2408,8 @@
     "moves": [319],
     "types": [11],
     "number": "201",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 202,
@@ -2219,7 +2420,8 @@
     "moves": [576, 133],
     "types": [11],
     "number": "202",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 203,
@@ -2230,7 +2432,8 @@
     "moves": [123, 703],
     "types": [1, 11],
     "number": "203",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 204,
@@ -2241,7 +2444,8 @@
     "moves": [540, 510],
     "types": [12],
     "number": "204",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 205,
@@ -2252,7 +2456,8 @@
     "moves": [301, 654],
     "types": [12, 17],
     "number": "205",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 206,
@@ -2263,7 +2468,8 @@
     "moves": [532, 287],
     "types": [1],
     "number": "206",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 207,
@@ -2274,7 +2480,8 @@
     "moves": [226, 625],
     "types": [9, 10],
     "number": "207",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "1"
   },
   {
     "id": 208,
@@ -2285,7 +2492,8 @@
     "moves": [359, 140],
     "types": [17, 9],
     "number": "208",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 209,
@@ -2296,7 +2504,8 @@
     "moves": [105, 58],
     "types": [18],
     "number": "209",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "1"
   },
   {
     "id": 210,
@@ -2307,7 +2516,8 @@
     "moves": [489, 472],
     "types": [18],
     "number": "210",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 211,
@@ -2318,7 +2528,8 @@
     "moves": [738, 23],
     "types": [3, 8],
     "number": "211",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 212,
@@ -2329,7 +2540,8 @@
     "moves": [91, 399],
     "types": [12, 17],
     "number": "212",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 213,
@@ -2340,7 +2552,8 @@
     "moves": [576, 571],
     "types": [12, 13],
     "number": "213",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 214,
@@ -2351,7 +2564,8 @@
     "moves": [8, 133],
     "types": [12, 7],
     "number": "214",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 215,
@@ -2362,7 +2576,8 @@
     "moves": [324, 625],
     "types": [16, 6],
     "number": "215",
-    "abilities": [3, 1]
+    "abilities": [3, 1],
+    "evolveExp": "1"
   },
   {
     "id": 216,
@@ -2373,7 +2588,8 @@
     "moves": [42, 135],
     "types": [1],
     "number": "216",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "1"
   },
   {
     "id": 217,
@@ -2384,7 +2600,8 @@
     "moves": [303, 721],
     "types": [1],
     "number": "217",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 218,
@@ -2395,7 +2612,8 @@
     "moves": [115, 207],
     "types": [2],
     "number": "218",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "1"
   },
   {
     "id": 219,
@@ -2406,7 +2624,8 @@
     "moves": [379, 565],
     "types": [2, 13],
     "number": "219",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 220,
@@ -2417,7 +2636,8 @@
     "moves": [502, 446],
     "types": [6, 9],
     "number": "220",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 221,
@@ -2428,7 +2648,8 @@
     "moves": [17, 343],
     "types": [6, 9],
     "number": "221",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "1"
   },
   {
     "id": 222,
@@ -2439,7 +2660,8 @@
     "moves": [17, 21],
     "types": [3, 13],
     "number": "222",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 223,
@@ -2450,7 +2672,8 @@
     "moves": [511, 768],
     "types": [3],
     "number": "223",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": "1"
   },
   {
     "id": 224,
@@ -2461,7 +2684,8 @@
     "moves": [466, 299],
     "types": [3],
     "number": "224",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 225,
@@ -2472,7 +2696,8 @@
     "moves": [508, 188],
     "types": [6, 10],
     "number": "225",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 226,
@@ -2483,7 +2708,8 @@
     "moves": [86, 77],
     "types": [3, 10],
     "number": "226",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 227,
@@ -2494,7 +2720,8 @@
     "moves": [669, 188],
     "types": [17, 10],
     "number": "227",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 228,
@@ -2505,7 +2732,8 @@
     "moves": [207, 328],
     "types": [16, 2],
     "number": "228",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 229,
@@ -2516,7 +2744,8 @@
     "moves": [234, 140],
     "types": [16, 2],
     "number": "229",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 230,
@@ -2527,7 +2756,8 @@
     "moves": [774, 181],
     "types": [3, 15],
     "number": "230",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 231,
@@ -2538,7 +2768,8 @@
     "moves": [90, 624],
     "types": [9],
     "number": "231",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "1"
   },
   {
     "id": 232,
@@ -2549,7 +2780,8 @@
     "moves": [196, 571],
     "types": [9],
     "number": "232",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 233,
@@ -2560,7 +2792,8 @@
     "moves": [126, 742],
     "types": [1],
     "number": "233",
-    "abilities": [4]
+    "abilities": [4],
+    "evolveExp": "1"
   },
   {
     "id": 234,
@@ -2571,7 +2804,8 @@
     "moves": [339, 703],
     "types": [1],
     "number": "234",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "2"
   },
   {
     "id": 235,
@@ -2582,7 +2816,8 @@
     "moves": [617, 617],
     "types": [1],
     "number": "235",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 236,
@@ -2593,7 +2828,8 @@
     "moves": [260, 703],
     "types": [7],
     "number": "236",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "3"
   },
   {
     "id": 237,
@@ -2604,7 +2840,8 @@
     "moves": [747, 745],
     "types": [7],
     "number": "237",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 238,
@@ -2615,7 +2852,8 @@
     "moves": [502, 387],
     "types": [6, 11],
     "number": "238",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "3"
   },
   {
     "id": 239,
@@ -2626,7 +2864,8 @@
     "moves": [727, 394],
     "types": [4],
     "number": "239",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "3"
   },
   {
     "id": 240,
@@ -2637,7 +2876,8 @@
     "moves": [122, 207],
     "types": [2],
     "number": "240",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": "3"
   },
   {
     "id": 241,
@@ -2648,7 +2888,8 @@
     "moves": [428, 571],
     "types": [1],
     "number": "241",
-    "abilities": [3]
+    "abilities": [3],
+    "evolveExp": null
   },
   {
     "id": 242,
@@ -2659,7 +2900,8 @@
     "moves": [165, 390],
     "types": [1],
     "number": "242",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   },
   {
     "id": 243,
@@ -2670,7 +2912,8 @@
     "moves": [795, 140],
     "types": [4],
     "number": "243",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 244,
@@ -2681,7 +2924,8 @@
     "moves": [574, 686],
     "types": [2],
     "number": "244",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": null
   },
   {
     "id": 245,
@@ -2692,7 +2936,8 @@
     "moves": [37, 331],
     "types": [3],
     "number": "245",
-    "abilities": [3, 1]
+    "abilities": [3, 1],
+    "evolveExp": null
   },
   {
     "id": 246,
@@ -2703,7 +2948,8 @@
     "moves": [567, 58],
     "types": [13, 9],
     "number": "246",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "2"
   },
   {
     "id": 247,
@@ -2714,7 +2960,8 @@
     "moves": [357, 196],
     "types": [13, 9],
     "number": "247",
-    "abilities": [1]
+    "abilities": [1],
+    "evolveExp": "3"
   },
   {
     "id": 248,
@@ -2725,7 +2972,8 @@
     "moves": [565, 140],
     "types": [13, 16],
     "number": "248",
-    "abilities": [1, 3]
+    "abilities": [1, 3],
+    "evolveExp": null
   },
   {
     "id": 249,
@@ -2736,7 +2984,8 @@
     "moves": [518, 9],
     "types": [11, 10],
     "number": "249",
-    "abilities": [2, 3]
+    "abilities": [2, 3],
+    "evolveExp": null
   },
   {
     "id": 250,
@@ -2747,7 +2996,8 @@
     "moves": [574, 80],
     "types": [2, 10],
     "number": "250",
-    "abilities": [2]
+    "abilities": [2],
+    "evolveExp": null
   },
   {
     "id": 251,
@@ -2758,6 +3008,7 @@
     "moves": [404, 514],
     "types": [11, 5],
     "number": "251",
-    "abilities": []
+    "abilities": [],
+    "evolveExp": null
   }
 ]

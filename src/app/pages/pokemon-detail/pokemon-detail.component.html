@@ -14,7 +14,7 @@
         <div class="relative flex justify-center items-center">
           <!-- Alone -->
           <div
-            class="absolute w-full h-full rounded-full blur-[80px] opacity-50"
+            class="absolute w-full h-full rounded-full blur-[60px] opacity-80"
             [style.backgroundColor]="pokemon?.types?.[0]?.bgColor"
           ></div>
           <img class="relative z-10 w-52 pkm-image" [attr.src]="imageSrc" [alt]="pokemon?.name" />
@@ -58,7 +58,15 @@
                 <div class="detail-value">{{ pokemon?.catch }}+</div>
 
                 <div class="detail-label">Evolution Level</div>
-                <div class="detail-value">-</div>
+                <div class="detail-value">
+                  @if (
+                    pokemon != undefined && pokemon.evolveLevel != null && pokemon.evolveLevel != 0
+                  ) {
+                    {{ pokemon.evolveLevel }}
+                  } @else {
+                    <span>-</span>
+                  }
+                </div>
               </div>
               <div class="grid grid-cols-[150px_1fr] gap-3 abilities-grid">
                 <div class="detail-label">Abilites</div>
@@ -71,18 +79,62 @@
                     <span>-</span>
                   }
                 </div>
-
+              </div>
+              <div class="grid grid-cols-[150px_50px_minmax(0,1fr)] gap-3 effectiveness-grid">
                 <div class="detail-label">Weakness</div>
-                <div class="detail-value detail-ability capitalize">
-                  <span>-</span>
+                <div class="text-red-400 text-sm">(+2)</div>
+                <div class="detail-value detail-ability capitalize gap-2 min-w-0">
+                  @if (this.weakness.length > 0) {
+                    @for (type of this.weakness; track trackByType($index, type.id)) {
+                      <app-pokemon-type-round [type]="type"></app-pokemon-type-round>
+                    }
+                  } @else {
+                    <span>-</span>
+                  }
                 </div>
                 <div class="detail-label">Double Weakness</div>
+                <div class="text-red-400 text-sm">(+3)</div>
                 <div class="detail-value detail-ability capitalize">
-                  <span>-</span>
+                  @if (this.doubleWeakness.length > 0) {
+                    @for (type of this.doubleWeakness; track trackByType($index, type.id)) {
+                      <app-pokemon-type-round [type]="type"></app-pokemon-type-round>
+                    }
+                  } @else {
+                    <span>-</span>
+                  }
+                </div>
+                <div class="detail-label">Resistence</div>
+                <div class="text-green-400 text-sm">(-2)</div>
+                <div class="detail-value detail-ability capitalize">
+                  @if (this.resistence.length > 0) {
+                    @for (type of this.resistence; track trackByType($index, type.id)) {
+                      <app-pokemon-type-round [type]="type"></app-pokemon-type-round>
+                    }
+                  } @else {
+                    <span>-</span>
+                  }
+                </div>
+                <div class="detail-label">Double Resistence</div>
+                <div class="text-green-400 text-sm">(-3)</div>
+                <div class="detail-value detail-ability capitalize">
+                  @if (this.doubleResistence.length > 0) {
+                    @for (type of this.doubleResistence; track trackByType($index, type.id)) {
+                      <app-pokemon-type-round [type]="type"></app-pokemon-type-round>
+                    }
+                  } @else {
+                    <span>-</span>
+                  }
                 </div>
                 <div class="detail-label">Immunities</div>
+                <div class="text-green-400 text-sm">(-3)</div>
                 <div class="detail-value detail-ability capitalize">
-                  <span>-</span>
+                  @if (this.immunities.length > 0) {
+                    @for (type of this.immunities; track trackByType($index, type.id)) {
+                      <app-pokemon-type-round [type]="type"></app-pokemon-type-round>
+                    }
+                  } @else {
+                    <span>-</span>
+                  }
                 </div>
               </div>
             }

@@ -1,15 +1,15 @@
 import { Component, input } from '@angular/core';
 import { Move } from '../../models/move.model';
-import { PokemonTypeComponent } from '../pokemon-type/pokemon-type.component';
 import { Type } from '../../models/type.model';
 import { Effect } from '../../models/effect.model';
+import { PokemonTypeRoundComponent } from '../pokemon-type-round/pokemon-type-round.component';
 
 @Component({
   selector: 'app-pokemon-move-detail',
   standalone: true,
   templateUrl: './pokemon-move-detail.component.html',
   styleUrls: ['./pokemon-move-detail.component.scss'],
-  imports: [PokemonTypeComponent],
+  imports: [PokemonTypeRoundComponent],
 })
 export class PokemonMoveDetailComponent {
   move = input<Move>();

@@ -40,10 +40,11 @@
             />
           }
         } @else {
-          <span>-</span>
+          <span class="text-white">-</span>
         }
       </div>
     </div>
+    @if(!moveInfoOpen){<div class="icon-detail"><i class="fa-solid fa-angle-down"></i></div>}
   </div>
   @if (moveInfoOpen) {
     <app-pokemon-move-detail

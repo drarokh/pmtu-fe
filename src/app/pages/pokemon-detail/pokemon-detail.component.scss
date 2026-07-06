@@ -90,7 +90,7 @@
   padding: 5px 8px;
   background: transparent;
   border: 1px solid white;
-  border-radius: 50px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
@@ -146,6 +146,7 @@ tbody {
 
 .detail-ability {
   display: flex;
+  flex-wrap: wrap;
   gap: 5px;
 }
 
@@ -159,4 +160,10 @@ tbody {
   font-weight: 600;
   text-align: center;
   margin-bottom: 6px;
+}
+
+.effectiveness-grid {
+  border-top: solid 1px white;
+  padding-top: 25px;
+  margin-top: 20px;
 }

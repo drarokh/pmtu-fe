@@ -4,59 +4,51 @@
   [style.border-color]="move()?.type?.textColor"
 >
   <div class="move-detail-section" [style.border-color]="move()?.type?.textColor">
-    <div class="flex">
-      <div class="move-detail-title">
-        Super-effective<span class="move-detail-value">(+2)</span>
-      </div>
-    </div>
-    @if ((move()?.type_strong || []).length > 0) {
-      <div class="flex flex-wrap gap-1">
-        @for (moveType of move()?.type_strong; track trackByType($index, moveType)) {
-          <app-pokemon-type [type]="moveType"></app-pokemon-type>
+    <div class="grid grid-cols-[120px_50px_minmax(0,1fr)] gap-3 effectiveness-grid">
+      <div class="detail-label">Super-effective</div>
+      <div class="move-detail-value text-sm">(+2)</div>
+      <div class="detail-value detail-ability capitalize gap-2 min-w-0">
+        @if ((move()?.type_strong || []).length > 0) {
+          @for (moveType of move()?.type_strong; track trackByType($index, moveType)) {
+            <app-pokemon-type-round [type]="moveType"></app-pokemon-type-round>
+          }
+        } @else {
+          <span>-</span>
         }
       </div>
-    } @else {
-      -
-    }
+      <div class="detail-label">Resistance</div>
+      <div class="text-red-400 text-sm">(-2)</div>
+      <div class="detail-value detail-ability capitalize gap-2 min-w-0">
+        @if ((move()?.type_resist || []).length > 0) {
+          @for (moveType of move()?.type_resist; track trackByType($index, moveType)) {
+            <app-pokemon-type-round [type]="moveType"></app-pokemon-type-round>
+          }
+        } @else {
+          <span>-</span>
+        }
+      </div>
+      <div class="detail-label">Immunity</div>
+      <div class="text-red-400 text-sm">(-3)</div>
+      <div class="detail-value detail-ability capitalize gap-2 min-w-0">
+        @if ((move()?.type_immune || []).length > 0) {
+          @for (moveType of move()?.type_immune; track trackByType($index, moveType)) {
+            <app-pokemon-type-round [type]="moveType"></app-pokemon-type-round>
+          }
+        } @else {
+          <span>-</span>
+        }
+      </div>
+    </div>
   </div>
 
   <div class="move-detail-section">
     <div class="flex">
-      <div class="move-detail-title">Resistance<span class="move-detail-value">(-2)</span></div>
-    </div>
-    @if ((move()?.type_resist || []).length > 0) {
-      <div class="flex flex-wrap gap-1">
-        @for (moveType of move()?.type_resist; track trackByType($index, moveType)) {
-          <app-pokemon-type [type]="moveType"></app-pokemon-type>
-        }
-      </div>
-    } @else {
-      -
-    }
-  </div>
-
-  <div class="move-detail-section">
-    <div class="flex">
-      <div class="move-detail-title">Immunity<span class="move-detail-value">(-3)</span></div>
-    </div>
-    @if ((move()?.type_immune || []).length > 0) {
-      <div class="flex flex-wrap gap-1">
-        @for (moveType of move()?.type_immune; track trackByType($index, moveType)) {
-          <app-pokemon-type [type]="moveType"></app-pokemon-type>
-        }
-      </div>
-    } @else {
-      -
-    }
-  </div>
-  <div class="move-detail-section">
-    <div class="flex">
-      <div class="move-detail-title">Effects</div>
+      <div class="move-detail-title" [style.border-color]="move()?.type?.textColor">Effects</div>
     </div>
     @if ((move()?.effects || []).length > 0) {
       <div class="grid grid-cols-[35px_1fr] gap-x-1 gap-y-3">
         @for (moveEffect of move()?.effects; track trackByEffect($index, moveEffect)) {
-          <div class="flex items-center">
+          <div class="flex">
             <img
               [src]="'icons/effects/' + moveEffect.name + '.png'"
               [alt]="'move effect'"

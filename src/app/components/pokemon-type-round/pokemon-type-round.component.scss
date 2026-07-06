@@ -1,4 +1,4 @@
-.badge {
+.type-badge {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,8 +7,10 @@
   font-size: 11px;
   color: white;
   height: 26px;
-  padding-left: 8px;
-  padding-right: 8px;
-  width: fit-content;
-  text-transform: uppercase;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.type-image {
+  width: 22px;
 }

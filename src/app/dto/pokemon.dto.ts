@@ -6,6 +6,7 @@ export interface PokemonDto {
   level: number;
   catch: number;
   rank: number;
+  evolveExp: number;
   abilities: number[];
   moves: number[];
 }

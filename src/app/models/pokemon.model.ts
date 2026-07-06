@@ -11,6 +11,8 @@ export interface Pokemon {
   level: number;
   catch: number;
   rank: Rank;
+  evolveExp: number;
+  evolveLevel: number;
   abilities: Ability[];
   moves: Move[];
 }

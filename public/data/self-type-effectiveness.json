@@ -1,0 +1,20 @@
+[
+  { "id": 1, "immune": [14], "resist": [], "strong": [7] },
+  { "id": 2, "immune": [], "resist": [5, 2, 12, 6, 17, 18], "strong": [3, 9, 13] },
+  { "id": 3, "immune": [], "resist": [2, 3, 6, 17], "strong": [5, 4] },
+  { "id": 4, "immune": [], "resist": [10, 4, 17], "strong": [9] },
+  { "id": 5, "immune": [], "resist": [5, 3, 9, 4], "strong": [2, 10, 8, 12, 6] },
+  { "id": 6, "immune": [], "resist": [6], "strong": [2, 7, 13, 17] },
+  { "id": 7, "immune": [], "resist": [13, 12, 16], "strong": [10, 11, 18] },
+  { "id": 8, "immune": [], "resist": [5, 7, 8, 12, 18], "strong": [9, 11] },
+  { "id": 9, "immune": [4], "resist": [8, 13], "strong": [5, 3, 6] },
+  { "id": 10, "immune": [9], "resist": [5, 7, 12], "strong": [13, 4, 6] },
+  { "id": 11, "immune": [], "resist": [7, 11], "strong": [12, 14, 16] },
+  { "id": 12, "immune": [], "resist": [5, 7, 9], "strong": [2, 10, 13] },
+  { "id": 13, "immune": [], "resist": [1, 2, 10, 8], "strong": [5, 3, 7, 9, 17] },
+  { "id": 14, "immune": [1, 7], "resist": [8, 12], "strong": [14, 16] },
+  { "id": 15, "immune": [], "resist": [5, 2, 3, 4], "strong": [6, 15, 18] },
+  { "id": 16, "immune": [11], "resist": [14, 16], "strong": [7, 12, 18] },
+  { "id": 17, "immune": [8], "resist": [1, 5, 10, 13, 12, 11, 6, 15, 17, 18], "strong": [2, 7, 9] },
+  { "id": 18, "immune": [15], "resist": [7, 12, 16], "strong": [8, 17] }
+]

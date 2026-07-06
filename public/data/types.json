@@ -2,7 +2,7 @@
   { "id": 1, "name": "normal", "color": "#A8A77A", "bgColor": "#CCCBA5", "textColor": "#858457" },
   { "id": 2, "name": "fire", "color": "#EE8130", "bgColor": "#FFB37B", "textColor": "#CB5F0F" },
   { "id": 3, "name": "water", "color": "#6390F0", "bgColor": "#B6CCFB", "textColor": "#4075E7" },
-  { "id": 4, "name": "electric", "color": "#F7D02C", "bgColor": "#FFDE54", "textColor": "#D4AD09" },
+  { "id": 4, "name": "electric", "color": "#FFB300", "bgColor": "#FFDE54", "textColor": "#D4AD09" },
   { "id": 5, "name": "grass", "color": "#5DB12C", "bgColor": "#a2d883", "textColor": "#418D14" },
   { "id": 6, "name": "ice", "color": "#96D9D6", "bgColor": "#C7F0EE", "textColor": "#66B9B6" },
   { "id": 7, "name": "fighting", "color": "#C22E28", "bgColor": "#FC827C", "textColor": "#9D1912" },

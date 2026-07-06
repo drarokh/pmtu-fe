@@ -19,6 +19,8 @@ export function mapPokemon(
     level: dto.level,
     catch: dto.catch,
     rank: rankMap[dto.rank],
+    evolveExp: dto.evolveExp,
+    evolveLevel: dto.evolveExp != null ? Number(dto.evolveExp) + Number(dto.level) : 0,
     types: dto.types.map((id) => typeMap[id]).filter(Boolean),
     abilities: dto.abilities.map((id) => abilityMap[id]).filter(Boolean),
     moves: dto.moves.map((id) => moveMap[id]).filter(Boolean),

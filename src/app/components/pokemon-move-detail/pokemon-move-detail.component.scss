@@ -10,16 +10,22 @@
 
 .move-detail-title {
   color: white;
-  border-radius: 5px;
   margin-bottom: 8px;
+  border-top: solid 1px;
+  width: 100%;
+  padding-top: 15px;
 }
 
 .move-detail-value {
   color: yellow;
-  padding-left: 5px;
 }
 
 .move-detail-section {
   padding: 10px;
-  //border-bottom: 1px solid;
+}
+
+.detail-ability {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }

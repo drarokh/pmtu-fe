@@ -16,8 +16,12 @@ import { Effect } from '../../models/effect.model';
 import { PokemonAbilityComponent } from '../../components/pokemon-ability/pokemon-ability.component';
 import { PokemonRankComponent } from '../../components/pokemon-rank/pokemon-rank.component';
 import { PokemonMoveComponent } from '../../components/pokemon-move/pokemon-move.component';
-import { takeUntil } from 'rxjs';
+import { forkJoin, takeUntil } from 'rxjs';
 import { Subject } from 'rxjs';
+import { TypeEffectiveness } from '../../models/type-effectiveness.model';
+import { SelfTypeEffectivenessService } from '../../services/self-type-effectiveness.service';
+import { PokemonTypeService } from '../../services/type.service';
+import { PokemonTypeRoundComponent } from '../../components/pokemon-type-round/pokemon-type-round.component';
 
 @Component({
   selector: 'app-pokemon-detail',
@@ -25,10 +29,11 @@ import { Subject } from 'rxjs';
   templateUrl: './pokemon-detail.component.html',
   styleUrls: ['./pokemon-detail.component.scss'],
   imports: [
-    PokemonTypeComponent,
     PokemonAbilityComponent,
     PokemonRankComponent,
     PokemonMoveComponent,
+    PokemonTypeRoundComponent,
+    PokemonTypeComponent,
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
@@ -42,6 +47,9 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
 
   // Services
   pokedexService = inject(PokedexService);
+  selfTypeEffectivenessService = inject(SelfTypeEffectivenessService);
+  typeService = inject(PokemonTypeService);
+
   private cdr = inject(ChangeDetectorRef);
   private route = inject(ActivatedRoute);
   private router = inject(Router);
@@ -50,10 +58,14 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   // Variables
   pokemon: Pokemon | undefined;
   mainType: Type | undefined;
-  levelWidth: number = 0;
-  catchWidth: number = 0;
-  MAX_WILD_LEVEL = 7;
-  MAX_CATCH_LEVEL = 8;
+  typeArray: Type[] = [];
+  // Effectiveness
+  weakness: Type[] = [];
+  doubleWeakness: Type[] = [];
+  resistence: Type[] = [];
+  doubleResistence: Type[] = [];
+  immunities: Type[] = [];
+  effectivenessArray: number[] = new Array(18).fill(0);
 
   constructor() {}
 
@@ -70,15 +82,55 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   }
 
   loadData(id: number) {
-    this.pokedexService
-      .getPokemonById(id)
-      .pipe(takeUntil(this.destroy$))
-      .subscribe((pokemon) => {
-        this.pokemon = pokemon;
-        this.levelWidth = this.pokemon ? (this.pokemon.level / this.MAX_WILD_LEVEL) * 100 : 0;
-        this.catchWidth = this.pokemon ? (this.pokemon.catch / this.MAX_CATCH_LEVEL) * 100 : 0;
-        this.cdr.markForCheck();
+    this.weakness = [];
+    this.doubleWeakness = [];
+    this.resistence = [];
+    this.doubleResistence = [];
+    this.immunities = [];
+    this.effectivenessArray = new Array(18).fill(0);
+    forkJoin({
+      pokemon: this.pokedexService.getPokemonById(id).pipe(takeUntil(this.destroy$)),
+      types: this.typeService.getTypes(),
+      selfTypeEffectiveness: this.selfTypeEffectivenessService.getSelfMoveEffectiveness(),
+    }).subscribe(({ pokemon, types, selfTypeEffectiveness }) => {
+      this.pokemon = pokemon;
+      this.elaboratePkmEffectiveness(selfTypeEffectiveness, pokemon, types);
+      this.cdr.markForCheck();
+    });
+  }
+
+  elaboratePkmEffectiveness(
+    selfTypeMap: TypeEffectiveness[],
+    pokemon: Pokemon | undefined,
+    types: Type[],
+  ) {
+    pokemon?.types.forEach((currPkmType) => {
+      // Strong
+      selfTypeMap[currPkmType.id - 1].strong.forEach((currStrong) => {
+        this.effectivenessArray[currStrong - 1] += 2;
       });
+      // Resist
+      selfTypeMap[currPkmType.id - 1].resist.forEach((currResist) => {
+        this.effectivenessArray[currResist - 1] -= 2;
+      });
+      // Immunities
+      selfTypeMap[currPkmType.id - 1].immune.forEach((currImmune) => {
+        this.effectivenessArray[currImmune - 1] = -10;
+      });
+    });
+    this.effectivenessArray.forEach((currType, index) => {
+      if (currType < -4) {
+        this.immunities.push(types[index]);
+      } else if (currType == -4) {
+        this.doubleResistence.push(types[index]);
+      } else if (currType == -2) {
+        this.resistence.push(types[index]);
+      } else if (currType == 2) {
+        this.weakness.push(types[index]);
+      } else if (currType > 2) {
+        this.doubleWeakness.push(types[index]);
+      }
+    });
   }
 
   get imageSrc(): string | null {

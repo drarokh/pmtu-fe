@@ -15,4 +15,5 @@ export interface Pokemon {
   evolveLevel: number;
   abilities: Ability[];
   moves: Move[];
+  evo: number[];
 }

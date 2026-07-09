@@ -9,4 +9,5 @@ export interface PokemonDto {
   evolveExp: number;
   abilities: number[];
   moves: number[];
+  evo: number[];
 }

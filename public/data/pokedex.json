@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "evo": [1, 2, 3],
     "name": "Bulbasaur",
     "rank": 1,
     "catch": 3,
@@ -13,6 +14,7 @@
   },
   {
     "id": 2,
+    "evo": [1, 2, 3],
     "name": "Ivysaur",
     "rank": 3,
     "catch": 5,
@@ -25,6 +27,7 @@
   },
   {
     "id": 3,
+    "evo": [1, 2, 3],
     "name": "Venusaur",
     "rank": 5,
     "catch": 7,
@@ -37,6 +40,7 @@
   },
   {
     "id": 4,
+    "evo": [4, 5, 6],
     "name": "Charmander",
     "rank": 1,
     "catch": 3,
@@ -49,6 +53,7 @@
   },
   {
     "id": 5,
+    "evo": [4, 5, 6],
     "name": "Charmeleon",
     "rank": 3,
     "catch": 5,
@@ -61,6 +66,7 @@
   },
   {
     "id": 6,
+    "evo": [4, 5, 6],
     "name": "Charizard",
     "rank": 5,
     "catch": 7,
@@ -73,6 +79,7 @@
   },
   {
     "id": 7,
+    "evo": [7, 8, 9],
     "name": "Squirtle",
     "rank": 1,
     "catch": 3,
@@ -85,6 +92,7 @@
   },
   {
     "id": 8,
+    "evo": [7, 8, 9],
     "name": "Wartortle",
     "rank": 3,
     "catch": 5,
@@ -97,6 +105,7 @@
   },
   {
     "id": 9,
+    "evo": [7, 8, 9],
     "name": "Blastoise",
     "rank": 5,
     "catch": 7,
@@ -109,6 +118,7 @@
   },
   {
     "id": 10,
+    "evo": [10, 11, 12],
     "name": "Caterpie",
     "rank": 1,
     "catch": 3,
@@ -121,6 +131,7 @@
   },
   {
     "id": 11,
+    "evo": [10, 11, 12],
     "name": "Metapod",
     "rank": 1,
     "catch": 4,
@@ -133,6 +144,7 @@
   },
   {
     "id": 12,
+    "evo": [10, 11, 12],
     "name": "Butterfree",
     "rank": 2,
     "catch": 5,
@@ -145,6 +157,7 @@
   },
   {
     "id": 13,
+    "evo": [13, 14, 15],
     "name": "Weedle",
     "rank": 1,
     "catch": 3,
@@ -157,6 +170,7 @@
   },
   {
     "id": 14,
+    "evo": [13, 14, 15],
     "name": "Kakuna",
     "rank": 1,
     "catch": 4,
@@ -169,6 +183,7 @@
   },
   {
     "id": 15,
+    "evo": [13, 14, 15],
     "name": "Beedrill",
     "rank": 2,
     "catch": 5,
@@ -181,6 +196,7 @@
   },
   {
     "id": 16,
+    "evo": [16, 17, 18],
     "name": "Pidgey",
     "rank": 1,
     "catch": 3,
@@ -193,6 +209,7 @@
   },
   {
     "id": 17,
+    "evo": [16, 17, 18],
     "name": "Pidgeotto",
     "rank": 3,
     "catch": 5,
@@ -205,6 +222,7 @@
   },
   {
     "id": 18,
+    "evo": [16, 17, 18],
     "name": "Pidgeot",
     "rank": 5,
     "catch": 7,
@@ -217,6 +235,7 @@
   },
   {
     "id": 19,
+    "evo": [19, 20],
     "name": "Rattata",
     "rank": 1,
     "catch": 3,
@@ -229,6 +248,7 @@
   },
   {
     "id": 20,
+    "evo": [19, 20],
     "name": "Raticate",
     "rank": 3,
     "catch": 5,
@@ -241,6 +261,7 @@
   },
   {
     "id": 21,
+    "evo": [21, 22],
     "name": "Spearow",
     "rank": 1,
     "catch": 3,
@@ -253,6 +274,7 @@
   },
   {
     "id": 22,
+    "evo": [21, 22],
     "name": "Fearow",
     "rank": 3,
     "catch": 5,
@@ -265,6 +287,7 @@
   },
   {
     "id": 23,
+    "evo": [23, 24],
     "name": "Ekans",
     "rank": 1,
     "catch": 3,
@@ -277,6 +300,7 @@
   },
   {
     "id": 24,
+    "evo": [23, 24],
     "name": "Arbok",
     "rank": 3,
     "catch": 5,
@@ -289,6 +313,7 @@
   },
   {
     "id": 25,
+    "evo": [172, 25, 26],
     "name": "Pikachu",
     "rank": 1,
     "catch": 3,
@@ -301,6 +326,7 @@
   },
   {
     "id": 26,
+    "evo": [172, 25, 26],
     "name": "Raichu",
     "rank": 3,
     "catch": 5,
@@ -313,6 +339,7 @@
   },
   {
     "id": 27,
+    "evo": [27, 28],
     "name": "Sandshrew",
     "rank": 1,
     "catch": 3,
@@ -325,6 +352,7 @@
   },
   {
     "id": 28,
+    "evo": [27, 28],
     "name": "Sandslash",
     "rank": 3,
     "catch": 5,
@@ -337,6 +365,7 @@
   },
   {
     "id": 29,
+    "evo": [29, 30, 31],
     "name": "Nidoran{Female}",
     "rank": 1,
     "catch": 3,
@@ -349,6 +378,7 @@
   },
   {
     "id": 30,
+    "evo": [29, 30, 31],
     "name": "Nidorina",
     "rank": 3,
     "catch": 5,
@@ -361,6 +391,7 @@
   },
   {
     "id": 31,
+    "evo": [29, 30, 31],
     "name": "Nidoqueen",
     "rank": 5,
     "catch": 7,
@@ -373,6 +404,7 @@
   },
   {
     "id": 32,
+    "evo": [32, 33, 34],
     "name": "Nidoran{Male}",
     "rank": 1,
     "catch": 3,
@@ -385,6 +417,7 @@
   },
   {
     "id": 33,
+    "evo": [32, 33, 34],
     "name": "Nidorino",
     "rank": 3,
     "catch": 5,
@@ -397,6 +430,7 @@
   },
   {
     "id": 34,
+    "evo": [32, 33, 34],
     "name": "Nidoking",
     "rank": 5,
     "catch": 7,
@@ -409,6 +443,7 @@
   },
   {
     "id": 35,
+    "evo": [173, 35, 36],
     "name": "Clefairy",
     "rank": 1,
     "catch": 4,
@@ -421,6 +456,7 @@
   },
   {
     "id": 36,
+    "evo": [173, 35, 36],
     "name": "Clefable",
     "rank": 3,
     "catch": 5,
@@ -433,6 +469,7 @@
   },
   {
     "id": 37,
+    "evo": [37, 38],
     "name": "Vulpix",
     "rank": 2,
     "catch": 4,
@@ -445,6 +482,7 @@
   },
   {
     "id": 38,
+    "evo": [37, 38],
     "name": "Ninetales",
     "rank": 4,
     "catch": 7,
@@ -457,6 +495,7 @@
   },
   {
     "id": 39,
+    "evo": [174, 39, 40],
     "name": "Jigglypuff",
     "rank": 1,
     "catch": 3,
@@ -469,6 +508,7 @@
   },
   {
     "id": 40,
+    "evo": [174, 39, 40],
     "name": "Wigglytuff",
     "rank": 4,
     "catch": 6,
@@ -481,6 +521,7 @@
   },
   {
     "id": 41,
+    "evo": [41, 42, 169],
     "name": "Zubat",
     "rank": 1,
     "catch": 3,
@@ -493,6 +534,7 @@
   },
   {
     "id": 42,
+    "evo": [41, 42, 169],
     "name": "Golbat",
     "rank": 3,
     "catch": 5,
@@ -505,6 +547,7 @@
   },
   {
     "id": 43,
+    "evo": [43, 44, 45, 182],
     "name": "Oddish",
     "rank": 2,
     "catch": 4,
@@ -517,6 +560,7 @@
   },
   {
     "id": 44,
+    "evo": [43, 44, 45, 182],
     "name": "Gloom",
     "rank": 3,
     "catch": 5,
@@ -529,6 +573,7 @@
   },
   {
     "id": 45,
+    "evo": [43, 44, 45, 182],
     "name": "Vileplume",
     "rank": 4,
     "catch": 6,
@@ -541,6 +586,7 @@
   },
   {
     "id": 46,
+    "evo": [46, 47],
     "name": "Paras",
     "rank": 1,
     "catch": 4,
@@ -553,6 +599,7 @@
   },
   {
     "id": 47,
+    "evo": [46, 47],
     "name": "Parasect",
     "rank": 3,
     "catch": 5,
@@ -565,6 +612,7 @@
   },
   {
     "id": 48,
+    "evo": [48, 49],
     "name": "Venonat",
     "rank": 3,
     "catch": 5,
@@ -577,6 +625,7 @@
   },
   {
     "id": 49,
+    "evo": [48, 49],
     "name": "Venomoth",
     "rank": 4,
     "catch": 6,
@@ -589,6 +638,7 @@
   },
   {
     "id": 50,
+    "evo": [50, 51],
     "name": "Diglett",
     "rank": 2,
     "catch": 4,
@@ -601,6 +651,7 @@
   },
   {
     "id": 51,
+    "evo": [50, 51],
     "name": "Dugtrio",
     "rank": 3,
     "catch": 6,
@@ -613,6 +664,7 @@
   },
   {
     "id": 52,
+    "evo": [52, 53],
     "name": "Meowth",
     "rank": 2,
     "catch": 4,
@@ -625,6 +677,7 @@
   },
   {
     "id": 53,
+    "evo": [52, 53],
     "name": "Persian",
     "rank": 3,
     "catch": 6,
@@ -637,6 +690,7 @@
   },
   {
     "id": 54,
+    "evo": [54, 55],
     "name": "Psyduck",
     "rank": 2,
     "catch": 4,
@@ -649,6 +703,7 @@
   },
   {
     "id": 55,
+    "evo": [54, 55],
     "name": "Golduck",
     "rank": 5,
     "catch": 7,
@@ -661,6 +716,7 @@
   },
   {
     "id": 56,
+    "evo": [56, 57],
     "name": "Mankey",
     "rank": 2,
     "catch": 4,
@@ -673,6 +729,7 @@
   },
   {
     "id": 57,
+    "evo": [56, 57],
     "name": "Primeape",
     "rank": 4,
     "catch": 6,
@@ -685,6 +742,7 @@
   },
   {
     "id": 58,
+    "evo": [58, 59],
     "name": "Growlithe",
     "rank": 2,
     "catch": 4,
@@ -697,6 +755,7 @@
   },
   {
     "id": 59,
+    "evo": [58, 59],
     "name": "Arcanine",
     "rank": 4,
     "catch": 7,
@@ -709,6 +768,7 @@
   },
   {
     "id": 60,
+    "evo": [60, 61, 62, 186],
     "name": "Poliwag",
     "rank": 1,
     "catch": 4,
@@ -721,6 +781,7 @@
   },
   {
     "id": 61,
+    "evo": [60, 61, 62, 186],
     "name": "Poliwhirl",
     "rank": 3,
     "catch": 6,
@@ -733,6 +794,7 @@
   },
   {
     "id": 62,
+    "evo": [60, 61, 62, 186],
     "name": "Poliwrath",
     "rank": 5,
     "catch": 7,
@@ -745,6 +807,7 @@
   },
   {
     "id": 63,
+    "evo": [63, 64, 65],
     "name": "Abra",
     "rank": 2,
     "catch": 4,
@@ -757,6 +820,7 @@
   },
   {
     "id": 64,
+    "evo": [63, 64, 65],
     "name": "Kadabra",
     "rank": 3,
     "catch": 5,
@@ -769,6 +833,7 @@
   },
   {
     "id": 65,
+    "evo": [63, 64, 65],
     "name": "Alakazam",
     "rank": 5,
     "catch": 7,
@@ -781,6 +846,7 @@
   },
   {
     "id": 66,
+    "evo": [66, 67, 68],
     "name": "Machop",
     "rank": 2,
     "catch": 4,
@@ -793,6 +859,7 @@
   },
   {
     "id": 67,
+    "evo": [66, 67, 68],
     "name": "Machoke",
     "rank": 3,
     "catch": 6,
@@ -805,6 +872,7 @@
   },
   {
     "id": 68,
+    "evo": [66, 67, 68],
     "name": "Machamp",
     "rank": 5,
     "catch": 7,
@@ -817,6 +885,7 @@
   },
   {
     "id": 69,
+    "evo": [69, 70, 71],
     "name": "Bellsprout",
     "rank": 2,
     "catch": 4,
@@ -829,6 +898,7 @@
   },
   {
     "id": 70,
+    "evo": [69, 70, 71],
     "name": "Weepinbell",
     "rank": 3,
     "catch": 5,
@@ -841,6 +911,7 @@
   },
   {
     "id": 71,
+    "evo": [69, 70, 71],
     "name": "Victreebel",
     "rank": 4,
     "catch": 7,
@@ -853,6 +924,7 @@
   },
   {
     "id": 72,
+    "evo": [72, 73],
     "name": "Tentacool",
     "rank": 1,
     "catch": 4,
@@ -865,6 +937,7 @@
   },
   {
     "id": 73,
+    "evo": [72, 73],
     "name": "Tentacruel",
     "rank": 3,
     "catch": 6,
@@ -877,6 +950,7 @@
   },
   {
     "id": 74,
+    "evo": [74, 75, 76],
     "name": "Geodude",
     "rank": 1,
     "catch": 3,
@@ -889,6 +963,7 @@
   },
   {
     "id": 75,
+    "evo": [74, 75, 76],
     "name": "Graveler",
     "rank": 3,
     "catch": 6,
@@ -901,6 +976,7 @@
   },
   {
     "id": 76,
+    "evo": [74, 75, 76],
     "name": "Golem",
     "rank": 5,
     "catch": 7,
@@ -913,6 +989,7 @@
   },
   {
     "id": 77,
+    "evo": [77, 78],
     "name": "Ponyta",
     "rank": 4,
     "catch": 6,
@@ -925,6 +1002,7 @@
   },
   {
     "id": 78,
+    "evo": [77, 78],
     "name": "Rapidash",
     "rank": 5,
     "catch": 7,
@@ -937,6 +1015,7 @@
   },
   {
     "id": 79,
+    "evo": [79, 80, 199],
     "name": "Slowpoke",
     "rank": 2,
     "catch": 4,
@@ -949,6 +1028,7 @@
   },
   {
     "id": 80,
+    "evo": [79, 80, 199],
     "name": "Slowbro",
     "rank": 5,
     "catch": 7,
@@ -961,6 +1041,7 @@
   },
   {
     "id": 81,
+    "evo": [81, 82, 462],
     "name": "Magnemite",
     "rank": 2,
     "catch": 5,
@@ -973,6 +1054,7 @@
   },
   {
     "id": 82,
+    "evo": [81, 82, 462],
     "name": "Magneton",
     "rank": 3,
     "catch": 6,
@@ -985,6 +1067,7 @@
   },
   {
     "id": 83,
+    "evo": [83],
     "name": "Farfetch'd",
     "rank": 2,
     "catch": 5,
@@ -997,6 +1080,7 @@
   },
   {
     "id": 84,
+    "evo": [84, 85],
     "name": "Doduo",
     "rank": 3,
     "catch": 5,
@@ -1009,6 +1093,7 @@
   },
   {
     "id": 85,
+    "evo": [84, 85],
     "name": "Dodrio",
     "rank": 4,
     "catch": 6,
@@ -1021,6 +1106,7 @@
   },
   {
     "id": 86,
+    "evo": [86, 87],
     "name": "Seel",
     "rank": 4,
     "catch": 6,
@@ -1033,6 +1119,7 @@
   },
   {
     "id": 87,
+    "evo": [86, 87],
     "name": "Dewgong",
     "rank": 5,
     "catch": 7,
@@ -1045,6 +1132,7 @@
   },
   {
     "id": 88,
+    "evo": [88, 89],
     "name": "Grimer",
     "rank": 4,
     "catch": 6,
@@ -1057,6 +1145,7 @@
   },
   {
     "id": 89,
+    "evo": [88, 89],
     "name": "Muk",
     "rank": 5,
     "catch": 7,
@@ -1069,6 +1158,7 @@
   },
   {
     "id": 90,
+    "evo": [90, 91],
     "name": "Shellder",
     "rank": 2,
     "catch": 4,
@@ -1081,6 +1171,7 @@
   },
   {
     "id": 91,
+    "evo": [90, 91],
     "name": "Cloyster",
     "rank": 4,
     "catch": 6,
@@ -1093,6 +1184,7 @@
   },
   {
     "id": 92,
+    "evo": [92, 93, 94],
     "name": "Gastly",
     "rank": 2,
     "catch": 5,
@@ -1105,6 +1197,7 @@
   },
   {
     "id": 93,
+    "evo": [92, 93, 94],
     "name": "Haunter",
     "rank": 3,
     "catch": 6,
@@ -1117,6 +1210,7 @@
   },
   {
     "id": 94,
+    "evo": [92, 93, 94],
     "name": "Gengar",
     "rank": 5,
     "catch": 7,
@@ -1129,6 +1223,7 @@
   },
   {
     "id": 95,
+    "evo": [95, 208],
     "name": "Onix",
     "rank": 2,
     "catch": 4,
@@ -1141,6 +1236,7 @@
   },
   {
     "id": 96,
+    "evo": [96, 97],
     "name": "Drowzee",
     "rank": 2,
     "catch": 4,
@@ -1153,6 +1249,7 @@
   },
   {
     "id": 97,
+    "evo": [96, 97],
     "name": "Hypno",
     "rank": 4,
     "catch": 6,
@@ -1165,6 +1262,7 @@
   },
   {
     "id": 98,
+    "evo": [98, 99],
     "name": "Krabby",
     "rank": 2,
     "catch": 4,
@@ -1177,6 +1275,7 @@
   },
   {
     "id": 99,
+    "evo": [98, 99],
     "name": "Kingler",
     "rank": 4,
     "catch": 6,
@@ -1189,6 +1288,7 @@
   },
   {
     "id": 100,
+    "evo": [100, 101],
     "name": "Voltorb",
     "rank": 2,
     "catch": 4,
@@ -1201,6 +1301,7 @@
   },
   {
     "id": 101,
+    "evo": [100, 101],
     "name": "Electrode",
     "rank": 3,
     "catch": 6,
@@ -1213,6 +1314,7 @@
   },
   {
     "id": 102,
+    "evo": [102, 103],
     "name": "Exeggcute",
     "rank": 3,
     "catch": 5,
@@ -1225,6 +1327,7 @@
   },
   {
     "id": 103,
+    "evo": [102, 103],
     "name": "Exeggutor",
     "rank": 5,
     "catch": 7,
@@ -1237,6 +1340,7 @@
   },
   {
     "id": 104,
+    "evo": [104, 105],
     "name": "Cubone",
     "rank": 3,
     "catch": 5,
@@ -1249,6 +1353,7 @@
   },
   {
     "id": 105,
+    "evo": [104, 105],
     "name": "Marowak",
     "rank": 4,
     "catch": 6,
@@ -1261,6 +1366,7 @@
   },
   {
     "id": 106,
+    "evo": [236, 106, 107, 237],
     "name": "Hitmonlee",
     "rank": 3,
     "catch": 6,
@@ -1273,6 +1379,7 @@
   },
   {
     "id": 107,
+    "evo": [236, 106, 107, 237],
     "name": "Hitmonchan",
     "rank": 3,
     "catch": 6,
@@ -1285,6 +1392,7 @@
   },
   {
     "id": 108,
+    "evo": [108, 463],
     "name": "Lickitung",
     "rank": 4,
     "catch": 6,
@@ -1297,6 +1405,7 @@
   },
   {
     "id": 109,
+    "evo": [109, 110],
     "name": "Koffing",
     "rank": 3,
     "catch": 5,
@@ -1309,6 +1418,7 @@
   },
   {
     "id": 110,
+    "evo": [109, 110],
     "name": "Weezing",
     "rank": 5,
     "catch": 7,
@@ -1321,6 +1431,7 @@
   },
   {
     "id": 111,
+    "evo": [111, 112, 464],
     "name": "Rhyhorn",
     "rank": 4,
     "catch": 6,
@@ -1333,6 +1444,7 @@
   },
   {
     "id": 112,
+    "evo": [111, 112, 464],
     "name": "Rhydon",
     "rank": 5,
     "catch": 7,
@@ -1345,6 +1457,7 @@
   },
   {
     "id": 113,
+    "evo": [440, 113, 242],
     "name": "Chansey",
     "rank": 4,
     "catch": 6,
@@ -1357,6 +1470,7 @@
   },
   {
     "id": 114,
+    "evo": [114, 465],
     "name": "Tangela",
     "rank": 3,
     "catch": 5,
@@ -1369,6 +1483,7 @@
   },
   {
     "id": 115,
+    "evo": [115],
     "name": "Kangaskhan",
     "rank": 4,
     "catch": 6,
@@ -1381,6 +1496,7 @@
   },
   {
     "id": 116,
+    "evo": [116, 117, 230],
     "name": "Horsea",
     "rank": 1,
     "catch": 4,
@@ -1393,6 +1509,7 @@
   },
   {
     "id": 117,
+    "evo": [116, 117, 230],
     "name": "Seadra",
     "rank": 5,
     "catch": 7,
@@ -1405,6 +1522,7 @@
   },
   {
     "id": 118,
+    "evo": [118, 119],
     "name": "Goldeen",
     "rank": 1,
     "catch": 4,
@@ -1417,6 +1535,7 @@
   },
   {
     "id": 119,
+    "evo": [118, 119],
     "name": "Seaking",
     "rank": 4,
     "catch": 7,
@@ -1429,6 +1548,7 @@
   },
   {
     "id": 120,
+    "evo": [120, 121],
     "name": "Staryu",
     "rank": 2,
     "catch": 4,
@@ -1441,6 +1561,7 @@
   },
   {
     "id": 121,
+    "evo": [120, 121],
     "name": "Starmie",
     "rank": 4,
     "catch": 7,
@@ -1453,6 +1574,7 @@
   },
   {
     "id": 122,
+    "evo": [439, 122],
     "name": "Mr. Mime",
     "rank": 2,
     "catch": 5,
@@ -1465,6 +1587,7 @@
   },
   {
     "id": 123,
+    "evo": [123, 212],
     "name": "Scyther",
     "rank": 4,
     "catch": 6,
@@ -1477,6 +1600,7 @@
   },
   {
     "id": 124,
+    "evo": [238, 124],
     "name": "Jynx",
     "rank": 4,
     "catch": 6,
@@ -1489,6 +1613,7 @@
   },
   {
     "id": 125,
+    "evo": [239, 125, 466],
     "name": "Electabuzz",
     "rank": 4,
     "catch": 6,
@@ -1501,6 +1626,7 @@
   },
   {
     "id": 126,
+    "evo": [240, 126, 467],
     "name": "Magmar",
     "rank": 4,
     "catch": 6,
@@ -1513,6 +1639,7 @@
   },
   {
     "id": 127,
+    "evo": [127],
     "name": "Pinsir",
     "rank": 4,
     "catch": 6,
@@ -1525,6 +1652,7 @@
   },
   {
     "id": 128,
+    "evo": [128],
     "name": "Tauros",
     "rank": 4,
     "catch": 6,
@@ -1537,6 +1665,7 @@
   },
   {
     "id": 129,
+    "evo": [129, 130],
     "name": "Magikarp",
     "rank": 1,
     "catch": 3,
@@ -1549,6 +1678,7 @@
   },
   {
     "id": 130,
+    "evo": [129, 130],
     "name": "Gyarados",
     "rank": 2,
     "catch": 5,
@@ -1561,6 +1691,7 @@
   },
   {
     "id": 131,
+    "evo": [131],
     "name": "Lapras",
     "rank": 3,
     "catch": 5,
@@ -1573,6 +1704,7 @@
   },
   {
     "id": 132,
+    "evo": [132],
     "name": "Ditto",
     "rank": 4,
     "catch": 6,
@@ -1585,6 +1717,7 @@
   },
   {
     "id": 133,
+    "evo": [133, 134, 135, 136, 196, 197, 470, 471, 700],
     "name": "Eevee",
     "rank": 2,
     "catch": 5,
@@ -1597,6 +1730,7 @@
   },
   {
     "id": 134,
+    "evo": [133, 134, 135, 136, 196, 197, 470, 471, 700],
     "name": "Vaporeon",
     "rank": 4,
     "catch": 7,
@@ -1609,6 +1743,7 @@
   },
   {
     "id": 135,
+    "evo": [133, 134, 135, 136, 196, 197, 470, 471, 700],
     "name": "Jolteon",
     "rank": 4,
     "catch": 7,
@@ -1621,6 +1756,7 @@
   },
   {
     "id": 136,
+    "evo": [133, 134, 135, 136, 196, 197, 470, 471, 700],
     "name": "Flareon",
     "rank": 4,
     "catch": 7,
@@ -1633,6 +1769,7 @@
   },
   {
     "id": 137,
+    "evo": [137, 233, 474],
     "name": "Porygon",
     "rank": 2,
     "catch": 4,
@@ -1645,6 +1782,7 @@
   },
   {
     "id": 138,
+    "evo": [138, 139],
     "name": "Omanyte",
     "rank": 3,
     "catch": 6,
@@ -1657,6 +1795,7 @@
   },
   {
     "id": 139,
+    "evo": [138, 139],
     "name": "Omastar",
     "rank": 5,
     "catch": 7,
@@ -1669,6 +1808,7 @@
   },
   {
     "id": 140,
+    "evo": [140, 141],
     "name": "Kabuto",
     "rank": 3,
     "catch": 6,
@@ -1681,6 +1821,7 @@
   },
   {
     "id": 141,
+    "evo": [140, 141],
     "name": "Kabutops",
     "rank": 5,
     "catch": 7,
@@ -1693,6 +1834,7 @@
   },
   {
     "id": 142,
+    "evo": [142],
     "name": "Aerodactyl",
     "rank": 4,
     "catch": 6,
@@ -1705,6 +1847,7 @@
   },
   {
     "id": 143,
+    "evo": [446, 143],
     "name": "Snorlax",
     "rank": 3,
     "catch": 6,
@@ -1717,6 +1860,7 @@
   },
   {
     "id": 144,
+    "evo": [144],
     "name": "Articuno",
     "rank": 6,
     "catch": 8,
@@ -1729,6 +1873,7 @@
   },
   {
     "id": 145,
+    "evo": [145],
     "name": "Zapdos",
     "rank": 6,
     "catch": 8,
@@ -1741,6 +1886,7 @@
   },
   {
     "id": 146,
+    "evo": [146],
     "name": "Moltres",
     "rank": 6,
     "catch": 8,
@@ -1753,6 +1899,7 @@
   },
   {
     "id": 147,
+    "evo": [147, 148, 149],
     "name": "Dratini",
     "rank": 2,
     "catch": 4,
@@ -1765,6 +1912,7 @@
   },
   {
     "id": 148,
+    "evo": [147, 148, 149],
     "name": "Dragonair",
     "rank": 4,
     "catch": 6,
@@ -1777,6 +1925,7 @@
   },
   {
     "id": 149,
+    "evo": [147, 148, 149],
     "name": "Dragonite",
     "rank": 5,
     "catch": 8,
@@ -1789,6 +1938,7 @@
   },
   {
     "id": 150,
+    "evo": [150],
     "name": "Mewtwo",
     "rank": 6,
     "catch": 8,
@@ -1801,6 +1951,7 @@
   },
   {
     "id": 151,
+    "evo": [151],
     "name": "Mew",
     "rank": 6,
     "catch": 8,
@@ -1813,6 +1964,7 @@
   },
   {
     "id": 152,
+    "evo": [152, 153, 154],
     "name": "Chikorita",
     "rank": 1,
     "catch": 3,
@@ -1825,6 +1977,7 @@
   },
   {
     "id": 153,
+    "evo": [152, 153, 154],
     "name": "Bayleef",
     "rank": 3,
     "catch": 5,
@@ -1837,6 +1990,7 @@
   },
   {
     "id": 154,
+    "evo": [152, 153, 154],
     "name": "Meganium",
     "rank": 5,
     "catch": 7,
@@ -1849,6 +2003,7 @@
   },
   {
     "id": 155,
+    "evo": [155, 156, 157],
     "name": "Cyndaquil",
     "rank": 1,
     "catch": 3,
@@ -1861,6 +2016,7 @@
   },
   {
     "id": 156,
+    "evo": [155, 156, 157],
     "name": "Quilava",
     "rank": 3,
     "catch": 5,
@@ -1873,6 +2029,7 @@
   },
   {
     "id": 157,
+    "evo": [155, 156, 157],
     "name": "Typhlosion",
     "rank": 5,
     "catch": 7,
@@ -1885,6 +2042,7 @@
   },
   {
     "id": 158,
+    "evo": [158, 159, 160],
     "name": "Totodile",
     "rank": 1,
     "catch": 3,
@@ -1897,6 +2055,7 @@
   },
   {
     "id": 159,
+    "evo": [158, 159, 160],
     "name": "Croconaw",
     "rank": 3,
     "catch": 5,
@@ -1909,6 +2068,7 @@
   },
   {
     "id": 160,
+    "evo": [158, 159, 160],
     "name": "Feraligatr",
     "rank": 4,
     "catch": 7,
@@ -1921,6 +2081,7 @@
   },
   {
     "id": 161,
+    "evo": [161, 162],
     "name": "Sentret",
     "rank": 1,
     "catch": 3,
@@ -1933,6 +2094,7 @@
   },
   {
     "id": 162,
+    "evo": [161, 162],
     "name": "Furret",
     "rank": 2,
     "catch": 4,
@@ -1945,6 +2107,7 @@
   },
   {
     "id": 163,
+    "evo": [163, 164],
     "name": "Hoothoot",
     "rank": 1,
     "catch": 3,
@@ -1957,6 +2120,7 @@
   },
   {
     "id": 164,
+    "evo": [163, 164],
     "name": "Noctowl",
     "rank": 3,
     "catch": 5,
@@ -1969,6 +2133,7 @@
   },
   {
     "id": 165,
+    "evo": [165, 166],
     "name": "Ledyba",
     "rank": 1,
     "catch": 3,
@@ -1981,6 +2146,7 @@
   },
   {
     "id": 166,
+    "evo": [165, 166],
     "name": "Ledian",
     "rank": 2,
     "catch": 5,
@@ -1993,6 +2159,7 @@
   },
   {
     "id": 167,
+    "evo": [167, 168],
     "name": "Spinarak",
     "rank": 1,
     "catch": 3,
@@ -2005,6 +2172,7 @@
   },
   {
     "id": 168,
+    "evo": [167, 168],
     "name": "Ariados",
     "rank": 3,
     "catch": 5,
@@ -2017,6 +2185,7 @@
   },
   {
     "id": 169,
+    "evo": [41, 42, 169],
     "name": "Crobat",
     "rank": 4,
     "catch": 7,
@@ -2029,6 +2198,7 @@
   },
   {
     "id": 170,
+    "evo": [170, 171],
     "name": "Chinchou",
     "rank": 2,
     "catch": 5,
@@ -2041,6 +2211,7 @@
   },
   {
     "id": 171,
+    "evo": [170, 171],
     "name": "Lanturn",
     "rank": 4,
     "catch": 6,
@@ -2053,6 +2224,7 @@
   },
   {
     "id": 172,
+    "evo": [172, 25, 26],
     "name": "Pichu",
     "rank": 1,
     "catch": 2,
@@ -2065,6 +2237,7 @@
   },
   {
     "id": 173,
+    "evo": [173, 35, 36],
     "name": "Cleffa",
     "rank": 1,
     "catch": 2,
@@ -2077,6 +2250,7 @@
   },
   {
     "id": 174,
+    "evo": [174, 39, 40],
     "name": "Igglybuff",
     "rank": 1,
     "catch": 2,
@@ -2089,6 +2263,7 @@
   },
   {
     "id": 175,
+    "evo": [175, 176, 468],
     "name": "Togepi",
     "rank": 1,
     "catch": 2,
@@ -2101,6 +2276,7 @@
   },
   {
     "id": 176,
+    "evo": [175, 176, 468],
     "name": "Togetic",
     "rank": 1,
     "catch": 4,
@@ -2113,6 +2289,7 @@
   },
   {
     "id": 177,
+    "evo": [177, 178],
     "name": "Natu",
     "rank": 2,
     "catch": 5,
@@ -2125,6 +2302,7 @@
   },
   {
     "id": 178,
+    "evo": [177, 178],
     "name": "Xatu",
     "rank": 4,
     "catch": 6,
@@ -2137,6 +2315,7 @@
   },
   {
     "id": 179,
+    "evo": [179, 180, 181],
     "name": "Mareep",
     "rank": 1,
     "catch": 3,
@@ -2149,6 +2328,7 @@
   },
   {
     "id": 180,
+    "evo": [179, 180, 181],
     "name": "Flaaffy",
     "rank": 2,
     "catch": 4,
@@ -2161,6 +2341,7 @@
   },
   {
     "id": 181,
+    "evo": [179, 180, 181],
     "name": "Ampharos",
     "rank": 4,
     "catch": 6,
@@ -2173,6 +2354,7 @@
   },
   {
     "id": 182,
+    "evo": [43, 44, 45, 182],
     "name": "Bellossom",
     "rank": 4,
     "catch": 6,
@@ -2185,6 +2367,7 @@
   },
   {
     "id": 183,
+    "evo": [298, 183, 184],
     "name": "Marill",
     "rank": 2,
     "catch": 4,
@@ -2197,6 +2380,7 @@
   },
   {
     "id": 184,
+    "evo": [298, 183, 184],
     "name": "Azumarill",
     "rank": 3,
     "catch": 5,
@@ -2209,6 +2393,7 @@
   },
   {
     "id": 185,
+    "evo": [438, 185],
     "name": "Sudowoodo",
     "rank": 2,
     "catch": 5,
@@ -2221,6 +2406,7 @@
   },
   {
     "id": 186,
+    "evo": [60, 61, 62, 186],
     "name": "Politoed",
     "rank": 5,
     "catch": 7,
@@ -2233,6 +2419,7 @@
   },
   {
     "id": 187,
+    "evo": [187, 188, 189],
     "name": "Hoppip",
     "rank": 1,
     "catch": 3,
@@ -2245,6 +2432,7 @@
   },
   {
     "id": 188,
+    "evo": [187, 188, 189],
     "name": "Skiploom",
     "rank": 3,
     "catch": 5,
@@ -2257,6 +2445,7 @@
   },
   {
     "id": 189,
+    "evo": [187, 188, 189],
     "name": "Jumpluff",
     "rank": 4,
     "catch": 6,
@@ -2269,6 +2458,7 @@
   },
   {
     "id": 190,
+    "evo": [190, 424],
     "name": "Aipom",
     "rank": 1,
     "catch": 4,
@@ -2281,6 +2471,7 @@
   },
   {
     "id": 191,
+    "evo": [191, 192],
     "name": "Sunkern",
     "rank": 2,
     "catch": 4,
@@ -2293,6 +2484,7 @@
   },
   {
     "id": 192,
+    "evo": [191, 192],
     "name": "Sunflora",
     "rank": 3,
     "catch": 6,
@@ -2305,6 +2497,7 @@
   },
   {
     "id": 193,
+    "evo": [193, 469],
     "name": "Yanma",
     "rank": 2,
     "catch": 4,
@@ -2317,6 +2510,7 @@
   },
   {
     "id": 194,
+    "evo": [194, 195],
     "name": "Wooper",
     "rank": 1,
     "catch": 3,
@@ -2329,6 +2523,7 @@
   },
   {
     "id": 195,
+    "evo": [194, 195],
     "name": "Quagsire",
     "rank": 3,
     "catch": 5,
@@ -2341,6 +2536,7 @@
   },
   {
     "id": 196,
+    "evo": [133, 134, 135, 136, 196, 197, 470, 471, 700],
     "name": "Espeon",
     "rank": 4,
     "catch": 7,
@@ -2353,6 +2549,7 @@
   },
   {
     "id": 197,
+    "evo": [133, 134, 135, 136, 196, 197, 470, 471, 700],
     "name": "Umbreon",
     "rank": 4,
     "catch": 7,
@@ -2365,6 +2562,7 @@
   },
   {
     "id": 198,
+    "evo": [198, 430],
     "name": "Murkrow",
     "rank": 3,
     "catch": 5,
@@ -2377,6 +2575,7 @@
   },
   {
     "id": 199,
+    "evo": [79, 80, 199],
     "name": "Slowking",
     "rank": 5,
     "catch": 7,
@@ -2389,6 +2588,7 @@
   },
   {
     "id": 200,
+    "evo": [200, 429],
     "name": "Misdreavus",
     "rank": 4,
     "catch": 6,
@@ -2401,6 +2601,7 @@
   },
   {
     "id": 201,
+    "evo": [201],
     "name": "Unown",
     "rank": 1,
     "catch": 3,
@@ -2413,6 +2614,7 @@
   },
   {
     "id": 202,
+    "evo": [360, 202],
     "name": "Wobbuffet",
     "rank": 2,
     "catch": 4,
@@ -2425,6 +2627,7 @@
   },
   {
     "id": 203,
+    "evo": [203],
     "name": "Girafarig",
     "rank": 2,
     "catch": 4,
@@ -2437,6 +2640,7 @@
   },
   {
     "id": 204,
+    "evo": [204, 205],
     "name": "Pineco",
     "rank": 1,
     "catch": 4,
@@ -2449,6 +2653,7 @@
   },
   {
     "id": 205,
+    "evo": [204, 205],
     "name": "Forretress",
     "rank": 4,
     "catch": 6,
@@ -2461,6 +2666,7 @@
   },
   {
     "id": 206,
+    "evo": [206],
     "name": "Dunsparce",
     "rank": 1,
     "catch": 3,
@@ -2473,6 +2679,7 @@
   },
   {
     "id": 207,
+    "evo": [207, 472],
     "name": "Gligar",
     "rank": 3,
     "catch": 6,
@@ -2485,6 +2692,7 @@
   },
   {
     "id": 208,
+    "evo": [95, 208],
     "name": "Steelix",
     "rank": 3,
     "catch": 6,
@@ -2497,6 +2705,7 @@
   },
   {
     "id": 209,
+    "evo": [209, 210],
     "name": "Snubbull",
     "rank": 2,
     "catch": 4,
@@ -2509,6 +2718,7 @@
   },
   {
     "id": 210,
+    "evo": [209, 210],
     "name": "Granbull",
     "rank": 3,
     "catch": 5,
@@ -2521,6 +2731,7 @@
   },
   {
     "id": 211,
+    "evo": [211],
     "name": "Qwilfish",
     "rank": 3,
     "catch": 6,
@@ -2533,6 +2744,7 @@
   },
   {
     "id": 212,
+    "evo": [123, 212],
     "name": "Scizor",
     "rank": 5,
     "catch": 7,
@@ -2545,6 +2757,7 @@
   },
   {
     "id": 213,
+    "evo": [213],
     "name": "Shuckle",
     "rank": 2,
     "catch": 4,
@@ -2557,6 +2770,7 @@
   },
   {
     "id": 214,
+    "evo": [214],
     "name": "Heracross",
     "rank": 3,
     "catch": 6,
@@ -2569,6 +2783,7 @@
   },
   {
     "id": 215,
+    "evo": [215, 461],
     "name": "Sneasel",
     "rank": 2,
     "catch": 5,
@@ -2581,6 +2796,7 @@
   },
   {
     "id": 216,
+    "evo": [216, 217],
     "name": "Teddiursa",
     "rank": 3,
     "catch": 5,
@@ -2593,6 +2809,7 @@
   },
   {
     "id": 217,
+    "evo": [216, 217],
     "name": "Ursaring",
     "rank": 4,
     "catch": 6,
@@ -2605,6 +2822,7 @@
   },
   {
     "id": 218,
+    "evo": [218, 219],
     "name": "Slugma",
     "rank": 3,
     "catch": 6,
@@ -2617,6 +2835,7 @@
   },
   {
     "id": 219,
+    "evo": [218, 219],
     "name": "Magcargo",
     "rank": 5,
     "catch": 7,
@@ -2629,6 +2848,7 @@
   },
   {
     "id": 220,
+    "evo": [220, 221, 473],
     "name": "Swinub",
     "rank": 2,
     "catch": 5,
@@ -2641,6 +2861,7 @@
   },
   {
     "id": 221,
+    "evo": [220, 221, 473],
     "name": "Piloswine",
     "rank": 4,
     "catch": 7,
@@ -2653,6 +2874,7 @@
   },
   {
     "id": 222,
+    "evo": [222],
     "name": "Corsola",
     "rank": 2,
     "catch": 5,
@@ -2665,6 +2887,7 @@
   },
   {
     "id": 223,
+    "evo": [223, 224],
     "name": "Remoraid",
     "rank": 3,
     "catch": 5,
@@ -2677,6 +2900,7 @@
   },
   {
     "id": 224,
+    "evo": [223, 224],
     "name": "Octillery",
     "rank": 4,
     "catch": 6,
@@ -2689,6 +2913,7 @@
   },
   {
     "id": 225,
+    "evo": [225],
     "name": "Delibird",
     "rank": 3,
     "catch": 5,
@@ -2701,6 +2926,7 @@
   },
   {
     "id": 226,
+    "evo": [458, 226],
     "name": "Mantine",
     "rank": 3,
     "catch": 5,
@@ -2713,6 +2939,7 @@
   },
   {
     "id": 227,
+    "evo": [227],
     "name": "Skarmory",
     "rank": 4,
     "catch": 6,
@@ -2725,6 +2952,7 @@
   },
   {
     "id": 228,
+    "evo": [228, 229],
     "name": "Houndour",
     "rank": 2,
     "catch": 4,
@@ -2737,6 +2965,7 @@
   },
   {
     "id": 229,
+    "evo": [228, 229],
     "name": "Houndoom",
     "rank": 4,
     "catch": 6,
@@ -2749,6 +2978,7 @@
   },
   {
     "id": 230,
+    "evo": [116, 117, 230],
     "name": "Kingdra",
     "rank": 5,
     "catch": 7,
@@ -2761,6 +2991,7 @@
   },
   {
     "id": 231,
+    "evo": [231, 232],
     "name": "Phanpy",
     "rank": 2,
     "catch": 5,
@@ -2773,6 +3004,7 @@
   },
   {
     "id": 232,
+    "evo": [231, 232],
     "name": "Donphan",
     "rank": 4,
     "catch": 6,
@@ -2785,6 +3017,7 @@
   },
   {
     "id": 233,
+    "evo": [137, 233, 474],
     "name": "Porygon2",
     "rank": 3,
     "catch": 6,
@@ -2797,6 +3030,7 @@
   },
   {
     "id": 234,
+    "evo": [234],
     "name": "Stantler",
     "rank": 2,
     "catch": 4,
@@ -2809,6 +3043,7 @@
   },
   {
     "id": 235,
+    "evo": [235],
     "name": "Smeargle",
     "rank": 2,
     "catch": 5,
@@ -2821,6 +3056,7 @@
   },
   {
     "id": 236,
+    "evo": [236, 106, 107, 237],
     "name": "Tyrogue",
     "rank": 1,
     "catch": 3,
@@ -2833,6 +3069,7 @@
   },
   {
     "id": 237,
+    "evo": [236, 106, 107, 237],
     "name": "Hitmontop",
     "rank": 3,
     "catch": 6,
@@ -2845,6 +3082,7 @@
   },
   {
     "id": 238,
+    "evo": [238, 124],
     "name": "Smoochum",
     "rank": 1,
     "catch": 3,
@@ -2857,6 +3095,7 @@
   },
   {
     "id": 239,
+    "evo": [239, 125, 466],
     "name": "Elekid",
     "rank": 1,
     "catch": 3,
@@ -2869,6 +3108,7 @@
   },
   {
     "id": 240,
+    "evo": [240, 126, 467],
     "name": "Magby",
     "rank": 1,
     "catch": 3,
@@ -2881,6 +3121,7 @@
   },
   {
     "id": 241,
+    "evo": [241],
     "name": "Miltank",
     "rank": 2,
     "catch": 4,
@@ -2893,6 +3134,7 @@
   },
   {
     "id": 242,
+    "evo": [440, 113, 242],
     "name": "Blissey",
     "rank": 5,
     "catch": 7,
@@ -2905,6 +3147,7 @@
   },
   {
     "id": 243,
+    "evo": [243],
     "name": "Raikou",
     "rank": 6,
     "catch": 8,
@@ -2917,6 +3160,7 @@
   },
   {
     "id": 244,
+    "evo": [244],
     "name": "Entei",
     "rank": 6,
     "catch": 8,
@@ -2929,6 +3173,7 @@
   },
   {
     "id": 245,
+    "evo": [245],
     "name": "Suicune",
     "rank": 6,
     "catch": 8,
@@ -2941,6 +3186,7 @@
   },
   {
     "id": 246,
+    "evo": [246, 247, 248],
     "name": "Larvitar",
     "rank": 2,
     "catch": 4,
@@ -2953,6 +3199,7 @@
   },
   {
     "id": 247,
+    "evo": [246, 247, 248],
     "name": "Pupitar",
     "rank": 4,
     "catch": 6,
@@ -2965,6 +3212,7 @@
   },
   {
     "id": 248,
+    "evo": [246, 247, 248],
     "name": "Tyranitar",
     "rank": 5,
     "catch": 8,
@@ -2977,6 +3225,7 @@
   },
   {
     "id": 249,
+    "evo": [249],
     "name": "Lugia",
     "rank": 6,
     "catch": 8,
@@ -2989,6 +3238,7 @@
   },
   {
     "id": 250,
+    "evo": [250],
     "name": "Ho-Oh",
     "rank": 6,
     "catch": 8,
@@ -3001,6 +3251,7 @@
   },
   {
     "id": 251,
+    "evo": [251],
     "name": "Celebi",
     "rank": 6,
     "catch": 8,

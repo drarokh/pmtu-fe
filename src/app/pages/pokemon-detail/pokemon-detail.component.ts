@@ -5,6 +5,7 @@ import {
   ChangeDetectorRef,
   OnInit,
   OnDestroy,
+  signal,
 } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PokemonTypeComponent } from '../../components/pokemon-type/pokemon-type.component';
@@ -22,6 +23,8 @@ import { TypeEffectiveness } from '../../models/type-effectiveness.model';
 import { SelfTypeEffectivenessService } from '../../services/self-type-effectiveness.service';
 import { PokemonTypeService } from '../../services/type.service';
 import { PokemonTypeRoundComponent } from '../../components/pokemon-type-round/pokemon-type-round.component';
+import { PokemonCardComponent } from "../../components/pokemon-card/pokemon-card.component";
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-pokemon-detail',
@@ -34,7 +37,8 @@ import { PokemonTypeRoundComponent } from '../../components/pokemon-type-round/p
     PokemonMoveComponent,
     PokemonTypeRoundComponent,
     PokemonTypeComponent,
-  ],
+    PokemonCardComponent
+],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PokemonDetailComponent implements OnInit, OnDestroy {
@@ -66,6 +70,7 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   doubleResistence: Type[] = [];
   immunities: Type[] = [];
   effectivenessArray: number[] = new Array(18).fill(0);
+  evolutionPokemons = signal<Map<number, Pokemon>>(new Map());
 
   constructor() {}
 
@@ -95,8 +100,24 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
     }).subscribe(({ pokemon, types, selfTypeEffectiveness }) => {
       this.pokemon = pokemon;
       this.elaboratePkmEffectiveness(selfTypeEffectiveness, pokemon, types);
+      this.pokemon?.evo.forEach(id => {
+        this.loadEvolution(id);
+      });
       this.cdr.markForCheck();
     });
+  }
+
+  loadEvolution(id: number) {
+    this.pokedexService.getPokemonById(id)
+      .subscribe(pokemon => {
+        if (pokemon != undefined){
+          this.evolutionPokemons.update(map => {
+            const newMap = new Map(map);
+            newMap.set(id, pokemon);
+            return newMap;
+          });
+        }
+      });
   }
 
   elaboratePkmEffectiveness(
@@ -170,5 +191,9 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
 
   trackByEffect(index: number, effect: Effect) {
     return effect.name;
+  }
+
+  trackByEvo(index: number, evo: number) {
+    return evo;
   }
 }

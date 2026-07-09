@@ -154,7 +154,15 @@
             }
 
             @case ('Evolutions') {
-              <div class="text-center">-</div>
+              <div class="text-center">
+                @if (pokemon != undefined && pokemon.evo.length > 0) {
+                  @for (idEvo of pokemon.evo; track trackByEvo($index, idEvo)) {
+                    @if (evolutionPokemons().get(idEvo); as evoPokemon) {
+                      <app-pokemon-card [pokemon]="evoPokemon"></app-pokemon-card>
+                    }
+                  }
+                }
+              </div>
             }
           }
         </div>

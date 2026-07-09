@@ -24,5 +24,6 @@ export function mapPokemon(
     types: dto.types.map((id) => typeMap[id]).filter(Boolean),
     abilities: dto.abilities.map((id) => abilityMap[id]).filter(Boolean),
     moves: dto.moves.map((id) => moveMap[id]).filter(Boolean),
+    evo: dto.evo,
   };
 }

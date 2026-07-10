@@ -10,6 +10,12 @@ import { Router } from '@angular/router';
 export class HomePageComponent {
   constructor(private router: Router) {}
 
+  imgMenuPokeball = `images/miscellaneous/bg-pokeball.png`;
+  imgMenuPokedex = `url("images/miscellaneous/menu-pokedex.png")`;
+  imgMenuGymLeader = `linear-gradient(rgba(128,128,128,0.7), rgba(128,128,128,0.7)), url("images/miscellaneous/menu-gym.png")`;
+  imgMenuTeam = `linear-gradient(rgba(128,128,128,0.7), rgba(128,128,128,0.7)), url("images/miscellaneous/menu-team.png")`;
+  imgMenuStadium = `linear-gradient(rgba(128,128,128,0.7), rgba(128,128,128,0.7)), url("images/miscellaneous/menu-stadium.png")`;
+
   openPokedex() {
     this.router.navigate(['/pokedex']);
   }

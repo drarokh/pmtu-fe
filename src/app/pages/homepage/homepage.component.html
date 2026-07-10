@@ -1,7 +1,7 @@
 <div class="app">
   <div class="container h-screen flex flex-col">
     <div class="header">
-      <img class="header-icon" src="/images/miscellaneous/bg-pokeball.png" />
+      <img class="header-icon" [src]="imgMenuPokeball" />
       <div class="title">
         <div>Pokémon Master Trainer</div>
         <div>Ultimate Edition</div>
@@ -9,19 +9,26 @@
     </div>
     <div class="home">
       <div class="menu-grid">
-        <button class="card pokedex" (click)="openPokedex()">
+        <button
+          class="card pokedex"
+          (click)="openPokedex()"
+          [style.background-image]="imgMenuPokedex"
+        >
           <span class="text-left ml-10">Pokedex</span>
         </button>
 
-        <button class="card leaders">
-          <span class="text-left ml-10">Gym<th>Leaders</span>
+        <button class="card leaders" [style.background-image]="imgMenuGymLeader">
+          <span class="text-left ml-10"
+            >Gym
+            <th>Leaders</th></span
+          >
         </button>
 
-        <button class="card team">
+        <button class="card team" [style.background-image]="imgMenuTeam">
           <span class="text-left ml-10">Team</span>
         </button>
 
-        <button class="card stadium">
+        <button class="card stadium" [style.background-image]="imgMenuStadium">
           <span class="text-left ml-10">Stadium</span>
         </button>
       </div>

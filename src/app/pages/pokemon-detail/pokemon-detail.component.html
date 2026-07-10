@@ -1,12 +1,14 @@
 <div class="screen">
   <div class="content">
-    <div class="header">
-      <div class="menu">
-        <button (click)="goBack()"><i class="fa-solid fa-angle-left shadow-text"></i></button>
-        <div class="text-[#E0E0E0] text-[20px] font-semibold">#{{ pokemon?.number }}</div>
+    <div class="menu fixed top-0 left-0 w-full z-50">
+      <div class="menu-int">
+        <button (click)="goBack()"><i class="fa-solid fa-arrow-left shadow-text"></i></button>
+        <div class="text-[#E0E0E0] text-[20px] font-semibold">{{ pokemon?.name }}</div>
         <button><i class="fa-solid fa-bars shadow-text"></i></button>
       </div>
+    </div>
 
+    <div class="header">
       <div class="navigation flex justify-center">
         <div class="navigation-button shadow-text" (click)="goBefore(pokemon?.id)">
           <i class="fa-solid fa-angle-left"></i>
@@ -24,7 +26,7 @@
         </div>
       </div>
     </div>
-    <div class="pkm-name">{{ pokemon?.name }}</div>
+    <!--<div class="pkm-name">{{ pokemon?.name }}</div>-->
     <div class="flex items-center justify-center">
       @for (type of pokemon?.types; track trackByType($index, type.id)) {
         <app-pokemon-type [type]="type" class="pokemon-type"></app-pokemon-type>
@@ -48,6 +50,9 @@
                 class="grid grid-cols-[150px_1fr] gap-3"
                 [style.--text-color]="pokemon?.types?.[0]?.textColor"
               >
+                <div class="detail-label">Number</div>
+                <div class="detail-value">#{{ pokemon?.number }}</div>
+
                 <div class="detail-label">Rank</div>
                 <app-pokemon-rank [rank]="pokemon?.rank"></app-pokemon-rank>
 
@@ -81,22 +86,22 @@
                 </div>
               </div>
               <div class="grid grid-cols-[150px_50px_minmax(0,1fr)] gap-3 effectiveness-grid">
-                <div class="detail-label">Weakness</div>
-                <div class="text-red-400 text-sm">(+2)</div>
-                <div class="detail-value detail-ability capitalize gap-2 min-w-0">
-                  @if (this.weakness.length > 0) {
-                    @for (type of this.weakness; track trackByType($index, type.id)) {
+                <div class="detail-label">Double Weakness</div>
+                <div class="text-red-400 text-sm">(+3)</div>
+                <div class="detail-value detail-ability capitalize">
+                  @if (this.doubleWeakness.length > 0) {
+                    @for (type of this.doubleWeakness; track trackByType($index, type.id)) {
                       <app-pokemon-type-round [type]="type"></app-pokemon-type-round>
                     }
                   } @else {
                     <span>-</span>
                   }
                 </div>
-                <div class="detail-label">Double Weakness</div>
-                <div class="text-red-400 text-sm">(+3)</div>
-                <div class="detail-value detail-ability capitalize">
-                  @if (this.doubleWeakness.length > 0) {
-                    @for (type of this.doubleWeakness; track trackByType($index, type.id)) {
+                <div class="detail-label">Weakness</div>
+                <div class="text-red-400 text-sm">(+2)</div>
+                <div class="detail-value detail-ability capitalize gap-2 min-w-0">
+                  @if (this.weakness.length > 0) {
+                    @for (type of this.weakness; track trackByType($index, type.id)) {
                       <app-pokemon-type-round [type]="type"></app-pokemon-type-round>
                     }
                   } @else {

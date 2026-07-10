@@ -41,12 +41,32 @@
     </div>
   </div>
 
-  <div class="move-detail-section">
+  <div class="move-detail-section" [style.border-color]="move()?.type?.textColor">
     <div class="flex">
-      <div class="move-detail-title" [style.border-color]="move()?.type?.textColor">Effects</div>
+      <div class="pb-2">Effects</div>
     </div>
-    @if ((move()?.effects || []).length > 0) {
+    @if (((move()?.effects || []).length > 0) || ((move()?.dice || []).length > 0)) {
       <div class="grid grid-cols-[35px_1fr] gap-x-1 gap-y-3">
+        @if (move()?.dice == '{d4}' || move()?.dice == '{d8}' || move()?.dice == '{d4 3}'){
+          <div class="flex">
+            <img
+              [src]="'icons/effects/' + move()?.dice + '.png'"
+              [alt]="'move dice'"
+              class="max-h-[20px]"
+            />
+          </div>
+          <div class="effect-description">
+            @if (move()?.dice == '{d4}') {
+              User must roll 4-sided die for their attack roll.
+            } 
+            @if (move()?.dice == '{d4 3}') {
+              Roll equal or higher to 3. User must roll 4-sided die for their attack roll.
+            }
+            @if (move()?.dice == '{d8}') {
+              User must roll 8-sided die for the attack roll (treating 7 as a 5 and 8 as a 6).
+            }
+          </div>
+        }
         @for (moveEffect of move()?.effects; track trackByEffect($index, moveEffect)) {
           <div class="flex">
             <img

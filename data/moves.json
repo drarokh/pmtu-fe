@@ -1,698 +1,5 @@
 [
   {
-    "id": 41,
-    "name": "Axe Kick",
-    "stab": "4",
-    "type": 7,
-    "value": "3",
-    "effects": [13, 122],
-    "has_stab": true
-  },
-  {
-    "id": 44,
-    "name": "Baneful Bunker",
-    "stab": "0",
-    "type": 8,
-    "value": "0",
-    "effects": [125, 57],
-    "has_stab": false
-  },
-  {
-    "id": 45,
-    "name": "Barb Barrage",
-    "stab": "3",
-    "type": 8,
-    "value": "2",
-    "effects": [58, 97],
-    "has_stab": true
-  },
-  {
-    "id": 49,
-    "name": "Beak Blast",
-    "stab": "3",
-    "type": 10,
-    "value": "2",
-    "effects": [6, 128],
-    "has_stab": true
-  },
-  {
-    "id": 6,
-    "name": "Acrobatics",
-    "stab": "3*",
-    "type": 10,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 54,
-    "name": "Belly Drum",
-    "stab": "0",
-    "type": 1,
-    "value": "0",
-    "effects": [104, 121],
-    "has_stab": false
-  },
-  {
-    "id": 60,
-    "name": "Bitter Malice",
-    "stab": "3",
-    "type": 14,
-    "value": "2",
-    "effects": [38, 97],
-    "has_stab": true
-  },
-  {
-    "id": 9,
-    "dice": "{d8}",
-    "name": "Aeroblast",
-    "stab": "3",
-    "type": 10,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 89,
-    "name": "Bulk Up",
-    "stab": "0",
-    "type": 7,
-    "value": "0",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 94,
-    "name": "Burning Bulwark",
-    "stab": "0",
-    "type": 2,
-    "value": "0",
-    "effects": [125, 6],
-    "has_stab": false
-  },
-  {
-    "id": 12,
-    "dice": "{d8}",
-    "name": "Air Cutter",
-    "stab": "3",
-    "type": 10,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 98,
-    "name": "Calm Mind",
-    "stab": "0",
-    "type": 11,
-    "value": "0",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 108,
-    "name": "Chilly Reception",
-    "stab": "0",
-    "type": 6,
-    "value": "0",
-    "effects": [135, 72],
-    "has_stab": false
-  },
-  {
-    "id": 117,
-    "name": "Coil",
-    "stab": "0",
-    "type": 8,
-    "value": "0",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 143,
-    "name": "Curse",
-    "stab": "0",
-    "type": 14,
-    "value": "0",
-    "effects": [15, 120],
-    "has_stab": false
-  },
-  {
-    "id": 167,
-    "dice": "{d4}",
-    "name": "Double Iron Bash",
-    "stab": "3",
-    "type": 17,
-    "value": "2",
-    "effects": [85, 20],
-    "has_stab": true
-  },
-  {
-    "id": 19,
-    "dice": "{d8}",
-    "name": "Aqua Cutter",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 239,
-    "name": "First Impression",
-    "stab": "3",
-    "type": 12,
-    "value": "2",
-    "effects": [124, 128],
-    "has_stab": true
-  },
-  {
-    "id": 266,
-    "name": "Freeze Shock",
-    "stab": "4",
-    "type": 6,
-    "value": "3",
-    "effects": [52, 128],
-    "has_stab": true
-  },
-  {
-    "id": 23,
-    "name": "Aqua Tail",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 337,
-    "name": "Hyperspace Fury",
-    "stab": "3",
-    "type": 16,
-    "value": "2",
-    "effects": [91, 133],
-    "has_stab": true
-  },
-  {
-    "id": 342,
-    "name": "Ice Burn",
-    "stab": "4",
-    "type": 6,
-    "value": "3",
-    "effects": [7, 128],
-    "has_stab": true
-  },
-  {
-    "id": 352,
-    "name": "Infernal Parade",
-    "stab": "3",
-    "type": 14,
-    "value": "2",
-    "effects": [7, 97],
-    "has_stab": true
-  },
-  {
-    "id": 368,
-    "name": "Jungle Healing",
-    "stab": "0",
-    "type": 5,
-    "value": "0",
-    "effects": [132, 134],
-    "has_stab": false
-  },
-  {
-    "id": 28,
-    "name": "Assist",
-    "stab": "*",
-    "type": 1,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 398,
-    "name": "Lunar Blessing",
-    "stab": "0",
-    "type": 11,
-    "value": "0",
-    "effects": [132, 134],
-    "has_stab": false
-  },
-  {
-    "id": 410,
-    "name": "Matcha Gotcha",
-    "stab": "3",
-    "type": 5,
-    "value": "2",
-    "effects": [7, 123],
-    "has_stab": true
-  },
-  {
-    "id": 31,
-    "name": "Astral Barrage",
-    "stab": "4",
-    "type": 14,
-    "value": "3",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 32,
-    "dice": "{d8}",
-    "name": "Attack Order",
-    "stab": "3",
-    "type": 12,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 411,
-    "name": "Me First",
-    "stab": "0",
-    "type": 1,
-    "value": "0",
-    "effects": [131, 91],
-    "has_stab": false
-  },
-  {
-    "id": 418,
-    "name": "Memento",
-    "stab": "0",
-    "type": 16,
-    "value": "0",
-    "effects": [22, 117],
-    "has_stab": false
-  },
-  {
-    "id": 35,
-    "name": "Aura Wheel",
-    "stab": "4*",
-    "type": 4,
-    "value": "3*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 36,
-    "name": "Aura Wheel",
-    "stab": "4*",
-    "type": 16,
-    "value": "3*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 444,
-    "name": "Mortal Spin",
-    "stab": "2",
-    "type": 8,
-    "value": "1",
-    "effects": [54, 67],
-    "has_stab": true
-  },
-  {
-    "id": 460,
-    "name": "No Retreat",
-    "stab": "0",
-    "type": 7,
-    "value": "0",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 465,
-    "name": "Obstruct",
-    "stab": "0",
-    "type": 16,
-    "value": "0",
-    "effects": [125, 104],
-    "has_stab": false
-  },
-  {
-    "id": 467,
-    "name": "Octolock",
-    "stab": "0",
-    "type": 7,
-    "value": "0",
-    "effects": [104, 46],
-    "has_stab": false
-  },
-  {
-    "id": 477,
-    "name": "Parting Shot",
-    "stab": "0",
-    "type": 16,
-    "value": "0",
-    "effects": [16, 135],
-    "has_stab": false
-  },
-  {
-    "id": 526,
-    "name": "Purify",
-    "stab": "0",
-    "type": 8,
-    "value": "0",
-    "effects": [123, 134],
-    "has_stab": false
-  },
-  {
-    "id": 531,
-    "name": "Quiver Dance",
-    "stab": "0",
-    "type": 12,
-    "value": "0",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 606,
-    "name": "Shell Smash",
-    "stab": "0",
-    "type": 1,
-    "value": "0",
-    "effects": [104, 133],
-    "has_stab": false
-  },
-  {
-    "id": 609,
-    "name": "Shift Gear",
-    "stab": "0",
-    "type": 17,
-    "value": "0",
-    "effects": [91, 124],
-    "has_stab": false
-  },
-  {
-    "id": 619,
-    "name": "Skull Bash",
-    "stab": "4",
-    "type": 1,
-    "value": "3",
-    "effects": [20, 128],
-    "has_stab": true
-  },
-  {
-    "id": 620,
-    "dice": "{d8}",
-    "name": "Sky Attack",
-    "stab": "4",
-    "type": 10,
-    "value": "3",
-    "effects": [20, 128],
-    "has_stab": true
-  },
-  {
-    "id": 652,
-    "name": "Spider Web",
-    "stab": "0",
-    "type": 12,
-    "value": "0",
-    "effects": [91, 46],
-    "has_stab": false
-  },
-  {
-    "id": 655,
-    "name": "Spiky Shield",
-    "stab": "0",
-    "type": 5,
-    "value": "0",
-    "effects": [125, 127],
-    "has_stab": false
-  },
-  {
-    "id": 50,
-    "name": "Beat Up",
-    "stab": "*",
-    "type": 16,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 51,
-    "name": "Behemoth Bash",
-    "stab": "3*",
-    "type": 17,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 52,
-    "name": "Behemoth Blade",
-    "stab": "3*",
-    "type": 17,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 53,
-    "name": "Belch",
-    "stab": "*",
-    "type": 8,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 678,
-    "name": "Strength Sap",
-    "stab": "0",
-    "type": 5,
-    "value": "0",
-    "effects": [16, 123],
-    "has_stab": false
-  },
-  {
-    "id": 55,
-    "name": "Bestow",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 708,
-    "name": "Take Heart",
-    "stab": "0*",
-    "type": 11,
-    "value": "0*",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 732,
-    "name": "Tickle",
-    "stab": "0",
-    "type": 1,
-    "value": "0",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 733,
-    "name": "Tidy Up",
-    "stab": "0",
-    "type": 1,
-    "value": "0",
-    "effects": [67, 91],
-    "has_stab": false
-  },
-  {
-    "id": 739,
-    "name": "Toxic Thread",
-    "stab": "0",
-    "type": 8,
-    "value": "0",
-    "effects": [54, 124],
-    "has_stab": false
-  },
-  {
-    "id": 747,
-    "dice": "{d4}",
-    "name": "Triple Kick",
-    "stab": "-1",
-    "type": 7,
-    "value": "-1",
-    "effects": [85, 85],
-    "has_stab": false
-  },
-  {
-    "id": 751,
-    "dice": "{d4}",
-    "name": "Twineedle",
-    "stab": "2",
-    "type": 12,
-    "value": "1",
-    "effects": [85, 59],
-    "has_stab": true
-  },
-  {
-    "id": 761,
-    "name": "Victory Dance",
-    "stab": "0",
-    "type": 7,
-    "value": "0",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 766,
-    "name": "Volt Tackle",
-    "stab": "4",
-    "type": 4,
-    "value": "3",
-    "effects": [53, 122],
-    "has_stab": true
-  },
-  {
-    "id": 771,
-    "dice": "{d4}",
-    "name": "Water Shuriken",
-    "stab": "2",
-    "type": 3,
-    "value": "1",
-    "effects": [124, 88],
-    "has_stab": true
-  },
-  {
-    "id": 114,
-    "name": "Clangorous Soul",
-    "stab": "0",
-    "type": 15,
-    "value": "0",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 280,
-    "name": "Geomancy",
-    "stab": "0",
-    "type": 18,
-    "value": "0",
-    "effects": [104, 22],
-    "has_stab": false
-  },
-  {
-    "id": 69,
-    "name": "Body Press",
-    "stab": "3",
-    "type": 7,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 76,
-    "name": "Boomburst",
-    "stab": "4",
-    "type": 1,
-    "value": "3",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 79,
-    "name": "Branch Poke",
-    "stab": "2",
-    "type": 5,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 82,
-    "name": "Brick Break",
-    "stab": "3*",
-    "type": 7,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 83,
-    "name": "Brine",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 84,
-    "name": "Brutal Swing",
-    "stab": "3",
-    "type": 16,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 85,
-    "name": "Bubble",
-    "stab": "2",
-    "type": 3,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 86,
-    "name": "Bubble Beam",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 87,
-    "name": "Bug Bite",
-    "stab": "3",
-    "type": 12,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 90,
-    "name": "Bulldoze",
-    "stab": "3",
-    "type": 9,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 96,
-    "name": "Burning Jealousy",
-    "stab": "3*",
-    "type": 2,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 99,
-    "name": "Camouflage",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 102,
-    "name": "Celebrate",
-    "stab": "0",
-    "type": 1,
-    "value": "0",
-    "effects": [],
-    "has_stab": false
-  },
-  {
     "id": 1,
     "name": "Absorb",
     "stab": "1",
@@ -700,1792 +7,6 @@
     "value": "1",
     "effects": [123],
     "has_stab": false
-  },
-  {
-    "id": 118,
-    "name": "Collision Course",
-    "stab": "3",
-    "type": 7,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 124,
-    "name": "Constrict",
-    "stab": "1",
-    "type": 1,
-    "value": "1",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 125,
-    "name": "Conversion",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 126,
-    "name": "Conversion 2",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 128,
-    "name": "Core Enforcer",
-    "stab": "3",
-    "type": 15,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 135,
-    "name": "Covet",
-    "stab": "3*",
-    "type": 1,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 136,
-    "dice": "{d8}",
-    "name": "Crabhammer",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 138,
-    "dice": "{d8}",
-    "name": "Cross Chop",
-    "stab": "3",
-    "type": 7,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 144,
-    "name": "Cut",
-    "stab": "2",
-    "type": 1,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 148,
-    "name": "Darkest Lariat",
-    "stab": "3",
-    "type": 16,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 149,
-    "name": "Dazzling Gleam",
-    "stab": "3",
-    "type": 18,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 157,
-    "name": "Dig",
-    "stab": "3",
-    "type": 9,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 159,
-    "name": "Disable",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 162,
-    "name": "Dive",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 175,
-    "name": "Dragon Cheer",
-    "stab": "0*",
-    "type": 15,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 176,
-    "name": "Dragon Claw",
-    "stab": "3",
-    "type": 15,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 180,
-    "name": "Dragon Hammer",
-    "stab": "3",
-    "type": 15,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 181,
-    "name": "Dragon Pulse",
-    "stab": "3",
-    "type": 15,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 188,
-    "name": "Drill Peck",
-    "stab": "3",
-    "type": 10,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 189,
-    "dice": "{d8}",
-    "name": "Drill Run",
-    "stab": "3",
-    "type": 9,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 190,
-    "name": "Drum Beating",
-    "stab": "3",
-    "type": 5,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 193,
-    "name": "Dynamax Cannon",
-    "stab": "3*",
-    "type": 15,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 196,
-    "name": "Earthquake",
-    "stab": "3",
-    "type": 9,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 199,
-    "name": "Eerie Spell",
-    "stab": "3",
-    "type": 11,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 200,
-    "name": "Egg Bomb",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 203,
-    "name": "Electro Drift",
-    "stab": "3",
-    "type": 4,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 205,
-    "name": "Electroweb",
-    "stab": "3",
-    "type": 4,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 204,
-    "name": "Electro Shot",
-    "stab": "4",
-    "type": 4,
-    "value": "3",
-    "effects": [91, 128],
-    "has_stab": true
-  },
-  {
-    "id": 208,
-    "name": "Encore",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 212,
-    "dice": "{d8}",
-    "name": "Esper Wing",
-    "stab": "3",
-    "type": 11,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 214,
-    "name": "Expanding Force",
-    "stab": "3",
-    "type": 11,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 218,
-    "name": "Facade",
-    "stab": "3*",
-    "type": 1,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 220,
-    "name": "Fairy Wind",
-    "stab": "2",
-    "type": 18,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 221,
-    "name": "Fake Out",
-    "stab": "2*",
-    "type": 1,
-    "value": "1*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 224,
-    "name": "False Swipe",
-    "stab": "2*",
-    "type": 1,
-    "value": "1*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 227,
-    "name": "Fell Stinger",
-    "stab": "2*",
-    "type": 12,
-    "value": "1*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 236,
-    "name": "Fire Pledge",
-    "stab": "3*",
-    "type": 2,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 243,
-    "name": "Flame Burst",
-    "stab": "3",
-    "type": 2,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 252,
-    "name": "Fling",
-    "stab": "*",
-    "type": 16,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 257,
-    "name": "Fly",
-    "stab": "3",
-    "type": 10,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 258,
-    "name": "Flying Press",
-    "stab": "3*",
-    "type": 7,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 262,
-    "name": "Foresight",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 284,
-    "name": "Glacial Lance",
-    "stab": "4",
-    "type": 6,
-    "value": "3",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 285,
-    "name": "Glaciate",
-    "stab": "3",
-    "type": 6,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 290,
-    "name": "Grass Pledge",
-    "stab": "3*",
-    "type": 5,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 292,
-    "name": "Grassy Glide",
-    "stab": "3",
-    "type": 5,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 297,
-    "name": "Grudge",
-    "stab": "0*",
-    "type": 14,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 300,
-    "name": "Gust",
-    "stab": "2",
-    "type": 10,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 303,
-    "name": "Hammer Arm",
-    "stab": "3",
-    "type": 7,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 304,
-    "name": "Happy Hour",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 307,
-    "name": "Haze",
-    "stab": "0*",
-    "type": 6,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 312,
-    "name": "Heal Bell",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 319,
-    "name": "Hidden Power",
-    "stab": "3*",
-    "type": 1,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 320,
-    "name": "High Horsepower",
-    "stab": "3",
-    "type": 9,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 322,
-    "name": "Hold Back",
-    "stab": "2*",
-    "type": 1,
-    "value": "1*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 323,
-    "name": "Hold Hands",
-    "stab": "0",
-    "type": 1,
-    "value": "0",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 325,
-    "name": "Horn Attack",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 331,
-    "name": "Hydro Pump",
-    "stab": "4",
-    "type": 3,
-    "value": "3",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 332,
-    "name": "Hydro Steam",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 334,
-    "name": "Hyper Drill",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 336,
-    "name": "Hyper Voice",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 344,
-    "name": "Ice Hammer",
-    "stab": "3",
-    "type": 6,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 350,
-    "name": "Icy Wind",
-    "stab": "3",
-    "type": 6,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 356,
-    "name": "Ion Deluge",
-    "stab": "0*",
-    "type": 4,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 360,
-    "dice": "{d8}",
-    "name": "Ivy Cudgel",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 361,
-    "dice": "{d8}",
-    "name": "Ivy Cudgel",
-    "stab": "3",
-    "type": 13,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 362,
-    "dice": "{d8}",
-    "name": "Ivy Cudgel",
-    "stab": "3",
-    "type": 5,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 363,
-    "dice": "{d8}",
-    "name": "Ivy Cudgel",
-    "stab": "3",
-    "type": 2,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 366,
-    "name": "Judgment",
-    "stab": "3*",
-    "type": 1,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 369,
-    "dice": "{d8}",
-    "name": "Karate Chop",
-    "stab": "2",
-    "type": 7,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 374,
-    "name": "Land's Wrath",
-    "stab": "3",
-    "type": 9,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 375,
-    "name": "Laser Focus",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 376,
-    "name": "Lash Out",
-    "stab": "3*",
-    "type": 16,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 377,
-    "name": "Last Resort",
-    "stab": "4*",
-    "type": 1,
-    "value": "3*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 378,
-    "name": "Last Respects",
-    "stab": "*",
-    "type": 14,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 380,
-    "dice": "{d8}",
-    "name": "Leaf Blade",
-    "stab": "3",
-    "type": 5,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 383,
-    "name": "Leafage",
-    "stab": "2",
-    "type": 5,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 394,
-    "name": "Low Kick",
-    "stab": "2",
-    "type": 7,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 395,
-    "name": "Low Sweep",
-    "stab": "3",
-    "type": 7,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 396,
-    "name": "Lucky Chant",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 402,
-    "name": "Magic Coat",
-    "stab": "0*",
-    "type": 11,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 318,
-    "name": "Hex",
-    "stab": "3",
-    "type": 14,
-    "value": "2",
-    "effects": [97],
-    "has_stab": true
-  },
-  {
-    "id": 415,
-    "name": "Mega Kick",
-    "stab": "4",
-    "type": 1,
-    "value": "3",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 416,
-    "name": "Mega Punch",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 417,
-    "name": "Megahorn",
-    "stab": "4",
-    "type": 12,
-    "value": "3",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 425,
-    "name": "Metronome",
-    "stab": "*",
-    "type": 1,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 427,
-    "name": "Mighty Cleave",
-    "stab": "3*",
-    "type": 13,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 429,
-    "name": "Mimic",
-    "stab": "*",
-    "type": 1,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 441,
-    "name": "Moongeist Beam",
-    "stab": "3",
-    "type": 14,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 445,
-    "name": "Mountain Gale",
-    "stab": "3",
-    "type": 6,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 447,
-    "name": "Mud Shot",
-    "stab": "3",
-    "type": 9,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 449,
-    "name": "Multi-Attack",
-    "stab": "4*",
-    "type": 1,
-    "value": "3*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 453,
-    "name": "Natural Gift",
-    "stab": "2*",
-    "type": 1,
-    "value": "1*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 455,
-    "name": "Nature Power",
-    "stab": "*",
-    "type": 1,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 459,
-    "dice": "{d8}",
-    "name": "Night Slash",
-    "stab": "3",
-    "type": 16,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 468,
-    "name": "Odor Sleuth",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 470,
-    "name": "Order Up",
-    "stab": "3*",
-    "type": 15,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 471,
-    "name": "Origin Pulse",
-    "stab": "4",
-    "type": 3,
-    "value": "3",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 473,
-    "name": "Overdrive",
-    "stab": "3",
-    "type": 4,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 479,
-    "name": "Payback",
-    "stab": "2*",
-    "type": 16,
-    "value": "1*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 480,
-    "name": "Peck",
-    "stab": "2",
-    "type": 10,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 482,
-    "name": "Petal Blizzard",
-    "stab": "3",
-    "type": 5,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 484,
-    "name": "Phantom Force",
-    "stab": "3",
-    "type": 14,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 485,
-    "name": "Photon Geyser",
-    "stab": "3",
-    "type": 11,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 487,
-    "name": "Plasma Fists",
-    "stab": "3*",
-    "type": 4,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 497,
-    "name": "Pollen Puff",
-    "stab": "3",
-    "type": 12,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 498,
-    "name": "Poltergeist",
-    "stab": "*",
-    "type": 14,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 500,
-    "name": "Pounce",
-    "stab": "2",
-    "type": 12,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 501,
-    "name": "Pound",
-    "stab": "2",
-    "type": 1,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 504,
-    "name": "Power Gem",
-    "stab": "3",
-    "type": 13,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 505,
-    "name": "Power Trip",
-    "stab": "*",
-    "type": 16,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 506,
-    "name": "Power Whip",
-    "stab": "4",
-    "type": 5,
-    "value": "3",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 507,
-    "name": "Precipice Blades",
-    "stab": "4",
-    "type": 9,
-    "value": "3",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 512,
-    "name": "Psyblade",
-    "stab": "3",
-    "type": 11,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 513,
-    "name": "Psych Up",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 515,
-    "name": "Psychic Fangs",
-    "stab": "3*",
-    "type": 11,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 516,
-    "name": "Psychic Noise",
-    "stab": "3",
-    "type": 11,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 519,
-    "dice": "{d8}",
-    "name": "Psycho Cut",
-    "stab": "3",
-    "type": 11,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 520,
-    "name": "Psycho Shift",
-    "stab": "0*",
-    "type": 11,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 522,
-    "name": "Psyshock",
-    "stab": "3",
-    "type": 11,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 523,
-    "name": "Psystrike",
-    "stab": "3",
-    "type": 11,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 525,
-    "name": "Punishment",
-    "stab": "3*",
-    "type": 16,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 527,
-    "name": "Pursuit",
-    "stab": "2*",
-    "type": 16,
-    "value": "1*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 534,
-    "name": "Raging Bull",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 535,
-    "name": "Raging Bull",
-    "stab": "3",
-    "type": 7,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 536,
-    "name": "Raging Bull",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 537,
-    "name": "Raging Bull",
-    "stab": "3",
-    "type": 2,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 541,
-    "dice": "{d8}",
-    "name": "Razor Leaf",
-    "stab": "3",
-    "type": 5,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 546,
-    "name": "Reflect Type",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 547,
-    "name": "Refresh",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 550,
-    "name": "Retaliate",
-    "stab": "3*",
-    "type": 1,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 552,
-    "name": "Revelation Dance",
-    "stab": "3",
-    "type": 4,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 553,
-    "name": "Revelation Dance",
-    "stab": "3",
-    "type": 2,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 554,
-    "name": "Revelation Dance",
-    "stab": "3",
-    "type": 11,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 555,
-    "name": "Revelation Dance",
-    "stab": "3",
-    "type": 14,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 559,
-    "name": "Rising Voltage",
-    "stab": "3",
-    "type": 4,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 567,
-    "name": "Rock Throw",
-    "stab": "2",
-    "type": 13,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 568,
-    "name": "Rock Tomb",
-    "stab": "3",
-    "type": 13,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 587,
-    "name": "Scratch",
-    "stab": "2",
-    "type": 1,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 591,
-    "name": "Secret Sword",
-    "stab": "3",
-    "type": 7,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 592,
-    "name": "Seed Bomb",
-    "stab": "3",
-    "type": 5,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 597,
-    "dice": "{d8}",
-    "name": "Shadow Blast",
-    "stab": "3",
-    "type": 16,
-    "value": "3",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 599,
-    "dice": "{d8}",
-    "name": "Shadow Claw",
-    "stab": "3",
-    "type": 14,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 617,
-    "name": "Sketch",
-    "stab": "*",
-    "type": 1,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 621,
-    "name": "Sky Drop",
-    "stab": "3",
-    "type": 10,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 622,
-    "name": "Sky Uppercut",
-    "stab": "3",
-    "type": 7,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 624,
-    "name": "Slam",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 625,
-    "dice": "{d8}",
-    "name": "Slash",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 627,
-    "name": "Sleep Talk",
-    "stab": "*",
-    "type": 1,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 631,
-    "name": "Smack Down",
-    "stab": "2",
-    "type": 13,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 638,
-    "name": "Snatch",
-    "stab": "0*",
-    "type": 16,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 639,
-    "dice": "{d8}",
-    "name": "Snipe Shot",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 640,
-    "name": "Snore",
-    "stab": "2*",
-    "type": 1,
-    "value": "1*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 646,
-    "dice": "{d8}",
-    "name": "Spacial Rend",
-    "stab": "3",
-    "type": 15,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 650,
-    "name": "Spectral Thief",
-    "stab": "3*",
-    "type": 14,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 656,
-    "name": "Spin Out",
-    "stab": "3",
-    "type": 17,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 659,
-    "name": "Spit Up",
-    "stab": "*",
-    "type": 1,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 660,
-    "name": "Splash",
-    "stab": "0",
-    "type": 1,
-    "value": "0",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 672,
-    "name": "Stomping Tantrum",
-    "stab": "3",
-    "type": 9,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 674,
-    "dice": "{d8}",
-    "name": "Stone Edge",
-    "stab": "3",
-    "type": 13,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 675,
-    "dice": "{d8}",
-    "name": "Storm Throw",
-    "stab": "3",
-    "type": 7,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 677,
-    "name": "Strength",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 687,
-    "name": "Sunsteel Strike",
-    "stab": "3",
-    "type": 17,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 692,
-    "name": "Surf",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 698,
-    "name": "Switcheroo",
-    "stab": "0*",
-    "type": 16,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 701,
-    "name": "Syrup Bomb",
-    "stab": "3",
-    "type": 5,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 703,
-    "name": "Tackle",
-    "stab": "2",
-    "type": 1,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 709,
-    "name": "Taunt",
-    "stab": "0*",
-    "type": 16,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 711,
-    "name": "Techno Blast",
-    "stab": "4*",
-    "type": 1,
-    "value": "3*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 713,
-    "name": "Teleport",
-    "stab": "0",
-    "type": 11,
-    "value": "0",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 714,
-    "name": "Temper Flare",
-    "stab": "3",
-    "type": 2,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 715,
-    "name": "Tera Blast",
-    "stab": "3*",
-    "type": 1,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 7,
-    "name": "Acupressure",
-    "stab": "0",
-    "type": 1,
-    "value": "0",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 717,
-    "name": "Terrain Pulse",
-    "stab": "3*",
-    "type": 1,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 718,
-    "name": "Thief",
-    "stab": "3*",
-    "type": 16,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 719,
-    "name": "Thousand Arrows",
-    "stab": "3",
-    "type": 9,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 10,
-    "name": "After You",
-    "stab": "0",
-    "type": 1,
-    "value": "0",
-    "effects": [91, 16],
-    "has_stab": false
-  },
-  {
-    "id": 722,
-    "name": "Throat Chop",
-    "stab": "3",
-    "type": 16,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 734,
-    "name": "Topsy-Turvy",
-    "stab": "0*",
-    "type": 16,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 736,
-    "name": "Torment",
-    "stab": "0*",
-    "type": 16,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 741,
-    "name": "Transform",
-    "stab": "*",
-    "type": 1,
-    "value": "*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 743,
-    "name": "Trick",
-    "stab": "0*",
-    "type": 11,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 755,
-    "name": "Uproar",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 762,
-    "name": "Vine Whip",
-    "stab": "2",
-    "type": 5,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 763,
-    "name": "Vise Grip",
-    "stab": "3",
-    "type": 1,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 768,
-    "name": "Water Gun",
-    "stab": "2",
-    "type": 3,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 769,
-    "name": "Water Pledge",
-    "stab": "3*",
-    "type": 3,
-    "value": "2*",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 775,
-    "name": "Weather Ball",
-    "stab": "3",
-    "type": 6,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 776,
-    "name": "Weather Ball",
-    "stab": "3",
-    "type": 2,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 777,
-    "name": "Weather Ball",
-    "stab": "2",
-    "type": 1,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 778,
-    "name": "Weather Ball",
-    "stab": "3",
-    "type": 3,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 781,
-    "dice": "{d8}",
-    "name": "Wicked Blow",
-    "stab": "3",
-    "type": 16,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 787,
-    "name": "Wing Attack",
-    "stab": "3",
-    "type": 10,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 793,
-    "name": "X-Scissor",
-    "stab": "3",
-    "type": 12,
-    "value": "2",
-    "effects": [],
-    "has_stab": true
-  },
-  {
-    "id": 794,
-    "name": "Yawn",
-    "stab": "0*",
-    "type": 1,
-    "value": "0*",
-    "effects": [],
-    "has_stab": false
-  },
-  {
-    "id": 798,
-    "dice": "{d8}",
-    "name": "Zippy Zap",
-    "stab": "2",
-    "type": 4,
-    "value": "1",
-    "effects": [],
-    "has_stab": true
   },
   {
     "id": 2,
@@ -2524,6 +45,24 @@
     "has_stab": true
   },
   {
+    "id": 6,
+    "name": "Acrobatics",
+    "stab": "3*",
+    "type": 10,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 7,
+    "name": "Acupressure",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [91, 16],
+    "has_stab": false
+  },
+  {
     "id": 8,
     "name": "Aerial Ace",
     "stab": "3",
@@ -2533,6 +72,25 @@
     "has_stab": true
   },
   {
+    "id": 9,
+    "dice": "{d8}",
+    "name": "Aeroblast",
+    "stab": "3",
+    "type": 10,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 10,
+    "name": "After You",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [91, 16],
+    "has_stab": false
+  },
+  {
     "id": 11,
     "name": "Agility",
     "stab": "0",
@@ -2540,6 +98,16 @@
     "value": "0",
     "effects": [124],
     "has_stab": false
+  },
+  {
+    "id": 12,
+    "dice": "{d8}",
+    "name": "Air Cutter",
+    "stab": "3",
+    "type": 10,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 13,
@@ -2596,6 +164,16 @@
     "has_stab": true
   },
   {
+    "id": 19,
+    "dice": "{d8}",
+    "name": "Aqua Cutter",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 20,
     "name": "Aqua Jet",
     "stab": "2",
@@ -2620,6 +198,15 @@
     "type": 3,
     "value": "2",
     "effects": [124],
+    "has_stab": true
+  },
+  {
+    "id": 23,
+    "name": "Aqua Tail",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -2660,6 +247,15 @@
     "has_stab": false
   },
   {
+    "id": 28,
+    "name": "Assist",
+    "stab": "*",
+    "type": 1,
+    "value": "*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 29,
     "name": "Assurance",
     "stab": "3",
@@ -2678,6 +274,25 @@
     "has_stab": true
   },
   {
+    "id": 31,
+    "name": "Astral Barrage",
+    "stab": "4",
+    "type": 14,
+    "value": "3",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 32,
+    "dice": "{d8}",
+    "name": "Attack Order",
+    "stab": "3",
+    "type": 12,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 33,
     "name": "Attract",
     "stab": "0",
@@ -2693,6 +308,24 @@
     "type": 7,
     "value": "2",
     "effects": [91],
+    "has_stab": true
+  },
+  {
+    "id": 35,
+    "name": "Aura Wheel",
+    "stab": "4*",
+    "type": 4,
+    "value": "3*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 36,
+    "name": "Aura Wheel",
+    "stab": "4*",
+    "type": 16,
+    "value": "3*",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -2732,6 +365,15 @@
     "has_stab": true
   },
   {
+    "id": 41,
+    "name": "Axe Kick",
+    "stab": "4",
+    "type": 7,
+    "value": "3",
+    "effects": [13, 122],
+    "has_stab": true
+  },
+  {
     "id": 42,
     "name": "Baby-Doll Eyes",
     "stab": "0",
@@ -2748,6 +390,24 @@
     "value": "3",
     "effects": [16],
     "has_stab": false
+  },
+  {
+    "id": 44,
+    "name": "Baneful Bunker",
+    "stab": "0",
+    "type": 8,
+    "value": "0",
+    "effects": [125, 57],
+    "has_stab": false
+  },
+  {
+    "id": 45,
+    "name": "Barb Barrage",
+    "stab": "3",
+    "type": 8,
+    "value": "2",
+    "effects": [58, 97],
+    "has_stab": true
   },
   {
     "id": 46,
@@ -2775,6 +435,69 @@
     "type": 1,
     "value": "0",
     "effects": [135],
+    "has_stab": false
+  },
+  {
+    "id": 49,
+    "name": "Beak Blast",
+    "stab": "3",
+    "type": 10,
+    "value": "2",
+    "effects": [6, 128],
+    "has_stab": true
+  },
+  {
+    "id": 50,
+    "name": "Beat Up",
+    "stab": "*",
+    "type": 16,
+    "value": "*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
+    "id": 51,
+    "name": "Behemoth Bash",
+    "stab": "3*",
+    "type": 17,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 52,
+    "name": "Behemoth Blade",
+    "stab": "3*",
+    "type": 17,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 53,
+    "name": "Belch",
+    "stab": "*",
+    "type": 8,
+    "value": "*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
+    "id": 54,
+    "name": "Belly Drum",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [104, 121],
+    "has_stab": false
+  },
+  {
+    "id": 55,
+    "name": "Bestow",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
     "has_stab": false
   },
   {
@@ -2812,6 +535,15 @@
     "type": 2,
     "value": "2",
     "effects": [123],
+    "has_stab": true
+  },
+  {
+    "id": 60,
+    "name": "Bitter Malice",
+    "stab": "3",
+    "type": 14,
+    "value": "2",
+    "effects": [38, 97],
     "has_stab": true
   },
   {
@@ -2888,6 +620,15 @@
     "has_stab": true
   },
   {
+    "id": 69,
+    "name": "Body Press",
+    "stab": "3",
+    "type": 7,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 70,
     "name": "Body Slam",
     "stab": "3",
@@ -2944,6 +685,15 @@
     "has_stab": true
   },
   {
+    "id": 76,
+    "name": "Boomburst",
+    "stab": "4",
+    "type": 1,
+    "value": "3",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 77,
     "name": "Bounce",
     "stab": "3",
@@ -2960,6 +710,15 @@
     "value": "3",
     "effects": [123],
     "has_stab": false
+  },
+  {
+    "id": 79,
+    "name": "Branch Poke",
+    "stab": "2",
+    "type": 5,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 80,
@@ -2980,12 +739,84 @@
     "has_stab": true
   },
   {
+    "id": 82,
+    "name": "Brick Break",
+    "stab": "3*",
+    "type": 7,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 83,
+    "name": "Brine",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 84,
+    "name": "Brutal Swing",
+    "stab": "3",
+    "type": 16,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 85,
+    "name": "Bubble",
+    "stab": "2",
+    "type": 3,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 86,
+    "name": "Bubble Beam",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 87,
+    "name": "Bug Bite",
+    "stab": "3",
+    "type": 12,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 88,
     "name": "Bug Buzz",
     "stab": "3",
     "type": 12,
     "value": "2",
     "effects": [96],
+    "has_stab": true
+  },
+  {
+    "id": 89,
+    "name": "Bulk Up",
+    "stab": "0",
+    "type": 7,
+    "value": "0",
+    "effects": [91, 16],
+    "has_stab": false
+  },
+  {
+    "id": 90,
+    "name": "Bulldoze",
+    "stab": "3",
+    "type": 9,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -3017,12 +848,48 @@
     "has_stab": true
   },
   {
+    "id": 94,
+    "name": "Burning Bulwark",
+    "stab": "0",
+    "type": 2,
+    "value": "0",
+    "effects": [125, 6],
+    "has_stab": false
+  },
+  {
+    "id": 96,
+    "name": "Burning Jealousy",
+    "stab": "3*",
+    "type": 2,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 97,
     "name": "Buzzy Buzz",
     "stab": "3",
     "type": 4,
     "value": "3",
     "effects": [51],
+    "has_stab": false
+  },
+  {
+    "id": 98,
+    "name": "Calm Mind",
+    "stab": "0",
+    "type": 11,
+    "value": "0",
+    "effects": [91, 16],
+    "has_stab": false
+  },
+  {
+    "id": 99,
+    "name": "Camouflage",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
     "has_stab": false
   },
   {
@@ -3043,6 +910,15 @@
     "value": "2",
     "effects": [81],
     "has_stab": true
+  },
+  {
+    "id": 102,
+    "name": "Celebrate",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [],
+    "has_stab": false
   },
   {
     "id": 103,
@@ -3088,6 +964,15 @@
     "value": "1",
     "effects": [16],
     "has_stab": true
+  },
+  {
+    "id": 108,
+    "name": "Chilly Reception",
+    "stab": "0",
+    "type": 6,
+    "value": "0",
+    "effects": [135, 72],
+    "has_stab": false
   },
   {
     "id": 109,
@@ -3136,6 +1021,15 @@
     "has_stab": true
   },
   {
+    "id": 114,
+    "name": "Clangorous Soul",
+    "stab": "0",
+    "type": 15,
+    "value": "0",
+    "effects": [91, 16],
+    "has_stab": false
+  },
+  {
     "id": 115,
     "name": "Clear Smog",
     "stab": "2",
@@ -3151,6 +1045,24 @@
     "type": 7,
     "value": "3",
     "effects": [133],
+    "has_stab": true
+  },
+  {
+    "id": 117,
+    "name": "Coil",
+    "stab": "0",
+    "type": 8,
+    "value": "0",
+    "effects": [91, 16],
+    "has_stab": false
+  },
+  {
+    "id": 118,
+    "name": "Collision Course",
+    "stab": "3",
+    "type": 7,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -3200,6 +1112,33 @@
     "has_stab": true
   },
   {
+    "id": 124,
+    "name": "Constrict",
+    "stab": "1",
+    "type": 1,
+    "value": "1",
+    "effects": [],
+    "has_stab": false
+  },
+  {
+    "id": 125,
+    "name": "Conversion",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [146],
+    "has_stab": false
+  },
+  {
+    "id": 126,
+    "name": "Conversion 2",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [154],
+    "has_stab": false
+  },
+  {
     "id": 127,
     "name": "Copycat",
     "stab": "0",
@@ -3207,6 +1146,15 @@
     "value": "0",
     "effects": [131],
     "has_stab": false
+  },
+  {
+    "id": 128,
+    "name": "Core Enforcer",
+    "stab": "3",
+    "type": 15,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 129,
@@ -3263,6 +1211,25 @@
     "has_stab": false
   },
   {
+    "id": 135,
+    "name": "Covet",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [145],
+    "has_stab": true
+  },
+  {
+    "id": 136,
+    "dice": "{d8}",
+    "name": "Crabhammer",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 137,
     "name": "Crafty Shield",
     "stab": "0",
@@ -3270,6 +1237,16 @@
     "value": "0",
     "effects": [78],
     "has_stab": false
+  },
+  {
+    "id": 138,
+    "dice": "{d8}",
+    "name": "Cross Chop",
+    "stab": "3",
+    "type": 7,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 139,
@@ -3309,6 +1286,24 @@
     "has_stab": false
   },
   {
+    "id": 143,
+    "name": "Curse",
+    "stab": "0",
+    "type": 14,
+    "value": "0",
+    "effects": [15, 120],
+    "has_stab": false
+  },
+  {
+    "id": 144,
+    "name": "Cut",
+    "stab": "2",
+    "type": 1,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 145,
     "name": "Dark Nova",
     "stab": "2",
@@ -3334,6 +1329,24 @@
     "value": "0",
     "effects": [63],
     "has_stab": false
+  },
+  {
+    "id": 148,
+    "name": "Darkest Lariat",
+    "stab": "3",
+    "type": 16,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 149,
+    "name": "Dazzling Gleam",
+    "stab": "3",
+    "type": 18,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 150,
@@ -3399,6 +1412,15 @@
     "has_stab": true
   },
   {
+    "id": 157,
+    "name": "Dig",
+    "stab": "3",
+    "type": 9,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 158,
     "name": "Dire Claw",
     "stab": "3",
@@ -3406,6 +1428,15 @@
     "value": "2",
     "effects": [31],
     "has_stab": true
+  },
+  {
+    "id": 159,
+    "name": "Disable",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [139],
+    "has_stab": false
   },
   {
     "id": 160,
@@ -3423,6 +1454,15 @@
     "type": 4,
     "value": "2",
     "effects": [53],
+    "has_stab": true
+  },
+  {
+    "id": 162,
+    "name": "Dive",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -3460,6 +1500,16 @@
     "type": 1,
     "value": "1",
     "effects": [85],
+    "has_stab": true
+  },
+  {
+    "id": 167,
+    "dice": "{d4}",
+    "name": "Double Iron Bash",
+    "stab": "3",
+    "type": 17,
+    "value": "2",
+    "effects": [85, 20],
     "has_stab": true
   },
   {
@@ -3528,6 +1578,24 @@
     "has_stab": true
   },
   {
+    "id": 175,
+    "name": "Dragon Cheer",
+    "stab": "0*",
+    "type": 15,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
+    "id": 176,
+    "name": "Dragon Claw",
+    "stab": "3",
+    "type": 15,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 177,
     "name": "Dragon Dance",
     "stab": "0",
@@ -3553,6 +1621,24 @@
     "type": 15,
     "value": "3",
     "effects": [133],
+    "has_stab": true
+  },
+  {
+    "id": 180,
+    "name": "Dragon Hammer",
+    "stab": "3",
+    "type": 15,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 181,
+    "name": "Dragon Pulse",
+    "stab": "3",
+    "type": 15,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -3611,6 +1697,34 @@
     "has_stab": false
   },
   {
+    "id": 188,
+    "name": "Drill Peck",
+    "stab": "3",
+    "type": 10,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 189,
+    "dice": "{d8}",
+    "name": "Drill Run",
+    "stab": "3",
+    "type": 9,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 190,
+    "name": "Drum Beating",
+    "stab": "3",
+    "type": 5,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 191,
     "dice": "{d4}",
     "name": "Dual Chop",
@@ -3628,6 +1742,15 @@
     "type": 10,
     "value": "1",
     "effects": [85],
+    "has_stab": true
+  },
+  {
+    "id": 193,
+    "name": "Dynamax Cannon",
+    "stab": "3*",
+    "type": 15,
+    "value": "2*",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -3649,6 +1772,15 @@
     "has_stab": true
   },
   {
+    "id": 196,
+    "name": "Earthquake",
+    "stab": "3",
+    "type": 9,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 197,
     "name": "Echoed Voice",
     "stab": "2",
@@ -3665,6 +1797,24 @@
     "value": "0",
     "effects": [22],
     "has_stab": false
+  },
+  {
+    "id": 199,
+    "name": "Eerie Spell",
+    "stab": "3",
+    "type": 11,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 200,
+    "name": "Egg Bomb",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 201,
@@ -3685,6 +1835,33 @@
     "has_stab": false
   },
   {
+    "id": 203,
+    "name": "Electro Drift",
+    "stab": "3",
+    "type": 4,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 204,
+    "name": "Electro Shot",
+    "stab": "4",
+    "type": 4,
+    "value": "3",
+    "effects": [91, 128],
+    "has_stab": true
+  },
+  {
+    "id": 205,
+    "name": "Electroweb",
+    "stab": "3",
+    "type": 4,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 206,
     "name": "Embargo",
     "stab": "0",
@@ -3701,6 +1878,15 @@
     "value": "1",
     "effects": [8],
     "has_stab": true
+  },
+  {
+    "id": 208,
+    "name": "Encore",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
   },
   {
     "id": 209,
@@ -3730,12 +1916,31 @@
     "has_stab": true
   },
   {
+    "id": 212,
+    "dice": "{d8}",
+    "name": "Esper Wing",
+    "stab": "3",
+    "type": 11,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 213,
     "name": "Eternabeam",
     "stab": "5",
     "type": 15,
     "value": "4",
     "effects": [128],
+    "has_stab": true
+  },
+  {
+    "id": 214,
+    "name": "Expanding Force",
+    "stab": "3",
+    "type": 11,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -3766,6 +1971,15 @@
     "has_stab": true
   },
   {
+    "id": 218,
+    "name": "Facade",
+    "stab": "3",
+    "type": 1,
+    "value": "2*",
+    "effects": [137],
+    "has_stab": true
+  },
+  {
     "id": 219,
     "name": "Fairy Lock",
     "stab": "0",
@@ -3773,6 +1987,24 @@
     "value": "0",
     "effects": [46],
     "has_stab": false
+  },
+  {
+    "id": 220,
+    "name": "Fairy Wind",
+    "stab": "2",
+    "type": 18,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 221,
+    "name": "Fake Out",
+    "stab": "2*",
+    "type": 1,
+    "value": "1*",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 222,
@@ -3793,6 +2025,15 @@
     "has_stab": true
   },
   {
+    "id": 224,
+    "name": "False Swipe",
+    "stab": "2",
+    "type": 1,
+    "value": "1",
+    "effects": [141],
+    "has_stab": true
+  },
+  {
     "id": 225,
     "name": "Feather Dance",
     "stab": "0",
@@ -3808,6 +2049,15 @@
     "type": 16,
     "value": "2",
     "effects": [91],
+    "has_stab": true
+  },
+  {
+    "id": 227,
+    "name": "Fell Stinger",
+    "stab": "2*",
+    "type": 12,
+    "value": "1*",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -3870,7 +2120,7 @@
     "stab": "3",
     "type": 2,
     "value": "2",
-    "effects": [32],
+    "effects": [153],
     "has_stab": true
   },
   {
@@ -3880,6 +2130,15 @@
     "type": 2,
     "value": "2",
     "effects": [91],
+    "has_stab": true
+  },
+  {
+    "id": 236,
+    "name": "Fire Pledge",
+    "stab": "3*",
+    "type": 2,
+    "value": "2*",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -3899,6 +2158,15 @@
     "type": 2,
     "value": "1",
     "effects": [88],
+    "has_stab": true
+  },
+  {
+    "id": 239,
+    "name": "First Impression",
+    "stab": "3",
+    "type": 12,
+    "value": "2",
+    "effects": [124, 128],
     "has_stab": true
   },
   {
@@ -3927,6 +2195,15 @@
     "value": "1-2 Lvl",
     "effects": [136],
     "has_stab": false
+  },
+  {
+    "id": 243,
+    "name": "Flame Burst",
+    "stab": "3",
+    "type": 2,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 244,
@@ -4001,6 +2278,15 @@
     "has_stab": true
   },
   {
+    "id": 252,
+    "name": "Fling",
+    "stab": "*",
+    "type": 16,
+    "value": "*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 253,
     "name": "Flip Turn",
     "stab": "3",
@@ -4037,6 +2323,24 @@
     "has_stab": true
   },
   {
+    "id": 257,
+    "name": "Fly",
+    "stab": "3",
+    "type": 10,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 258,
+    "name": "Flying Press",
+    "stab": "3*",
+    "type": 7,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 259,
     "name": "Focus Blast",
     "stab": "4",
@@ -4064,6 +2368,15 @@
     "has_stab": true
   },
   {
+    "id": 262,
+    "name": "Foresight",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 263,
     "name": "Foul Play",
     "stab": "0",
@@ -4079,6 +2392,15 @@
     "type": 6,
     "value": "2",
     "effects": [39],
+    "has_stab": true
+  },
+  {
+    "id": 266,
+    "name": "Freeze Shock",
+    "stab": "4",
+    "type": 6,
+    "value": "3",
+    "effects": [52, 128],
     "has_stab": true
   },
   {
@@ -4202,6 +2524,15 @@
     "has_stab": true
   },
   {
+    "id": 280,
+    "name": "Geomancy",
+    "stab": "0",
+    "type": 18,
+    "value": "0",
+    "effects": [104, 22],
+    "has_stab": false
+  },
+  {
     "id": 281,
     "name": "Giga Drain",
     "stab": "3",
@@ -4226,6 +2557,24 @@
     "type": 17,
     "value": "4",
     "effects": [128],
+    "has_stab": true
+  },
+  {
+    "id": 284,
+    "name": "Glacial Lance",
+    "stab": "4",
+    "type": 6,
+    "value": "3",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 285,
+    "name": "Glaciate",
+    "stab": "3",
+    "type": 6,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -4265,6 +2614,15 @@
     "has_stab": false
   },
   {
+    "id": 290,
+    "name": "Grass Pledge",
+    "stab": "3*",
+    "type": 5,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 291,
     "name": "Grass Whistle",
     "stab": "0",
@@ -4272,6 +2630,15 @@
     "value": "0",
     "effects": [63],
     "has_stab": false
+  },
+  {
+    "id": 292,
+    "name": "Grassy Glide",
+    "stab": "3",
+    "type": 5,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 293,
@@ -4310,6 +2677,15 @@
     "has_stab": false
   },
   {
+    "id": 297,
+    "name": "Grudge",
+    "stab": "0*",
+    "type": 14,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 298,
     "name": "Guillotine",
     "stab": "0",
@@ -4325,6 +2701,15 @@
     "type": 8,
     "value": "3",
     "effects": [58],
+    "has_stab": true
+  },
+  {
+    "id": 300,
+    "name": "Gust",
+    "stab": "2",
+    "type": 10,
+    "value": "1",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -4346,6 +2731,24 @@
     "has_stab": false
   },
   {
+    "id": 303,
+    "name": "Hammer Arm",
+    "stab": "3",
+    "type": 7,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 304,
+    "name": "Happy Hour",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 305,
     "name": "Hard Press",
     "stab": "1-2 Lvl",
@@ -4361,6 +2764,15 @@
     "type": 1,
     "value": "0",
     "effects": [16],
+    "has_stab": false
+  },
+  {
+    "id": 307,
+    "name": "Haze",
+    "stab": "0*",
+    "type": 6,
+    "value": "0*",
+    "effects": [],
     "has_stab": false
   },
   {
@@ -4398,6 +2810,15 @@
     "value": "3",
     "effects": [133],
     "has_stab": true
+  },
+  {
+    "id": 312,
+    "name": "Heal Bell",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
   },
   {
     "id": 313,
@@ -4445,6 +2866,33 @@
     "has_stab": false
   },
   {
+    "id": 318,
+    "name": "Hex",
+    "stab": "3",
+    "type": 14,
+    "value": "2",
+    "effects": [97],
+    "has_stab": true
+  },
+  {
+    "id": 319,
+    "name": "Hidden Power",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [152],
+    "has_stab": true
+  },
+  {
+    "id": 320,
+    "name": "High Horsepower",
+    "stab": "3",
+    "type": 9,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 321,
     "name": "High Jump Kick",
     "stab": "4",
@@ -4454,6 +2902,24 @@
     "has_stab": true
   },
   {
+    "id": 322,
+    "name": "Hold Back",
+    "stab": "2*",
+    "type": 1,
+    "value": "1*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 323,
+    "name": "Hold Hands",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 324,
     "name": "Hone Claws",
     "stab": "0",
@@ -4461,6 +2927,15 @@
     "value": "0",
     "effects": [104],
     "has_stab": false
+  },
+  {
+    "id": 325,
+    "name": "Horn Attack",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 326,
@@ -4508,6 +2983,24 @@
     "has_stab": true
   },
   {
+    "id": 331,
+    "name": "Hydro Pump",
+    "stab": "4",
+    "type": 3,
+    "value": "3",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 332,
+    "name": "Hydro Steam",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 333,
     "name": "Hyper Beam",
     "stab": "4",
@@ -4517,12 +3010,39 @@
     "has_stab": true
   },
   {
+    "id": 334,
+    "name": "Hyper Drill",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 335,
     "name": "Hyper Fang",
     "stab": "3",
     "type": 1,
     "value": "2",
     "effects": [21],
+    "has_stab": true
+  },
+  {
+    "id": 336,
+    "name": "Hyper Voice",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 337,
+    "name": "Hyperspace Fury",
+    "stab": "3",
+    "type": 16,
+    "value": "2",
+    "effects": [91, 133],
     "has_stab": true
   },
   {
@@ -4562,12 +3082,30 @@
     "has_stab": true
   },
   {
+    "id": 342,
+    "name": "Ice Burn",
+    "stab": "4",
+    "type": 6,
+    "value": "3",
+    "effects": [7, 128],
+    "has_stab": true
+  },
+  {
     "id": 343,
     "name": "Ice Fang",
     "stab": "3",
     "type": 6,
     "value": "2",
-    "effects": [32],
+    "effects": [149],
+    "has_stab": true
+  },
+  {
+    "id": 344,
+    "name": "Ice Hammer",
+    "stab": "3",
+    "type": 6,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -4617,12 +3155,30 @@
     "has_stab": true
   },
   {
+    "id": 350,
+    "name": "Icy Wind",
+    "stab": "3",
+    "type": 6,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 351,
     "name": "Incinerate",
     "stab": "3",
     "type": 2,
     "value": "2",
     "effects": [2],
+    "has_stab": true
+  },
+  {
+    "id": 352,
+    "name": "Infernal Parade",
+    "stab": "3",
+    "type": 14,
+    "value": "2",
+    "effects": [7, 97],
     "has_stab": true
   },
   {
@@ -4654,6 +3210,15 @@
     "has_stab": false
   },
   {
+    "id": 356,
+    "name": "Ion Deluge",
+    "stab": "0*",
+    "type": 4,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 357,
     "name": "Iron Defense",
     "stab": "0",
@@ -4681,6 +3246,46 @@
     "has_stab": true
   },
   {
+    "id": 360,
+    "dice": "{d8}",
+    "name": "Ivy Cudgel",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 361,
+    "dice": "{d8}",
+    "name": "Ivy Cudgel",
+    "stab": "3",
+    "type": 13,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 362,
+    "dice": "{d8}",
+    "name": "Ivy Cudgel",
+    "stab": "3",
+    "type": 5,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 363,
+    "dice": "{d8}",
+    "name": "Ivy Cudgel",
+    "stab": "3",
+    "type": 2,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 364,
     "name": "Jaw Lock",
     "stab": "3",
@@ -4699,12 +3304,40 @@
     "has_stab": true
   },
   {
+    "id": 366,
+    "name": "Judgment",
+    "stab": "3*",
+    "type": 1,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 367,
     "name": "Jump Kick",
     "stab": "3",
     "type": 7,
     "value": "2",
     "effects": [122],
+    "has_stab": true
+  },
+  {
+    "id": 368,
+    "name": "Jungle Healing",
+    "stab": "0",
+    "type": 5,
+    "value": "0",
+    "effects": [132, 134],
+    "has_stab": false
+  },
+  {
+    "id": 369,
+    "dice": "{d8}",
+    "name": "Karate Chop",
+    "stab": "2",
+    "type": 7,
+    "value": "1",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -4744,12 +3377,67 @@
     "has_stab": true
   },
   {
+    "id": 374,
+    "name": "Land's Wrath",
+    "stab": "3",
+    "type": 9,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 375,
+    "name": "Laser Focus",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
+    "id": 376,
+    "name": "Lash Out",
+    "stab": "3*",
+    "type": 16,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 377,
+    "name": "Last Resort",
+    "stab": "4*",
+    "type": 1,
+    "value": "3*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 378,
+    "name": "Last Respects",
+    "stab": "*",
+    "type": 14,
+    "value": "*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 379,
     "name": "Lava Plume",
     "stab": "3",
     "type": 2,
     "value": "2",
     "effects": [7],
+    "has_stab": true
+  },
+  {
+    "id": 380,
+    "dice": "{d8}",
+    "name": "Leaf Blade",
+    "stab": "3",
+    "type": 5,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -4768,6 +3456,15 @@
     "type": 5,
     "value": "2",
     "effects": [19],
+    "has_stab": true
+  },
+  {
+    "id": 383,
+    "name": "Leafage",
+    "stab": "2",
+    "type": 5,
+    "value": "1",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -4861,6 +3558,33 @@
     "has_stab": false
   },
   {
+    "id": 394,
+    "name": "Low Kick",
+    "stab": "2",
+    "type": 7,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 395,
+    "name": "Low Sweep",
+    "stab": "3",
+    "type": 7,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 396,
+    "name": "Lucky Chant",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 397,
     "name": "Lumina Crash",
     "stab": "3",
@@ -4868,6 +3592,15 @@
     "value": "2",
     "effects": [104],
     "has_stab": true
+  },
+  {
+    "id": 398,
+    "name": "Lunar Blessing",
+    "stab": "0",
+    "type": 11,
+    "value": "0",
+    "effects": [132, 134],
+    "has_stab": false
   },
   {
     "id": 399,
@@ -4895,6 +3628,15 @@
     "value": "1",
     "effects": [124],
     "has_stab": true
+  },
+  {
+    "id": 402,
+    "name": "Magic Coat",
+    "stab": "0*",
+    "type": 11,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
   },
   {
     "id": 403,
@@ -4961,6 +3703,24 @@
     "has_stab": true
   },
   {
+    "id": 410,
+    "name": "Matcha Gotcha",
+    "stab": "3",
+    "type": 5,
+    "value": "2",
+    "effects": [7, 123],
+    "has_stab": true
+  },
+  {
+    "id": 411,
+    "name": "Me First",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [131, 91],
+    "has_stab": false
+  },
+  {
     "id": 412,
     "name": "Mean Look",
     "stab": "0",
@@ -4986,6 +3746,42 @@
     "value": "1",
     "effects": [123],
     "has_stab": true
+  },
+  {
+    "id": 415,
+    "name": "Mega Kick",
+    "stab": "4",
+    "type": 1,
+    "value": "3",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 416,
+    "name": "Mega Punch",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 417,
+    "name": "Megahorn",
+    "stab": "4",
+    "type": 12,
+    "value": "3",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 418,
+    "name": "Memento",
+    "stab": "0",
+    "type": 16,
+    "value": "0",
+    "effects": [22, 117],
+    "has_stab": false
   },
   {
     "id": 419,
@@ -5042,12 +3838,39 @@
     "has_stab": true
   },
   {
+    "id": 425,
+    "name": "Metronome",
+    "stab": "-",
+    "type": 1,
+    "value": "-",
+    "effects": [148],
+    "has_stab": false
+  },
+  {
+    "id": 427,
+    "name": "Mighty Cleave",
+    "stab": "3*",
+    "type": 13,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 428,
     "name": "Milk Drink",
     "stab": "0",
     "type": 1,
     "value": "0",
     "effects": [123],
+    "has_stab": false
+  },
+  {
+    "id": 429,
+    "name": "Mimic",
+    "stab": "-",
+    "type": 1,
+    "value": "-",
+    "effects": [142],
     "has_stab": false
   },
   {
@@ -5150,6 +3973,15 @@
     "has_stab": true
   },
   {
+    "id": 441,
+    "name": "Moongeist Beam",
+    "stab": "3",
+    "type": 14,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 442,
     "name": "Moonlight",
     "stab": "0",
@@ -5168,6 +4000,24 @@
     "has_stab": false
   },
   {
+    "id": 444,
+    "name": "Mortal Spin",
+    "stab": "2",
+    "type": 8,
+    "value": "1",
+    "effects": [54, 67],
+    "has_stab": true
+  },
+  {
+    "id": 445,
+    "name": "Mountain Gale",
+    "stab": "3",
+    "type": 6,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 446,
     "name": "Mud-Slap",
     "stab": "1",
@@ -5177,12 +4027,30 @@
     "has_stab": false
   },
   {
+    "id": 447,
+    "name": "Mud Shot",
+    "stab": "3",
+    "type": 9,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 448,
     "name": "Muddy Water",
     "stab": "3",
     "type": 3,
     "value": "2",
     "effects": [20],
+    "has_stab": true
+  },
+  {
+    "id": 449,
+    "name": "Multi-Attack",
+    "stab": "4*",
+    "type": 1,
+    "value": "3*",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -5213,12 +4081,30 @@
     "has_stab": false
   },
   {
+    "id": 453,
+    "name": "Natural Gift",
+    "stab": "2*",
+    "type": 1,
+    "value": "1*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 454,
     "name": "Nature's Madness",
     "stab": "1-2 Lvl",
     "type": 18,
     "value": "1-2 Lvl",
     "effects": [47],
+    "has_stab": false
+  },
+  {
+    "id": 455,
+    "name": "Nature Power",
+    "stab": "*",
+    "type": 1,
+    "value": "*",
+    "effects": [],
     "has_stab": false
   },
   {
@@ -5246,6 +4132,25 @@
     "type": 14,
     "value": "1-2 Lvl",
     "effects": [136],
+    "has_stab": false
+  },
+  {
+    "id": 459,
+    "dice": "{d8}",
+    "name": "Night Slash",
+    "stab": "3",
+    "type": 16,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 460,
+    "name": "No Retreat",
+    "stab": "0",
+    "type": 7,
+    "value": "0",
+    "effects": [91, 16],
     "has_stab": false
   },
   {
@@ -5285,6 +4190,15 @@
     "has_stab": true
   },
   {
+    "id": 465,
+    "name": "Obstruct",
+    "stab": "0",
+    "type": 16,
+    "value": "0",
+    "effects": [125, 104],
+    "has_stab": false
+  },
+  {
     "id": 466,
     "name": "Octazooka",
     "stab": "3",
@@ -5292,6 +4206,24 @@
     "value": "2",
     "effects": [19],
     "has_stab": true
+  },
+  {
+    "id": 467,
+    "name": "Octolock",
+    "stab": "0",
+    "type": 7,
+    "value": "0",
+    "effects": [104, 46],
+    "has_stab": false
+  },
+  {
+    "id": 468,
+    "name": "Odor Sleuth",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
   },
   {
     "id": 469,
@@ -5303,12 +4235,39 @@
     "has_stab": true
   },
   {
+    "id": 470,
+    "name": "Order Up",
+    "stab": "3*",
+    "type": 15,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 471,
+    "name": "Origin Pulse",
+    "stab": "4",
+    "type": 3,
+    "value": "3",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 472,
     "name": "Outrage",
     "stab": "4",
     "type": 15,
     "value": "3",
     "effects": [102],
+    "has_stab": true
+  },
+  {
+    "id": 473,
+    "name": "Overdrive",
+    "stab": "3",
+    "type": 4,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -5339,22 +4298,58 @@
     "has_stab": true
   },
   {
+    "id": 477,
+    "name": "Parting Shot",
+    "stab": "0",
+    "type": 16,
+    "value": "0",
+    "effects": [16, 135],
+    "has_stab": false
+  },
+  {
     "id": 478,
     "name": "Pay Day",
     "stab": "2",
     "type": 1,
     "value": "1",
-    "effects": [115],
+    "effects": [138],
+    "has_stab": true
+  },
+  {
+    "id": 479,
+    "name": "Payback",
+    "stab": "2*",
+    "type": 16,
+    "value": "1*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 480,
+    "name": "Peck",
+    "stab": "2",
+    "type": 10,
+    "value": "1",
+    "effects": [],
     "has_stab": true
   },
   {
     "id": 481,
     "name": "Perish Song",
-    "stab": "0*",
+    "stab": "0",
     "type": 1,
-    "value": "0*",
-    "effects": [15],
+    "value": "0",
+    "effects": [143, 15],
     "has_stab": false
+  },
+  {
+    "id": 482,
+    "name": "Petal Blizzard",
+    "stab": "3",
+    "type": 5,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 483,
@@ -5366,6 +4361,24 @@
     "has_stab": true
   },
   {
+    "id": 484,
+    "name": "Phantom Force",
+    "stab": "3",
+    "type": 14,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 485,
+    "name": "Photon Geyser",
+    "stab": "3",
+    "type": 11,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 486,
     "dice": "{d4}",
     "name": "Pin Missile",
@@ -5373,6 +4386,15 @@
     "type": 12,
     "value": "1",
     "effects": [88],
+    "has_stab": true
+  },
+  {
+    "id": 487,
+    "name": "Plasma Fists",
+    "stab": "3*",
+    "type": 4,
+    "value": "2*",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -5458,6 +4480,24 @@
     "has_stab": true
   },
   {
+    "id": 497,
+    "name": "Pollen Puff",
+    "stab": "3",
+    "type": 12,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 498,
+    "name": "Poltergeist",
+    "stab": "*",
+    "type": 14,
+    "value": "*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 499,
     "dice": "{d4}",
     "name": "Population Bomb",
@@ -5465,6 +4505,24 @@
     "type": 1,
     "value": "1",
     "effects": [86],
+    "has_stab": true
+  },
+  {
+    "id": 500,
+    "name": "Pounce",
+    "stab": "2",
+    "type": 12,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 501,
+    "name": "Pound",
+    "stab": "2",
+    "type": 1,
+    "value": "1",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -5483,6 +4541,42 @@
     "type": 7,
     "value": "1",
     "effects": [91],
+    "has_stab": true
+  },
+  {
+    "id": 504,
+    "name": "Power Gem",
+    "stab": "3",
+    "type": 13,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 505,
+    "name": "Power Trip",
+    "stab": "*",
+    "type": 16,
+    "value": "*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
+    "id": 506,
+    "name": "Power Whip",
+    "stab": "4",
+    "type": 5,
+    "value": "3",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 507,
+    "name": "Precipice Blades",
+    "stab": "4",
+    "type": 9,
+    "value": "3",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -5523,12 +4617,48 @@
     "has_stab": true
   },
   {
+    "id": 512,
+    "name": "Psyblade",
+    "stab": "3",
+    "type": 11,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 513,
+    "name": "Psych Up",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 514,
     "name": "Psychic",
     "stab": "3",
     "type": 11,
     "value": "2",
     "effects": [96],
+    "has_stab": true
+  },
+  {
+    "id": 515,
+    "name": "Psychic Fangs",
+    "stab": "3*",
+    "type": 11,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 516,
+    "name": "Psychic Noise",
+    "stab": "3",
+    "type": 11,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -5550,12 +4680,49 @@
     "has_stab": true
   },
   {
+    "id": 519,
+    "dice": "{d8}",
+    "name": "Psycho Cut",
+    "stab": "3",
+    "type": 11,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 520,
+    "name": "Psycho Shift",
+    "stab": "0",
+    "type": 11,
+    "value": "0",
+    "effects": [150],
+    "has_stab": false
+  },
+  {
     "id": 521,
     "name": "Psyshield Bash",
     "stab": "3",
     "type": 11,
     "value": "2",
     "effects": [16],
+    "has_stab": true
+  },
+  {
+    "id": 522,
+    "name": "Psyshock",
+    "stab": "3",
+    "type": 11,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 523,
+    "name": "Psystrike",
+    "stab": "3",
+    "type": 11,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -5566,6 +4733,33 @@
     "value": "1-2 Lvl",
     "effects": [136],
     "has_stab": false
+  },
+  {
+    "id": 525,
+    "name": "Punishment",
+    "stab": "3*",
+    "type": 16,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 526,
+    "name": "Purify",
+    "stab": "0",
+    "type": 8,
+    "value": "0",
+    "effects": [123, 134],
+    "has_stab": false
+  },
+  {
+    "id": 527,
+    "name": "Pursuit",
+    "stab": "2*",
+    "type": 16,
+    "value": "1*",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 528,
@@ -5595,6 +4789,15 @@
     "has_stab": true
   },
   {
+    "id": 531,
+    "name": "Quiver Dance",
+    "stab": "0",
+    "type": 12,
+    "value": "0",
+    "effects": [91, 16],
+    "has_stab": false
+  },
+  {
     "id": 532,
     "name": "Rage",
     "stab": "2",
@@ -5610,6 +4813,42 @@
     "type": 14,
     "value": "1",
     "effects": [127],
+    "has_stab": true
+  },
+  {
+    "id": 534,
+    "name": "Raging Bull",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 535,
+    "name": "Raging Bull",
+    "stab": "3",
+    "type": 7,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 536,
+    "name": "Raging Bull",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 537,
+    "name": "Raging Bull",
+    "stab": "3",
+    "type": 2,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -5637,6 +4876,16 @@
     "type": 1,
     "value": "1",
     "effects": [67],
+    "has_stab": true
+  },
+  {
+    "id": 541,
+    "dice": "{d8}",
+    "name": "Razor Leaf",
+    "stab": "3",
+    "type": 5,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -5677,6 +4926,24 @@
     "has_stab": false
   },
   {
+    "id": 546,
+    "name": "Reflect Type",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
+    "id": 547,
+    "name": "Refresh",
+    "stab": "0*",
+    "type": 1,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 548,
     "name": "Relic Song",
     "stab": "3",
@@ -5695,6 +4962,15 @@
     "has_stab": false
   },
   {
+    "id": 550,
+    "name": "Retaliate",
+    "stab": "3*",
+    "type": 1,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 551,
     "name": "Return",
     "stab": "1-2 Lvl",
@@ -5702,6 +4978,42 @@
     "value": "1-2 Lvl",
     "effects": [136],
     "has_stab": false
+  },
+  {
+    "id": 552,
+    "name": "Revelation Dance",
+    "stab": "3",
+    "type": 4,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 553,
+    "name": "Revelation Dance",
+    "stab": "3",
+    "type": 2,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 554,
+    "name": "Revelation Dance",
+    "stab": "3",
+    "type": 11,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 555,
+    "name": "Revelation Dance",
+    "stab": "3",
+    "type": 14,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 556,
@@ -5729,6 +5041,15 @@
     "value": "0",
     "effects": [132],
     "has_stab": false
+  },
+  {
+    "id": 559,
+    "name": "Rising Voltage",
+    "stab": "3",
+    "type": 4,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 560,
@@ -5792,6 +5113,24 @@
     "type": 7,
     "value": "1",
     "effects": [95],
+    "has_stab": true
+  },
+  {
+    "id": 567,
+    "name": "Rock Throw",
+    "stab": "2",
+    "type": 13,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 568,
+    "name": "Rock Tomb",
+    "stab": "3",
+    "type": 13,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -5960,6 +5299,15 @@
     "has_stab": true
   },
   {
+    "id": 587,
+    "name": "Scratch",
+    "stab": "2",
+    "type": 1,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 588,
     "name": "Screech",
     "stab": "0",
@@ -5984,6 +5332,24 @@
     "type": 1,
     "value": "2*",
     "effects": [32],
+    "has_stab": true
+  },
+  {
+    "id": 591,
+    "name": "Secret Sword",
+    "stab": "3",
+    "type": 7,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 592,
+    "name": "Seed Bomb",
+    "stab": "3",
+    "type": 5,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -6023,12 +5389,32 @@
     "has_stab": true
   },
   {
+    "id": 597,
+    "dice": "{d8}",
+    "name": "Shadow Blast",
+    "stab": "3",
+    "type": 16,
+    "value": "3",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 598,
     "name": "Shadow Bone",
     "stab": "3",
     "type": 14,
     "value": "2",
     "effects": [96],
+    "has_stab": true
+  },
+  {
+    "id": 599,
+    "dice": "{d8}",
+    "name": "Shadow Claw",
+    "stab": "3",
+    "type": 14,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -6086,6 +5472,15 @@
     "has_stab": true
   },
   {
+    "id": 606,
+    "name": "Shell Smash",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [104, 133],
+    "has_stab": false
+  },
+  {
     "id": 607,
     "name": "Shell Trap",
     "stab": "4",
@@ -6101,6 +5496,15 @@
     "type": 17,
     "value": "0",
     "effects": [22],
+    "has_stab": false
+  },
+  {
+    "id": 609,
+    "name": "Shift Gear",
+    "stab": "0",
+    "type": 17,
+    "value": "0",
+    "effects": [91, 124],
     "has_stab": false
   },
   {
@@ -6167,12 +5571,58 @@
     "has_stab": false
   },
   {
+    "id": 617,
+    "name": "Sketch",
+    "stab": "-",
+    "type": 1,
+    "value": "-",
+    "effects": [155],
+    "has_stab": false
+  },
+  {
     "id": 618,
     "name": "Skitter Smack",
     "stab": "3",
     "type": 12,
     "value": "2",
     "effects": [16],
+    "has_stab": true
+  },
+  {
+    "id": 619,
+    "name": "Skull Bash",
+    "stab": "4",
+    "type": 1,
+    "value": "3",
+    "effects": [20, 128],
+    "has_stab": true
+  },
+  {
+    "id": 620,
+    "dice": "{d8}",
+    "name": "Sky Attack",
+    "stab": "4",
+    "type": 10,
+    "value": "3",
+    "effects": [20, 128],
+    "has_stab": true
+  },
+  {
+    "id": 621,
+    "name": "Sky Drop",
+    "stab": "3",
+    "type": 10,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 622,
+    "name": "Sky Uppercut",
+    "stab": "3",
+    "type": 7,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -6185,12 +5635,40 @@
     "has_stab": false
   },
   {
+    "id": 624,
+    "name": "Slam",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 625,
+    "dice": "{d8}",
+    "name": "Slash",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 626,
     "name": "Sleep Powder",
     "stab": "0",
     "type": 5,
     "value": "0",
     "effects": [62],
+    "has_stab": false
+  },
+  {
+    "id": 627,
+    "name": "Sleep Talk",
+    "stab": "*",
+    "type": 1,
+    "value": "*",
+    "effects": [],
     "has_stab": false
   },
   {
@@ -6218,6 +5696,15 @@
     "type": 8,
     "value": "2",
     "effects": [59],
+    "has_stab": true
+  },
+  {
+    "id": 631,
+    "name": "Smack Down",
+    "stab": "2",
+    "type": 13,
+    "value": "1",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -6276,6 +5763,34 @@
     "has_stab": true
   },
   {
+    "id": 638,
+    "name": "Snatch",
+    "stab": "0*",
+    "type": 16,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
+    "id": 639,
+    "dice": "{d8}",
+    "name": "Snipe Shot",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 640,
+    "name": "Snore",
+    "stab": "2*",
+    "type": 1,
+    "value": "1*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 641,
     "name": "Snowscape",
     "stab": "0",
@@ -6322,6 +5837,16 @@
     "has_stab": false
   },
   {
+    "id": 646,
+    "dice": "{d8}",
+    "name": "Spacial Rend",
+    "stab": "3",
+    "type": 15,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 647,
     "name": "Spark",
     "stab": "3",
@@ -6349,12 +5874,30 @@
     "has_stab": false
   },
   {
+    "id": 650,
+    "name": "Spectral Thief",
+    "stab": "3*",
+    "type": 14,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 651,
     "name": "Spicy Extract",
     "stab": "0",
     "type": 5,
     "value": "0",
     "effects": [104],
+    "has_stab": false
+  },
+  {
+    "id": 652,
+    "name": "Spider Web",
+    "stab": "0",
+    "type": 12,
+    "value": "0",
+    "effects": [91, 46],
     "has_stab": false
   },
   {
@@ -6377,6 +5920,24 @@
     "has_stab": false
   },
   {
+    "id": 655,
+    "name": "Spiky Shield",
+    "stab": "0",
+    "type": 5,
+    "value": "0",
+    "effects": [125, 127],
+    "has_stab": false
+  },
+  {
+    "id": 656,
+    "name": "Spin Out",
+    "stab": "3",
+    "type": 17,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 657,
     "name": "Spirit Break",
     "stab": "3",
@@ -6393,6 +5954,24 @@
     "value": "2",
     "effects": [46],
     "has_stab": true
+  },
+  {
+    "id": 659,
+    "name": "Spit Up",
+    "stab": "*",
+    "type": 1,
+    "value": "*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
+    "id": 660,
+    "name": "Splash",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [],
+    "has_stab": false
   },
   {
     "id": 661,
@@ -6494,12 +6073,41 @@
     "has_stab": true
   },
   {
+    "id": 672,
+    "name": "Stomping Tantrum",
+    "stab": "3",
+    "type": 9,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 673,
     "name": "Stone Axe",
     "stab": "3",
     "type": 13,
     "value": "2",
     "effects": [82],
+    "has_stab": true
+  },
+  {
+    "id": 674,
+    "dice": "{d8}",
+    "name": "Stone Edge",
+    "stab": "3",
+    "type": 13,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 675,
+    "dice": "{d8}",
+    "name": "Storm Throw",
+    "stab": "3",
+    "type": 7,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -6510,6 +6118,24 @@
     "value": "2",
     "effects": [14],
     "has_stab": true
+  },
+  {
+    "id": 677,
+    "name": "Strength",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 678,
+    "name": "Strength Sap",
+    "stab": "0",
+    "type": 5,
+    "value": "0",
+    "effects": [16, 123],
+    "has_stab": false
   },
   {
     "id": 679,
@@ -6584,6 +6210,15 @@
     "has_stab": false
   },
   {
+    "id": 687,
+    "name": "Sunsteel Strike",
+    "stab": "3",
+    "type": 17,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 688,
     "name": "Super Fang",
     "stab": "1-2 Lvl",
@@ -6618,6 +6253,15 @@
     "value": "0",
     "effects": [12],
     "has_stab": false
+  },
+  {
+    "id": 692,
+    "name": "Surf",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 693,
@@ -6666,6 +6310,15 @@
     "has_stab": true
   },
   {
+    "id": 698,
+    "name": "Switcheroo",
+    "stab": "0*",
+    "type": 16,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 699,
     "name": "Swords Dance",
     "stab": "0",
@@ -6684,6 +6337,15 @@
     "has_stab": false
   },
   {
+    "id": 701,
+    "name": "Syrup Bomb",
+    "stab": "3",
+    "type": 5,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 702,
     "dice": "{d4}",
     "name": "Tachyon Cutter",
@@ -6691,6 +6353,15 @@
     "type": 17,
     "value": "1",
     "effects": [85],
+    "has_stab": true
+  },
+  {
+    "id": 703,
+    "name": "Tackle",
+    "stab": "2",
+    "type": 1,
+    "value": "1",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -6731,6 +6402,24 @@
     "has_stab": true
   },
   {
+    "id": 708,
+    "name": "Take Heart",
+    "stab": "0*",
+    "type": 11,
+    "value": "0*",
+    "effects": [91, 16],
+    "has_stab": false
+  },
+  {
+    "id": 709,
+    "name": "Taunt",
+    "stab": "0*",
+    "type": 16,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 710,
     "name": "Tearful Look",
     "stab": "0",
@@ -6738,6 +6427,15 @@
     "value": "0",
     "effects": [22],
     "has_stab": false
+  },
+  {
+    "id": 711,
+    "name": "Techno Blast",
+    "stab": "4*",
+    "type": 1,
+    "value": "3*",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 712,
@@ -6749,12 +6447,66 @@
     "has_stab": false
   },
   {
+    "id": 713,
+    "name": "Teleport",
+    "stab": "0",
+    "type": 11,
+    "value": "0",
+    "effects": [],
+    "has_stab": false
+  },
+  {
+    "id": 714,
+    "name": "Temper Flare",
+    "stab": "3",
+    "type": 2,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 715,
+    "name": "Tera Blast",
+    "stab": "3*",
+    "type": 1,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 716,
     "name": "Tera Starstorm",
     "stab": "4*",
     "type": 1,
     "value": "3*",
     "effects": [116],
+    "has_stab": true
+  },
+  {
+    "id": 717,
+    "name": "Terrain Pulse",
+    "stab": "3*",
+    "type": 1,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 718,
+    "name": "Thief",
+    "stab": "3*",
+    "type": 16,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 719,
+    "name": "Thousand Arrows",
+    "stab": "3",
+    "type": 9,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -6773,6 +6525,15 @@
     "type": 1,
     "value": "3",
     "effects": [102],
+    "has_stab": true
+  },
+  {
+    "id": 722,
+    "name": "Throat Chop",
+    "stab": "3",
+    "type": 16,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -6858,6 +6619,33 @@
     "has_stab": true
   },
   {
+    "id": 732,
+    "name": "Tickle",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [91, 16],
+    "has_stab": false
+  },
+  {
+    "id": 733,
+    "name": "Tidy Up",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [67, 91],
+    "has_stab": false
+  },
+  {
+    "id": 734,
+    "name": "Topsy-Turvy",
+    "stab": "0*",
+    "type": 16,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
+  },
+  {
     "id": 735,
     "name": "Torch Song",
     "stab": "3",
@@ -6865,6 +6653,15 @@
     "value": "2",
     "effects": [91],
     "has_stab": true
+  },
+  {
+    "id": 736,
+    "name": "Torment",
+    "stab": "0",
+    "type": 16,
+    "value": "0",
+    "effects": [151],
+    "has_stab": false
   },
   {
     "id": 737,
@@ -6885,6 +6682,15 @@
     "has_stab": false
   },
   {
+    "id": 739,
+    "name": "Toxic Thread",
+    "stab": "0",
+    "type": 8,
+    "value": "0",
+    "effects": [54, 124],
+    "has_stab": false
+  },
+  {
     "id": 740,
     "name": "Trailblaze",
     "stab": "2",
@@ -6894,13 +6700,31 @@
     "has_stab": true
   },
   {
+    "id": 741,
+    "name": "Transform",
+    "stab": "-",
+    "type": 1,
+    "value": "-",
+    "effects": [144],
+    "has_stab": false
+  },
+  {
     "id": 742,
     "name": "Tri Attack",
     "stab": "3",
     "type": 1,
     "value": "2",
-    "effects": [33],
+    "effects": [140],
     "has_stab": true
+  },
+  {
+    "id": 743,
+    "name": "Trick",
+    "stab": "0*",
+    "type": 11,
+    "value": "0*",
+    "effects": [],
+    "has_stab": false
   },
   {
     "id": 744,
@@ -6933,6 +6757,16 @@
     "has_stab": true
   },
   {
+    "id": 747,
+    "dice": "{d4}",
+    "name": "Triple Kick",
+    "stab": "-1",
+    "type": 7,
+    "value": "-1",
+    "effects": [85, 85],
+    "has_stab": false
+  },
+  {
     "id": 748,
     "name": "Trop Kick",
     "stab": "3",
@@ -6961,6 +6795,16 @@
     "has_stab": true
   },
   {
+    "id": 751,
+    "dice": "{d4}",
+    "name": "Twineedle",
+    "stab": "2",
+    "type": 12,
+    "value": "1",
+    "effects": [85, 59],
+    "has_stab": true
+  },
+  {
     "id": 752,
     "name": "Twister",
     "stab": "2",
@@ -6985,6 +6829,15 @@
     "type": 7,
     "value": "2",
     "effects": [124],
+    "has_stab": true
+  },
+  {
+    "id": 755,
+    "name": "Uproar",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
     "has_stab": true
   },
   {
@@ -7033,6 +6886,33 @@
     "has_stab": true
   },
   {
+    "id": 761,
+    "name": "Victory Dance",
+    "stab": "0",
+    "type": 7,
+    "value": "0",
+    "effects": [91, 16],
+    "has_stab": false
+  },
+  {
+    "id": 762,
+    "name": "Vine Whip",
+    "stab": "2",
+    "type": 5,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 763,
+    "name": "Vise Grip",
+    "stab": "3",
+    "type": 1,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 764,
     "name": "Vital Throw",
     "stab": "3",
@@ -7051,6 +6931,15 @@
     "has_stab": true
   },
   {
+    "id": 766,
+    "name": "Volt Tackle",
+    "stab": "4",
+    "type": 4,
+    "value": "3",
+    "effects": [53, 122],
+    "has_stab": true
+  },
+  {
     "id": 767,
     "name": "Wake-Up Slap",
     "stab": "3",
@@ -7060,12 +6949,40 @@
     "has_stab": true
   },
   {
+    "id": 768,
+    "name": "Water Gun",
+    "stab": "2",
+    "type": 3,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 769,
+    "name": "Water Pledge",
+    "stab": "3*",
+    "type": 3,
+    "value": "2*",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 770,
     "name": "Water Pulse",
     "stab": "3",
     "type": 3,
     "value": "2",
     "effects": [14],
+    "has_stab": true
+  },
+  {
+    "id": 771,
+    "dice": "{d4}",
+    "name": "Water Shuriken",
+    "stab": "2",
+    "type": 3,
+    "value": "1",
+    "effects": [124, 88],
     "has_stab": true
   },
   {
@@ -7096,6 +7013,42 @@
     "has_stab": true
   },
   {
+    "id": 775,
+    "name": "Weather Ball",
+    "stab": "3",
+    "type": 6,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 776,
+    "name": "Weather Ball",
+    "stab": "3",
+    "type": 2,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 777,
+    "name": "Weather Ball",
+    "stab": "2",
+    "type": 1,
+    "value": "1",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 778,
+    "name": "Weather Ball",
+    "stab": "3",
+    "type": 3,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
     "id": 779,
     "dice": "{d4}",
     "name": "Whirlpool",
@@ -7113,6 +7066,16 @@
     "value": "0",
     "effects": [66],
     "has_stab": false
+  },
+  {
+    "id": 781,
+    "dice": "{d8}",
+    "name": "Wicked Blow",
+    "stab": "3",
+    "type": 16,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 782,
@@ -7158,6 +7121,15 @@
     "value": "0",
     "effects": [4],
     "has_stab": false
+  },
+  {
+    "id": 787,
+    "name": "Wing Attack",
+    "stab": "3",
+    "type": 10,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
   },
   {
     "id": 788,
@@ -7206,6 +7178,24 @@
     "has_stab": false
   },
   {
+    "id": 793,
+    "name": "X-Scissor",
+    "stab": "3",
+    "type": 12,
+    "value": "2",
+    "effects": [],
+    "has_stab": true
+  },
+  {
+    "id": 794,
+    "name": "Yawn",
+    "stab": "0",
+    "type": 1,
+    "value": "0",
+    "effects": [147],
+    "has_stab": false
+  },
+  {
     "id": 795,
     "name": "Zap Cannon",
     "stab": "4",
@@ -7230,6 +7220,16 @@
     "type": 4,
     "value": "2",
     "effects": [20],
+    "has_stab": true
+  },
+  {
+    "id": 798,
+    "dice": "{d8}",
+    "name": "Zippy Zap",
+    "stab": "2",
+    "type": 4,
+    "value": "1",
+    "effects": [],
     "has_stab": true
   }
 ]

@@ -1,8 +1,8 @@
 <div class="body">
   <div class="container h-screen flex flex-col">
-    <div class="menu">
+    <div class="header">
       <div class="page-title">Pokédex</div>
-      <button><i class="fa-solid fa-bars shadow-text"></i></button>
+      <button (click)="goMenu()"><i class="fa-solid fa-xmark"></i></button>
     </div>
 
     <app-search-bar
@@ -12,8 +12,12 @@
     ></app-search-bar>
 
     <div class="flex-1 overflow-y-auto justify-items-center">
-      @for (p of filtered(); track p.id) {
-        <app-pokemon-card [pokemon]="p"></app-pokemon-card>
+      @if (loading()) {
+        <div class="loader">Caricamento...</div>
+      } @else {
+        @for (p of filtered(); track p.id) {
+          <app-pokemon-card [pokemon]="p"></app-pokemon-card>
+        }
       }
     </div>
   </div>

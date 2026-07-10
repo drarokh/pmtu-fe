@@ -159,6 +159,10 @@ export class PokemonDetailComponent implements OnInit, OnDestroy {
   }
 
   goBack() {
+    this.router.navigate(['pokedex']);
+  }
+
+  goMenu() {
     this.router.navigate(['']);
   }
 

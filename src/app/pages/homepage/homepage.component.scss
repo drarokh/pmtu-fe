@@ -1,0 +1,87 @@
+.app {
+  background-color: #222;
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 0px 27px 0px 27px;
+}
+
+.header {
+  font-size: 20px;
+  height: 100px;
+  margin-bottom: 27px;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  margin-left: 10px;
+  width: 30px;
+  height: auto;
+}
+
+.title {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-grid {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  height: 120px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pokedex {
+  background: #EF5350;
+  background-image: url('/images/miscellaneous/menu-pokedex-red-def.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.leaders {
+  background: black;
+  background-image: linear-gradient(rgba(128,128,128,0.7), rgba(128,128,128,0.7)), url('/images/miscellaneous/menu-gym-red-def.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  img {
+    transform: scaleX(-1);
+  }
+}
+
+.team {
+  background: black;
+  background-image: linear-gradient(rgba(128,128,128,0.7), rgba(128,128,128,0.7)),  url('/images/miscellaneous/menu-team-red-def.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.stadium {
+  background: black;
+  background-image: linear-gradient(rgba(128,128,128,0.7), rgba(128,128,128,0.7)), url('/images/miscellaneous/menu-stadium-red-def.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
